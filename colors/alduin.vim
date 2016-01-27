@@ -55,6 +55,7 @@ let s:alduin.Solitude    = [ '121212', 233 ]
 let s:alduin.Skyrim      = [ '1c1c1c', 234 ]
 let s:alduin.Ivarstead   = [ '262626', 235 ]
 let s:alduin.Riften      = [ '303030', 236 ]
+let s:alduin.Rorikstead  = [ '3a3a3a', 237 ]
 
 
 
@@ -104,7 +105,7 @@ call s:HL( 'Normal',        'Whiterun', 'Skyrim',    '' )
 "call s:HL( 'Cursor',       '',         '',          '' )
 "call s:HL( 'CursorLineNR', '',         '',          '' )
 call s:HL( 'CursorLine',    '',         'Ivarstead', 'none' )
-call s:HL( 'LineNr',        'Riften',   'Solitude',  'none' )
+call s:HL( 'LineNr',        'Rorikstead',   'Solitude',  'none' )
 
 
 " --------------------------------------------------------------------------------
@@ -113,7 +114,7 @@ call s:HL( 'LineNr',        'Riften',   'Solitude',  'none' )
 "call s:HL( 'CursorColumn', '', '', '' )
 "call s:HL( 'FoldColumn', '', '', '' )
 "call s:HL( 'SignColumn', '', '', '' )      
-"call s:HL( 'Folded', '', '', '' )
+call s:HL( 'Folded', 'Rorikstead', 'Solitude', 'none' )
 
 
 " --------------------------------------------------------------------------------
@@ -227,7 +228,7 @@ call s:HL( 'DiffText', 'Ivarstead', 'Falkreath', 'none' )
 "--------------------------------------------------------------------
 "                           Completion Menu:                        |
 "--------------------------------------------------------------------
-call s:HL( 'Pmenu', 'Riften', 'Solitude', 'none' )
+call s:HL( 'Pmenu', 'Rorikstead', 'Solitude', 'none' )
 call s:HL( 'PmenuSel', 'Whiterun', 'Krosulhah', 'none' )
 call s:HL( 'PmenuSbar', '', 'Solitude', 'none' )
 call s:HL( 'PmenuThumb', '', 'Whiterun', '' )
