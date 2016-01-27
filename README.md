@@ -33,7 +33,7 @@ The Main inspiration behind Alduin was to create a personal Colorscheme that use
 ![Screenshot C++](Screenshots/cpp.png)
 
 #### Python ####
-![Screenshot Python](Screenshots/python.png)
+![Screenshot Python](Screenshots/py.png)
 
 #### Markdown ####
 ![Screenshot Markdown](Screenshots/md.png)
