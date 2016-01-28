@@ -1,11 +1,10 @@
-<<<<<<< HEAD
-            ___                            
-           -   -_, ,,  |\                  
-          (  ~/||  ||   \\         '       
-          (  / ||  ||  / \\ \\ \\ \\ \\/\\ 
-           \/==||  || || || || || || || || 
-           /_ _||  || || || || || || || || 
-          (  - \\, \\  \\/  \\/\\ \\ \\ \\ 
+        ___                            
+       -   -_, ,,  |\                  
+      (  ~/||  ||   \\         '       
+      (  / ||  ||  / \\ \\ \\ \\ \\/\\ 
+       \/==||  || || || || || || || || 
+       /_ _||  || || || || || || || || 
+      (  - \\, \\  \\/  \\/\\ \\ \\ \\ 
 
 # Alduin #
 
@@ -38,7 +37,3 @@ The idea behind Alduin was to create a dark colorscheme that combined warm and s
 
 #### Markdown ####
 ![Screenshot Markdown](Screenshots/md.png)
-=======
-# Alduin
-Vim Colorscheme
->>>>>>> 1dd0949719159a0cb7d3e9874e8ba7166c851eab
