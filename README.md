@@ -12,7 +12,7 @@ A dark low-contrast Vim colorscheme for Terminal Vim and GUI Vim.
 
 ### Inspirations ###
 
-The Main inspiration behind Alduin was to create a personal Colorscheme that used some of the best features from many of my favorite Vim colorschemes. I tried to mirror the low-contrast feel and look from Jeet Sukumaran's [Sorcerer](http://jeetworks.org/sorcerer/). I also, took some color palette and design cues from Ciaran McCreesh's [Inkpot](https://github.com/ciaranm/inkpot) as well as Romain Lafourcade's [Apprentice](https://github.com/romainl/Apprentice). The syntax and code inspiration came directly from Steve Losh's [Badwolf](https://github.com/sjl/badwolf)
+The idea behind Alduin was to create a dark colorscheme that combined warm and soft colors for high read ability with low distraction. Some of the features, and design cues pay homage to other great schemes like Jeet Sukumaran's [Sorcerer](http://jeetworks.org/sorcerer/), Ciaran McCreesh's [Inkpot](https://github.com/ciaranm/inkpot), as well as Romain Lafourcade's [Apprentice](https://github.com/romainl/Apprentice), and Steve Losh's [Badwolf](https://github.com/sjl/badwolf).
 
 ### Screenshots ###
 
@@ -37,6 +37,3 @@ The Main inspiration behind Alduin was to create a personal Colorscheme that use
 
 #### Markdown ####
 ![Screenshot Markdown](Screenshots/md.png)
-
-
-* Enjoy!
