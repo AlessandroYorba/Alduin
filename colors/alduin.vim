@@ -11,8 +11,8 @@
 
 
 " A Terminal Vim colorscheme 
-" Author:       Alessandro Yorba <alessandroyorba@gmail.com>
-" Maintainer:   Alessandro Yorba <alessandroyorba@gmail.com>
+" Author:       Alessandro Yorba 
+" Maintainer:   Alessandro Yorba
 " License:      MIT
 " Notes:        To check the meaning of the highlight groups, :help 'highlight'
 
