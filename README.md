@@ -16,7 +16,7 @@ The idea behind Alduin was to create a dark colorscheme that combined warm yet s
 
 ### Screenshots ###
 
-The following screenshots are of Alduin using Vi IMproved 7.3 in iTerm 2.1.4
+The following screenshots of Alduin were made using a default Vi IMproved 7.3 displayed in [iTerm 2.1.4](https://www.iterm2.com) with Jose Elera Campana's Plug-in for extending the syntax for JavaScript [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax). Enjoy!!
 
 
 #### JavaScript ####
