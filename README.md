@@ -25,8 +25,8 @@ The following screenshots of Alduin were made using a default Vi IMproved 7.3 di
 #### Ruby ####
 ![Screenshot Ruby](Screenshots/ruby.png)
 
-#### Additional Screenshot ####
-Additional screenshots of PHP, HTML, CSS, and Markdown are located in the Screenshots Directory
+#### Additional Screenshots ####
+Additional screenshots of PHP, HTML, CSS, and others can be found in the Screenshots/ Directory
 
 ### Custom Options ###
 
