@@ -42,3 +42,11 @@ The following screenshots of Alduin were made using a default Vi IMproved 7.3 di
 
 #### Diff ####
 ![Screenshot Diff](Screenshots/diff.png)
+
+### Shouts / Options ###
+
+#### Change Dark Red to Light Red ####
+![Screenshot Change Dark Red to Light Red](Screenshots/alduin_Shout_Windhelm.png)
+
+        "Replacing Dark Red for Soft Red
+        let g:alduin_Shout_Windhelm = 1

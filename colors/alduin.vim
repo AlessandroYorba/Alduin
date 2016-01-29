@@ -31,6 +31,14 @@ if exists("syntax_on")
 endif
 let g:colors_name="alduin"
 
+"
+"----------------------------------------------------------------
+"----------------------------------------------------------------
+if !exists("g:alduin_Shout_Windhelm") " {{{
+    let g:alduin_Shout_Windhelm = 0
+endif " }}}
+"----------------------------------------------------------------
+
 let s:alduin = {}
 
 let s:alduin.Krosulhah   = [ '5f0000', 52  ]
@@ -95,6 +103,7 @@ function! s:HL(group, fg, ...)
 
     execute histring
 endfunction
+
 
 
 " 
@@ -240,3 +249,10 @@ call s:HL( 'SpellBad', 'Windhelm', '', 'undercurl' )
 "call s:HL( 'SpellCap', '', '', '' )
 "call s:HL( 'SpellLocal', '', '', '' )
 "call s:HL( 'SpellRare', '', '', '' )
+
+"--------------------------------------------------------------------
+"                              SHOUTS: 
+"--------------------------------------------------------------------
+if g:alduin_Shout_Windhelm
+    call s:HL('Special', 'Windhelm', '', 'none')
+end
