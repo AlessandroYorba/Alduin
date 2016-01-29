@@ -33,6 +33,7 @@ let g:colors_name="alduin"
 
 "
 "----------------------------------------------------------------
+"               Optional Shouts:
 "----------------------------------------------------------------
 if !exists("g:alduin_Shout_Windhelm") " {{{
     let g:alduin_Shout_Windhelm = 0
@@ -251,7 +252,7 @@ call s:HL( 'SpellBad', 'Windhelm', '', 'undercurl' )
 "call s:HL( 'SpellRare', '', '', '' )
 
 "--------------------------------------------------------------------
-"                              SHOUTS: 
+"                          SHOUTS Executed: 
 "--------------------------------------------------------------------
 if g:alduin_Shout_Windhelm
     call s:HL('Special', 'Windhelm', '', 'none')
