@@ -34,7 +34,8 @@ Additional screenshots of PHP, HTML, CSS, and Markdown are located in the Screen
 The default forground color for highlight group "Special" is xtermfg=88 guiguifg=#870000
 ![Screenshot of Default Red](Screenshots/defaultRed.png)
 
-Don't worry Dragonborn! Change it to a lighter red 
+####Don't worry Dragonborn! #### 
+Change it to a lighter red 
 ![Screenshot of Default Red](Screenshots/softRed.png)
 
 Add this bit of code to your .vimrc 
