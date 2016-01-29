@@ -25,17 +25,14 @@ The following screenshots of Alduin were made using a default Vi IMproved 7.3 di
 #### Ruby ####
 ![Screenshot Ruby](Screenshots/ruby.png)
 
+#### PHP ####
+![Screenshot PHP](Screenshots/php.png)
+
 #### HTML ####
 ![Screenshot HTML](Screenshots/html.png)
 
 #### CSS ####
 ![Screenshot CSS](Screenshots/css.png)
-
-#### C++ ####
-![Screenshot C++](Screenshots/cpp.png)
-
-#### Python ####
-![Screenshot Python](Screenshots/py.png)
 
 #### Markdown ####
 ![Screenshot Markdown](Screenshots/md.png)
