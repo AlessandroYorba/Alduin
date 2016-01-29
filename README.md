@@ -49,6 +49,6 @@ The following screenshots of Alduin were made using a default Vi IMproved 7.3 di
 ![Screenshot Change Dark Red to Light Red](Screenshots/alduin_Shout_Windhelm.png)
 Add the following to your .vimrc 
 
-        "Replacing Dark Red for Soft Red
+        "Replaces the default hi Special color to Soft Red
         let g:alduin_Shout_Windhelm = 1
         colorscheme alduin
