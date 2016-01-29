@@ -25,27 +25,20 @@ The following screenshots of Alduin were made using a default Vi IMproved 7.3 di
 #### Ruby ####
 ![Screenshot Ruby](Screenshots/ruby.png)
 
-#### PHP ####
-![Screenshot PHP](Screenshots/php.png)
+#### Additional Screenshot ####
+Additional screenshots of PHP, HTML, CSS, and Markdown are located in the Screenshots Directory
 
-#### HTML ####
-![Screenshot HTML](Screenshots/html.png)
-
-#### CSS ####
-![Screenshot CSS](Screenshots/css.png)
-
-#### Markdown ####
-![Screenshot Markdown](Screenshots/md.png)
-
-#### Diff ####
-![Screenshot Diff](Screenshots/diff.png)
-
-### Shouts / Options ###
+### Custom Options ###
 
 #### Change Dark Red to Light Red ####
-![Screenshot Change Dark Red to Light Red](Screenshots/alduin_Shout_Windhelm.png)
-Add the following to your .vimrc 
+The default forground color for highlight group "Special" is xtermfg=88 guiguifg=#870000
+![Screenshot of Default Red](Screenshots/defaultRed.png)
 
-        "Replaces the default hi Special color to Soft Red
+If you'd like to change it to a lighter/softer red like the following:
+![Screenshot of Default Red](Screenshots/softRed.png)
+
+Add this bit of code to your .vimrc 
+
+        "Replaces the Dark Red to Soft Red
         let g:alduin_Shout_Windhelm = 1
         colorscheme alduin
