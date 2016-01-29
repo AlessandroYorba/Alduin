@@ -1,10 +1,4 @@
-        ___                            
-       -   -_, ,,  |\                  
-      (  ~/||  ||   \\         '       
-      (  / ||  ||  / \\ \\ \\ \\ \\/\\ 
-       \/==||  || || || || || || || || 
-       /_ _||  || || || || || || || || 
-      (  - \\, \\  \\/  \\/\\ \\ \\ \\ 
+![Screenshot Alduin](Screenshots/alduin.jpg)
 
 # Alduin #
 
@@ -31,7 +25,7 @@ Additional screenshots of PHP, HTML, CSS, and others can be found in the Screens
 ### Custom Options ###
 
 #### Don't like the Dark Red? ####
-The default forground color for highlight group "Special" is xtermfg=88 guiguifg=#870000
+The default forground color for highlight group "Special" is xtermfg=88 guifg=#870000
 ![Screenshot of Default Red](Screenshots/defaultRed.png)
 
 #### Don't worry Dragonborn! ####
