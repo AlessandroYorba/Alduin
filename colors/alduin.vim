@@ -1,11 +1,10 @@
-
-"          ___                            
-"         -   -_, ,,  |\                  
-"        (  ~/||  ||   \\         '       
-"        (  / ||  ||  / \\ \\ \\ \\ \\/\\ 
-"         \/==||  || || || || || || || || 
-"         /_ _||  || || || || || || || || 
-"        (  - \\, \\  \\/  \\/\\ \\ \\ \\ 
+"  "        ___                                 "
+"  "       -   -_, ,,  |\                       "
+"  "      (  ~/||  ||   \\         '            "
+"  "      (  / ||  ||  / \\ \\ \\ \\ \\/\\      "
+"  "       \/==||  || || || || || || || ||      "
+"  "       /_ _||  || || || || || || || ||      "
+"  "      (  - \\, \\  \\/  \\/\\ \\ \\ \\      "
 
 
 
@@ -13,6 +12,9 @@
 " A Terminal Vim colorscheme 
 " Author:       Alessandro Yorba 
 " Maintainer:   Alessandro Yorba
+" Script URL:   https://github.com/AlessandroYorba/Alduin
+" Version:      1.0~git
+" Last Change:  January 29th, 2016
 " License:      MIT
 " Notes:        To check the meaning of the highlight groups, :help 'highlight'
 
