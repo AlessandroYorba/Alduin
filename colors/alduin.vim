@@ -227,6 +227,7 @@ call s:HL( 'Typedef', 'Viinturuth', '', 'none' )
 "                                 HTML:                             |
 "--------------------------------------------------------------------
 call s:HL( 'htmlArg', 'Durnehviir', '', 'none' )
+call s:HL( 'htmlItalic', 'Sahrotaar', '', 'none' )
 
 
 "--------------------------------------------------------------------
