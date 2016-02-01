@@ -39,16 +39,16 @@ the 'Special" highlighting color will change to:
 ##### Current Release Notes #####
 Additions:
 
-        * Added 'Todo' highlighting 
-        * Added 'FoldColumn' highlighting
+* Added 'Todo' highlighting 
+* Added 'FoldColumn' highlighting
 
 Changes: 
 
-        * Changed 'Special' highlighting color for alduin.Sahloknir to guifg='870000', ctermfg=124
+* Changed 'Special' highlighting color for alduin.Sahloknir to guifg='870000', ctermfg=124
 
 Fixes: 
 
-        * Added better support for 'MatchParen'. The xterm=reverse behavior made it difficult to determine cursor location for certain syntax files e.g. python or C++ or txt. The behavior is no longer reversed when the cursor is at a paren. The background color for all 'MatchParen' is now set to xterm=95. 
+* Added better support for 'MatchParen'. The xterm=reverse behavior made it difficult to determine cursor location for certain syntax files e.g. python or C++ or txt. The behavior is no longer reversed when the cursor is at a paren. The background color for all 'MatchParen' is now set to xterm=95. 
 
 Misc: 
 Alduin is now part if the collection of schemes at (http://vimcolors.com/)
