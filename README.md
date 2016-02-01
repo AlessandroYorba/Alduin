@@ -51,4 +51,4 @@ Fixes:
         * Added better support for 'MatchParen'. The xterm=reverse behavior made it difficult to determine cursor location for certain syntax files e.g. python or C++ or txt. The behavior is no longer reversed when the cursor is at a paren. The background color for all 'MatchParen' is now set to xterm=95. 
 
 Misc: 
-* Alduin is now part if the collection of schemes at ![VimColors](http://vimcolors.com/388/alduin/dark)
+Alduin is now part if the collection of schemes at ![VimColors](http://vimcolors.com/388/alduin/dark)
