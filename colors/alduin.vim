@@ -13,15 +13,10 @@
 " Author:       Alessandro Yorba 
 " Maintainer:   Alessandro Yorba
 " Script URL:   https://github.com/AlessandroYorba/Alduin
-" Version:      1.0~git
-" Last Change:  January 29th, 2016
 " License:      MIT
-" Notes:        To check the meaning of the highlight groups, :help 'highlight'
+" Version:      1.1.0
+" Last Change:  February 1st, 2016
 
-"----------------------------------------------------------------
-" Description
-" A Terminal Vim colorscheme 
-"----------------------------------------------------------------
 
 " --------------------------------
 set background=dark
@@ -37,8 +32,14 @@ let g:colors_name="alduin"
 "----------------------------------------------------------------
 "               Optional Shouts:
 "----------------------------------------------------------------
+"Change Special to light red
 if !exists("g:alduin_Shout_Windhelm") " {{{
     let g:alduin_Shout_Windhelm = 0
+endif " }}}
+
+"To Be Determined
+if !exists("g:alduin_Shout_AuraWhisper") " {{{
+    let g:alduin_Shout_AuraWhisper = 0
 endif " }}}
 "----------------------------------------------------------------
 
@@ -124,7 +125,7 @@ call s:HL( 'LineNr',        'Rorikstead',   'Solitude',  'none' )
 "                               Number Column:
 " --------------------------------------------------------------------------------
 "call s:HL( 'CursorColumn', '', '', '' )
-"call s:HL( 'FoldColumn', '', '', '' )
+call s:HL( 'FoldColumn', 'Mirmulnir', 'Skyrim', '' )
 "call s:HL( 'SignColumn', '', '', '' )      
 call s:HL( 'Folded', 'Rorikstead', 'Solitude', 'none' )
 
@@ -162,11 +163,11 @@ call s:HL( 'MoreMsg', 'Markarth', '', 'none' )
 " --------------------------------------------------------------------------------
 "                              Visual Aid: 
 " --------------------------------------------------------------------------------
-call s:HL( 'MatchParen', '', 'Solitude', 'reverse' )
+call s:HL( 'MatchParen', 'Skyrim', 'Durnehviir', 'none' )
 call s:HL( 'Visual', 'Whiterun', 'Krosulhah', 'none' )
 call s:HL( 'VisualNOS', '', '', 'underline' )
 call s:HL( 'NonText', 'Winterhold', '', 'none' )
-"call s:HL( 'Todo', '', '', '' )
+call s:HL( 'Todo', 'Odahviing', 'Solitude', 'italic' )
 call s:HL( 'Underlined', 'Riverwood', '', 'none' )
 call s:HL( 'Error', 'Windhelm', 'Solitude', 'reverse' )
 call s:HL( 'ErrorMsg', 'Windhelm', 'Solitude', 'reverse' )
@@ -255,8 +256,11 @@ call s:HL( 'SpellBad', 'Windhelm', '', 'undercurl' )
 "call s:HL( 'SpellRare', '', '', '' )
 
 "--------------------------------------------------------------------
-"                          SHOUTS Executed: 
+"                          Executed SHOUTS: 
 "--------------------------------------------------------------------
 if g:alduin_Shout_Windhelm
     call s:HL('Special', 'Windhelm', '', 'none')
+end
+if g:alduin_Shout_AuraWhisper
+    "call s:HL( '', '', '', '' )
 end
