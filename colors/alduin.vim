@@ -37,7 +37,6 @@ if !exists("g:alduin_Shout_Windhelm") " {{{
     let g:alduin_Shout_Windhelm = 0
 endif " }}}
 
-"To Be Determined
 if !exists("g:alduin_Shout_AuraWhisper") " {{{
     let g:alduin_Shout_AuraWhisper = 0
 endif " }}}
@@ -68,6 +67,7 @@ let s:alduin.Skyrim      = [ '1c1c1c', 234 ]
 let s:alduin.Ivarstead   = [ '262626', 235 ]
 let s:alduin.Riften      = [ '303030', 236 ]
 let s:alduin.Rorikstead  = [ '3a3a3a', 237 ]
+let s:alduin.Ivory       = [ 'eeeeee', 255 ]
 
 
 
@@ -154,16 +154,17 @@ call s:HL( 'IncSearch', 'Windhelm', '', 'reverse' )
 call s:HL( 'StatusLine', 'Solitude', 'Winterhold', 'none' )
 call s:HL( 'StatusLineNC', 'Winterhold', 'Riften', 'none' )
 call s:HL( 'WildMenu', 'Whiterun', 'Krosulhah', 'none' )
-"call s:HL( 'Question', '', '', '' )
 call s:HL( 'Title', 'Windhelm', '', 'none' )
-"call s:HL( 'ModeMsg', '', '', '' )
 call s:HL( 'MoreMsg', 'Markarth', '', 'none' )
+"TODO
+"call s:HL( 'ModeMsg', '', '', '' )
+"call s:HL( 'Question', '', '', '' )
 
 
 " --------------------------------------------------------------------------------
 "                              Visual Aid: 
 " --------------------------------------------------------------------------------
-call s:HL( 'MatchParen', 'Skyrim', 'Durnehviir', 'none' )
+"call s:HL( 'MatchParen', 'Skyrim', 'Viinturuth', 'none' )
 call s:HL( 'Visual', 'Whiterun', 'Krosulhah', 'none' )
 call s:HL( 'VisualNOS', '', '', 'underline' )
 call s:HL( 'NonText', 'Winterhold', '', 'none' )
@@ -172,6 +173,7 @@ call s:HL( 'Underlined', 'Riverwood', '', 'none' )
 call s:HL( 'Error', 'Windhelm', 'Solitude', 'reverse' )
 call s:HL( 'ErrorMsg', 'Windhelm', 'Solitude', 'reverse' )
 call s:HL( 'WarningMsg', 'Windhelm', '', 'none' )
+"TODO
 "call s:HL( 'Ignore', '', '', '' )
 "call s:HL( 'SpecialKey', '', '', '' )
 
@@ -181,13 +183,14 @@ call s:HL( 'WarningMsg', 'Windhelm', '', 'none' )
 " --------------------------------------------------------------------------------
 call s:HL( 'Constant', 'Kruziikrel', '', 'none' )
 call s:HL( 'String', 'Paarthurnax', 'Ivarstead', 'none' )
-"call s:HL( 'StringDelimiter', '', '', '' )
 call s:HL( 'Character', 'Odahviing', '', 'none' )
 call s:HL( 'Number', 'Odahviing', '', 'none' )
 call s:HL( 'Boolean', 'Odahviing', '', 'none' )
 call s:HL( 'Float', 'Odahviing', '', 'none' )
 call s:HL( 'Identifier', 'Mirmulnir', '', 'none' )
 call s:HL( 'Function', 'Durnehviir', '', 'none' )
+"TODO
+"call s:HL( 'StringDelimiter', '', '', '' )
 
 
 " --------------------------------------------------------------------------------
@@ -203,6 +206,7 @@ call s:HL( 'Exception', 'Relonikiv', '', 'none' )
 call s:HL( 'Comment', 'Winterhold', '', 'none' )
 
 call s:HL( 'Special', 'Sahloknir', '', 'none' )
+"TODO
 "call s:HL( 'SpecialChar', '', '', '' )
 "call s:HL( 'Tag', '', '', '' )
 "call s:HL( 'Delimiter', '', '', '' )
@@ -251,6 +255,7 @@ call s:HL( 'PmenuThumb', '', 'Whiterun', '' )
 "                             Spelling:                             |
 "--------------------------------------------------------------------
 call s:HL( 'SpellBad', 'Windhelm', '', 'undercurl' )
+"TODO
 "call s:HL( 'SpellCap', '', '', '' )
 "call s:HL( 'SpellLocal', '', '', '' )
 "call s:HL( 'SpellRare', '', '', '' )
@@ -258,9 +263,14 @@ call s:HL( 'SpellBad', 'Windhelm', '', 'undercurl' )
 "--------------------------------------------------------------------
 "                          Executed SHOUTS: 
 "--------------------------------------------------------------------
+
+"Light Red Special, replaces Dark Red
 if g:alduin_Shout_Windhelm
     call s:HL('Special', 'Windhelm', '', 'none')
 end
+
+"White Underline color for MatchParen
 if g:alduin_Shout_AuraWhisper
-    "call s:HL( '', '', '', '' )
+    call s:HL( 'MatchParen', 'Ivory', 'Skyrim', 'underline' )
 end
+
