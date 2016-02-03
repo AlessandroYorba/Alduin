@@ -164,7 +164,7 @@ call s:HL( 'MoreMsg', 'Markarth', '', 'none' )
 " --------------------------------------------------------------------------------
 "                              Visual Aid: 
 " --------------------------------------------------------------------------------
-"call s:HL( 'MatchParen', 'Skyrim', 'Viinturuth', 'none' )
+call s:HL( 'MatchParen', 'Skyrim', 'Viinturuth', 'none' )
 call s:HL( 'Visual', 'Whiterun', 'Krosulhah', 'none' )
 call s:HL( 'VisualNOS', '', '', 'underline' )
 call s:HL( 'NonText', 'Winterhold', '', 'none' )
