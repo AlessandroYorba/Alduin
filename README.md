@@ -19,22 +19,23 @@ The following screenshots of Alduin were made using a default Vi IMproved 7.3 di
 #### Additional Screenshots ####
 Moving Screenshots to new location. TBD
 
-### Custom Options / Shouts ###
+## Custom Options / Shouts ##
+
+#### Default color for 'Special' highlight group ####
+Not a fan of the dark red? 
+![Screenshot of the Default 'Special'](https://cloud.githubusercontent.com/assets/11221489/12860314/9da27798-cc10-11e5-94ca-fac73f3e0910.png)
 
 #### let g:alduin_Shout_Windhelm = 1 ####
-The default forground color for the highlight group "Special" is xtermfg=124, guifg=#af0000. 
-Not a fan of the dark red? 
-![Screenshot of Default Red](https://cloud.githubusercontent.com/assets/11221489/12769011/f1b4b174-c9c8-11e5-8e40-387edbe73b55.png)
-
-##### Don't worry Dragonborn! #####
-If you add the following code to your vimrc: 
+![Screenshot of let g:alduin_Shout_Windhelm](https://cloud.githubusercontent.com/assets/11221489/12860321/aafd15e2-cc10-11e5-8b00-30336cd6ec3b.png)
+If you add the following code to your vimrc, the default 'Special' highlighting changes to a lighter red
 
         let g:alduin_Shout_Windhelm = 1
 
-the 'Special" highlighting color will change to:
-![Screenshot of Default Red](https://cloud.githubusercontent.com/assets/11221489/12769020/f8fd0652-c9c8-11e5-83a0-ce96a0166852.png)
+#### Default color and behavior for 'MatchParen' highlight group ####
+![Screenshot of the Default 'MatchParen'](https://cloud.githubusercontent.com/assets/11221489/12860321/aafd15e2-cc10-11e5-8b00-30336cd6ec3b.png)
 
 #### let g:alduin_Shout_AuraWhisper = 1 ####
+![Screenshot of let g:alduin_Shout_AuraWhisper](https://cloud.githubusercontent.com/assets/11221489/12860343/c3cf7844-cc10-11e5-8395-82bdc93030c9.png)
 This will change it so that 'MatchParen' is underlined with a white forground. Screenshot to follow soon.
 
         let g:alduin_Shout_AuraWhisper = 1
