@@ -21,7 +21,7 @@ Moving Screenshots to new location. TBD
 
 ## Custom Options / Shouts ##
 
-#### Default color for 'Special' highlight group ####
+Default color for 'Special' highlight group
 Not a fan of the dark red? 
 ![Screenshot of the Default 'Special'](https://cloud.githubusercontent.com/assets/11221489/12860314/9da27798-cc10-11e5-94ca-fac73f3e0910.png)
 
@@ -31,7 +31,7 @@ If you add the following code to your vimrc, the default 'Special' highlighting 
 
         let g:alduin_Shout_Windhelm = 1
 
-#### Default color and behavior for 'MatchParen' highlight group ####
+Default color and behavior for 'MatchParen' highlight group
 ![Screenshot of the Default 'MatchParen'](https://cloud.githubusercontent.com/assets/11221489/12860334/bbdf7d0a-cc10-11e5-9840-b9fef787c284.png)
 
 #### let g:alduin_Shout_AuraWhisper = 1 ####
