@@ -30,25 +30,12 @@ Not a fan of the dark red?
 If you add the following code to your vimrc: 
 
         let g:alduin_Shout_Windhelm = 1
-        colorscheme alduin
 
 the 'Special" highlighting color will change to:
 ![Screenshot of Default Red](https://cloud.githubusercontent.com/assets/11221489/12769020/f8fd0652-c9c8-11e5-83a0-ce96a0166852.png)
 
+#### let g:alduin_Shout_AuraWhisper = 1 ####
+This will change it so that 'MatchParen' is underlined with a white forground. Screenshot to follow soon.
 
-##### Current Release Notes #####
-Additions:
+        let g:alduin_Shout_AuraWhisper = 1
 
-* Added 'Todo' highlighting 
-* Added 'FoldColumn' highlighting
-
-Changes: 
-
-* Changed 'Special' highlighting color for alduin.Sahloknir to guifg='870000', ctermfg=124
-
-Fixes: 
-
-* Added better support for 'MatchParen'. The xterm=reverse behavior made it difficult to determine cursor location for certain syntax files e.g. python or C++ or txt. The behavior is no longer reversed when the cursor is at a paren. The background color for all 'MatchParen' is now set to xterm=95. 
-
-Misc: 
-Alduin is now part if the collection of schemes at (http://vimcolors.com/)
