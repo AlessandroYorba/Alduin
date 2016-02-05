@@ -32,7 +32,7 @@ If you add the following code to your vimrc, the default 'Special' highlighting 
         let g:alduin_Shout_Windhelm = 1
 
 #### Default color and behavior for 'MatchParen' highlight group ####
-![Screenshot of the Default 'MatchParen'](https://cloud.githubusercontent.com/assets/11221489/12860321/aafd15e2-cc10-11e5-8b00-30336cd6ec3b.png)
+![Screenshot of the Default 'MatchParen'](https://cloud.githubusercontent.com/assets/11221489/12860334/bbdf7d0a-cc10-11e5-9840-b9fef787c284.png)
 
 #### let g:alduin_Shout_AuraWhisper = 1 ####
 ![Screenshot of let g:alduin_Shout_AuraWhisper](https://cloud.githubusercontent.com/assets/11221489/12860343/c3cf7844-cc10-11e5-8395-82bdc93030c9.png)
