@@ -17,7 +17,7 @@ The following screenshots of Alduin were made using a default Vi IMproved 7.3 di
 ![Screenshot JavaScript](https://cloud.githubusercontent.com/assets/11221489/12769039/235f443c-c9c9-11e5-9fae-e6350e450bb9.png)
 
 #### Additional Screenshots ####
-Moving Screenshots to new location. TBD
+[Additional Screenshots](https://github.com/AlessandroYorba/Alduin/issues/5)
 
 ## Custom Options / Shouts ##
 
