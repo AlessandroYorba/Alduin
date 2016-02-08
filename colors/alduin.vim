@@ -14,8 +14,8 @@
 " Maintainer:   Alessandro Yorba
 " Script URL:   https://github.com/AlessandroYorba/Alduin
 " License:      MIT
-" Version:      1.8.3
-" Last Change:  February 5th, 2016
+" Version:      1.8.4
+" Last Change:  February 8th, 2016
 
 
 " --------------------------------
@@ -276,6 +276,7 @@ call s:HL( 'SpellBad', 'Windhelm', '', 'undercurl' )
 "Light Red Special, replaces Dark Red
 if g:alduin_Shout_Windhelm
     call s:HL('Special', 'Windhelm', '', 'none')
+    call s:HL('Title', 'Sahrotaar', '', 'none' )
 end
 
 "White Underline color for MatchParen
