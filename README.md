@@ -31,7 +31,7 @@ Default color and behavior for the 'MatchParen' highlight group:
 ![Screenshot of the Default 'MatchParen'](https://cloud.githubusercontent.com/assets/11221489/12860334/bbdf7d0a-cc10-11e5-9840-b9fef787c284.png)
 
 ![Screenshot of let g:alduin_Shout_AuraWhisper](https://cloud.githubusercontent.com/assets/11221489/12860343/c3cf7844-cc10-11e5-8395-82bdc93030c9.png)
-This will change it so that 'MatchParen' is underlined with a white forground. Screenshot to follow soon.
+If you add the following code to your vimrc before you declare the colorscheme, 'MatchParen' will be underlined with a white forground. 
 
         let g:alduin_Shout_AuraWhisper = 1
 
