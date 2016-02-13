@@ -14,8 +14,6 @@
 " Maintainer:   Alessandro Yorba
 " Script URL:   https://github.com/AlessandroYorba/Alduin
 " License:      MIT
-" Version:      1.8.4
-" Last Change:  February 8th, 2016
 
 
 " --------------------------------
