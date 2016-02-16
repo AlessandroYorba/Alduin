@@ -29,7 +29,7 @@ Underline the highlight group `MatchParen`
     colorscheme alduin
 
 ### Deprecated Option ###
-#### Deprecated g:alduin_Shout_Windhelm = 1 ####
+#### g:alduin_Shout_Windhelm = 1 ####
 
 In previous versions of alduin, there was option to add a light red tp the highlight group `Special`. In version 2.0+ there is no longer a need to have `g:alduin_Shout_Windhelm` declared in your .vimrc. The color Windhelm is now the default color for `Special` . 
 
