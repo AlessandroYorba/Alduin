@@ -18,6 +18,7 @@ The idea behind Alduin was to create a dark colorscheme that combined warm yet s
 
 #### Become Ethereal ####
 ![Become Ethereal](https://cloud.githubusercontent.com/assets/11221489/13073227/5bb0dad8-d452-11e5-816b-f9d3e996537b.png)
+
     let g:alduin_Shout_Become_Ethereal = 1
     colorscheme alduin
 
