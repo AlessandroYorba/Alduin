@@ -31,7 +31,7 @@ Underline the highlight group `MatchParen`
 ### Deprecated Option ###
 #### let g:alduin_Shout_Windhelm = 1 ####
 
-In previous versions of alduin, there was option to add a light red tp the highlight group `Special`. In version 2.0+ there is no longer a need to have `let g:alduin_Shout_Windhelm = 1` declared in your .vimrc. The color Windhelm is now the default color for `Special` . 
+In previous versions of alduin, there was option to add a light red color to the highlight group `Special`. In version 2.0+ there is no longer a need to have `let g:alduin_Shout_Windhelm = 1` declared in your .vimrc. The color Windhelm is now the default color for the highlight group.
 
 
 #### Moar Screenshots ####
