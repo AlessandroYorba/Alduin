@@ -270,7 +270,7 @@ call s:HL( 'SpellBad', 'Windhelm', '', 'undercurl' )
 "call s:HL( 'SpellRare', '', '', '' )
 
 "--------------------------------------------------------------------
-"                          Executed SHOUTS: 
+"                          Become Ethereal: 
 "--------------------------------------------------------------------
 if g:alduin_Shout_Become_Ethereal
     call s:HL( 'Normal', 'Whiterun', 'Oblivion', 'none' )
@@ -280,6 +280,7 @@ if g:alduin_Shout_Become_Ethereal
     call s:HL( 'TabLineFill', 'Winterhold', 'Abyss', 'none' )
     call s:HL( 'TabLine', 'Winterhold', 'Abyss', 'none' )
     call s:HL( 'VertSplit', 'Winterhold', 'Solitude', 'none' )
+    call s:HL( 'FoldColumn', 'Mirmulnir', 'Oblivion', '' )
 end
 
 "White Underline color for MatchParen
