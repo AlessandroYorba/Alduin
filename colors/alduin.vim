@@ -31,8 +31,8 @@ let g:colors_name="alduin"
 "               Optional Shouts:
 "----------------------------------------------------------------
 
-if !exists("g:alduin_Shout_Windhelm") " {{{
-    let g:alduin_Shout_Windhelm = 0
+if !exists("g:alduin_Shout_Become_Ethereal" ) " {{{
+    let g:alduin_Shout_Become_Ethereal = 0
 endif " }}}
 
 if !exists("g:alduin_Shout_AuraWhisper") " {{{
@@ -43,6 +43,7 @@ endif " }}}
 
 let s:alduin = {}
 
+let s:alduin.Abyss       = [ '000000', 16  ]
 let s:alduin.Krosulhah   = [ '5f0000', 52  ]
 let s:alduin.Morthal     = [ '5f5f87', 60  ]
 let s:alduin.Dawnstar    = [ '5f8787', 66  ]
@@ -61,6 +62,7 @@ let s:alduin.Riverwood   = [ 'afd7d7', 152 ]
 let s:alduin.Sahrotaar   = [ 'dfaf87', 180 ]
 let s:alduin.Whiterun    = [ 'dfdfaf', 187 ]
 let s:alduin.Paarthurnax = [ 'ffdf87', 222 ]
+let s:alduin.Oblivion    = [ '080808', 232 ]
 let s:alduin.Solitude    = [ '121212', 233 ]
 let s:alduin.Skyrim      = [ '1c1c1c', 234 ]
 let s:alduin.Ivarstead   = [ '262626', 235 ]
@@ -161,7 +163,7 @@ call s:HL( 'IncSearch', 'Windhelm', '', 'reverse' )
 call s:HL( 'StatusLine', 'Solitude', 'Winterhold', 'none' )
 call s:HL( 'StatusLineNC', 'Winterhold', 'Riften', 'none' )
 call s:HL( 'WildMenu', 'Whiterun', 'Krosulhah', 'none' )
-call s:HL( 'Title', 'Windhelm', '', 'none' )
+call s:HL( 'Title', 'Sahrotaar', '', 'none' )
 call s:HL( 'MoreMsg', 'Markarth', '', 'none' )
 call s:HL( 'ModeMsg', 'Mirmulnir', '', 'none' )
 "TODO
@@ -212,7 +214,7 @@ call s:HL( 'Keyword', 'Relonikiv', '', 'none' )
 call s:HL( 'Exception', 'Relonikiv', '', 'none' )
 call s:HL( 'Comment', 'Winterhold', '', 'none' )
 
-call s:HL( 'Special', 'Sahloknir', '', 'none' )
+call s:HL( 'Special', 'Windhelm', '', 'none' )
 "TODO
 "call s:HL( 'SpecialChar', '', '', '' )
 "call s:HL( 'Tag', '', '', '' )
@@ -270,11 +272,14 @@ call s:HL( 'SpellBad', 'Windhelm', '', 'undercurl' )
 "--------------------------------------------------------------------
 "                          Executed SHOUTS: 
 "--------------------------------------------------------------------
-
-"Light Red Special, replaces Dark Red
-if g:alduin_Shout_Windhelm
-    call s:HL('Special', 'Windhelm', '', 'none')
-    call s:HL('Title', 'Sahrotaar', '', 'none' )
+if g:alduin_Shout_Become_Ethereal
+    call s:HL( 'Normal', 'Whiterun', 'Oblivion', 'none' )
+    call s:HL( 'LineNr', 'Riften', 'Abyss','none' )
+    call s:HL( 'String', 'Paarthurnax', 'Solitude', 'none' )
+    call s:HL( 'CursorLine', '', 'Solitude', 'none' )
+    call s:HL( 'TabLineFill', 'Winterhold', 'Abyss', 'none' )
+    call s:HL( 'TabLine', 'Winterhold', 'Abyss', 'none' )
+    call s:HL( 'VertSplit', 'Winterhold', 'Solitude', 'none' )
 end
 
 "White Underline color for MatchParen
