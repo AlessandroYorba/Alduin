@@ -50,52 +50,6 @@ The screenshots of Alduin were made and tested using a default Vi IMproved 7.3 i
 [Additional Screenshots](https://github.com/AlessandroYorba/Alduin/issues/5)
 
 
-Installation
-------------
-#### Manual ####
-Unix users, place alduin.vim in 
-
-    ~/.vim/colors
-
-Windows users, place alduin.vim in 
-
-    ~\vimfiles\colors
-
-#### Vundle ####
-Place this in your .vimrc:
-
-    Plugin 'AlessandroYorba/Alduin'
-...then run the following in Vim:
-
-    :source %
-    :PluginInstall
-
-For Vundle version < 0.10.2, replace `Plugin` with `Bundle` above 
-
-#### NeoBundle ####
-Place this in your .vimrc:
-
-    NeoBundle 'AlessandroYorba/Alduin'
-
-...then run the following in Vim:
-
-    :source %
-    :NeoBundleInstall
-
-#### VimPlug ####
-Place this in your .vimrc:
-
-    Plug 'AlessandroYorba/Alduin'
-
-...then run the following in Vim:
-
-    :source %
-    :PlugInstall
-
-#### Pathogen ####
-    cd ~/.vim/bundle
-    git clone https://github.com/AlessandroYorba/Alduin
-
 Related
 -------
 I'd love to hear from you guys if you have any feedback, suggestions or issues that you encounter. Just open an Issue ticket for any bugs or suggestions; and if you like alduin you might want to check out my other Vim theme [sierra](https://github.com/AlessandroYorba/Sierra)
