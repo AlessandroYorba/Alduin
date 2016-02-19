@@ -17,15 +17,15 @@ Alduin Settings
 #### Default Mode ####
 There be dragons here!
 
-`colorscheme alduin`
+    colorscheme alduin
 
 [alduin Screenshot]()
 
 #### Become Ethereal ####
 Changes alduin to a darker version
 
-`let g:alduin_Shout_Become_Ethereal = 1`
-`colorscheme alduin`
+    let g:alduin_Shout_Become_Ethereal = 1
+    colorscheme alduin
 
 [Become Ethereal Screenshot]()
 
@@ -33,14 +33,14 @@ Changes alduin to a darker version
 #### Aura Whisper ####
 Underline the highlight group `MatchParen`
 
-`let g:alduin_Shout_AuraWhisper = 1`
-`colorscheme alduin`
+    let g:alduin_Shout_AuraWhisper = 1
+    colorscheme alduin
 
 #### Contract Vampirism ####
 Between 7am - 5pm the set alduin as your colorscheme and automatically enter into Ethereal mode if you run Vim after 5pm.
 
-`let g:alduin_Contract_Vampirism = 1`
-`colo alduin`
+    let g:alduin_Contract_Vampirism = 1
+    colo alduin
 
 [Contact Vampirism Screenshot]()
 
