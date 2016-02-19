@@ -54,29 +54,41 @@ Installation
 ------------
 #### Manual ####
 Unix users, place alduin.vim in 
+
     ~/.vim/colors
+
 Windows users, place alduin.vim in 
+
     ~\vimfiles\colors
 
 #### Vundle ####
 Place this in your .vimrc:
+
     Plugin 'AlessandroYorba/Alduin'
 ...then run the following in Vim:
+
     :source %
     :PluginInstall
+
 For Vundle version < 0.10.2, replace `Plugin` with `Bundle` above 
 
 #### NeoBundle ####
 Place this in your .vimrc:
+
     NeoBundle 'AlessandroYorba/Alduin'
+
 ...then run the following in Vim:
+
     :source %
     :NeoBundleInstall
 
 #### VimPlug ####
 Place this in your .vimrc:
+
     Plug 'AlessandroYorba/Alduin'
+
 ...then run the following in Vim:
+
     :source %
     :PlugInstall
 
