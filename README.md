@@ -39,7 +39,7 @@ Contracting Vampirism is a setting that if enabled will allow Alduin to automati
 
     "Starts at 5pm - Ends at 7am
     let g:alduin_Contract_Vampirism = 1
-    colo alduin
+    colorscheme alduin
 
 
 Moar Screenshots
