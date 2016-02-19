@@ -58,29 +58,29 @@ Windows users, place alduin.vim in `~\vimfiles\colors`
 
 **Vundle
 Place this in your .vimrc:
-`Plugin 'AlessandroYorba/Alduin'`
+Plugin `'AlessandroYorba/Alduin'`
 ...then run the following in Vim:
-`:source %`
-`:PluginInstall`
+    :source %
+    :PluginInstall
 For Vundle version < 0.10.2, replace `Plugin` with `Bundle` above 
 
 **NeoBundle
 Place this in your .vimrc:
-`NeoBundle 'AlessandroYorba/Alduin'`
+NeoBundle `'AlessandroYorba/Alduin'`
 ...then run the following in Vim:
-`:source %`
-`:NeoBundleInstall`
+    :source %
+    :NeoBundleInstall
 
 **VimPlug
 Place this in your .vimrc:
-`Plug 'AlessandroYorba/Alduin'`
+Plug `'AlessandroYorba/Alduin'`
 ...then run the following in Vim:
-`:source %`
-`:PlugInstall`
+    :source %
+    :PlugInstall
 
 **Pathogen
-`cd ~/.vim/bundle`
-`git clone https://github.com/AlessandroYorba/Alduin`
+    cd ~/.vim/bundle
+    git clone https://github.com/AlessandroYorba/Alduin
 
 Related
 -------
