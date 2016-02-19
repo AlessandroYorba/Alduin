@@ -28,15 +28,23 @@ let g:colors_name="alduin"
 
 "
 "----------------------------------------------------------------
-"               Optional Shouts:
+"                   Shouts:
 "----------------------------------------------------------------
 
 if !exists("g:alduin_Shout_Become_Ethereal" ) " {{{
     let g:alduin_Shout_Become_Ethereal = 0
 endif " }}}
 
-if !exists("g:alduin_Shout_AuraWhisper") " {{{
-    let g:alduin_Shout_AuraWhisper = 0
+if !exists("g:alduin_Shout_Aura_Whisper") " {{{
+    let g:alduin_Shout_Aura_Whisper = 0
+endif " }}}
+
+"----------------------------------------------------------------
+"                  Vampirism: 
+"----------------------------------------------------------------
+
+if !exists("g:alduin_Contract_Vampirism") " {{{
+    let g:alduin_Contract_Vampirism = 0
 endif " }}}
 
 "----------------------------------------------------------------
@@ -70,6 +78,7 @@ let s:alduin.Riften      = [ '303030', 236 ]
 let s:alduin.Rorikstead  = [ '3a3a3a', 237 ]
 let s:alduin.Nightingale = [ '585858', 240 ]
 let s:alduin.Ivory       = [ 'eeeeee', 255 ]
+
 
 
 
@@ -255,7 +264,7 @@ call s:HL( 'DiffText', 'Ivarstead', 'Falkreath', 'none' )
 "--------------------------------------------------------------------
 "                           Completion Menu:                        |
 "--------------------------------------------------------------------
-call s:HL( 'Pmenu', 'Rorikstead', 'Solitude', 'none' )
+call s:HL( 'Pmenu', 'Winterhold', 'Solitude', 'none' )
 call s:HL( 'PmenuSel', 'Whiterun', 'Krosulhah', 'none' )
 call s:HL( 'PmenuSbar', '', 'Solitude', 'none' )
 call s:HL( 'PmenuThumb', '', 'Whiterun', '' )
@@ -283,7 +292,27 @@ if g:alduin_Shout_Become_Ethereal
     call s:HL( 'FoldColumn', 'Mirmulnir', 'Oblivion', '' )
 end
 
-"White Underline color for MatchParen
-if g:alduin_Shout_AuraWhisper
+"--------------------------------------------------------------------
+"                          Aura Whisper: 
+"--------------------------------------------------------------------
+
+"White Underline color for the foreground of MatchParen
+if g:alduin_Shout_Aura_Whisper
     call s:HL( 'MatchParen', 'Ivory', 'Skyrim', 'underline' )
+end
+
+"--------------------------------------------------------------------
+"                          Contract Vampirism: 
+"--------------------------------------------------------------------
+
+" Alduin Change Mode Depending On Time Of Day
+if g:alduin_Contract_Vampirism
+    let hour = strftime("%H") 
+    " 7am - 5pm alduin default mode
+    if 0 <= hour && hour < 17
+        let g:alduin_Shout_Become_Ethereal = 0
+    " 5pm - 7am Become Ethereal
+    else
+        let g:alduin_Shout_Become_Ethereal = 1
+    endif
 end
