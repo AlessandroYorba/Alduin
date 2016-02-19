@@ -14,30 +14,28 @@ The idea behind Alduin was to create a dark colorscheme that combined warm yet s
 Alduin Settings
 ---------------
 
-#### Default Mode ####
-There be dragons here!
+#### Alduin Mode ####
+There be dragons here! Add the following to your .vimrc to enable Alduin as your default colorscheme [alduin Screenshot]()
 
     colorscheme alduin
 
-[alduin Screenshot]()
 
 #### Become Ethereal ####
-Changes alduin to a darker version
+Add the following to your .vimrc so that Alduin displays in a darker version [Ethereal Screenshot]()
 
+    " Dark Version of Alduin
     let g:alduin_Shout_Become_Ethereal = 1
     colorscheme alduin
 
-[Become Ethereal Screenshot]()
-
 
 #### Aura Whisper ####
-Underline the highlight group `MatchParen`
+This is will change the default MatchParen highlight group so that when your cursor is at a brace or parenthesis the matching set will be underlined in Ivory. [Aura Whisper Screenshot]()
 
     let g:alduin_Shout_AuraWhisper = 1
     colorscheme alduin
 
 #### Contract Vampirism ####
-Between 7am - 5pm the set alduin as your colorscheme and automatically enter into Ethereal mode if you run Vim after 5pm.
+Vampirism mode is a setting that if enabled will allow Alduin to automatically run Alduin in Ethereal mode after 5pm and then switch back to the lighter mode in the morning 7am. **Please note that this feature is experimental.
 
     let g:alduin_Contract_Vampirism = 1
     colo alduin
