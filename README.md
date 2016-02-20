@@ -39,7 +39,7 @@ Contracting Vampirism is a setting that if enabled will allow Alduin to automati
 #### Aura Whisper ####
 This is will change the default MatchParen highlight group so that when your cursor is at a brace or parenthesis the matching set will be underlined in Ivory. 
 
-    let g:alduin_Shout_AuraWhisper = 1
+    let g:alduin_Shout_Aura_Whisper = 1
     colorscheme alduin
 
 
