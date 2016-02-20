@@ -29,7 +29,7 @@ Add the following to your .vimrc to enable Alduin's darker version:
 
 
 #### Contract Vampirism ####
-Contracting Vampirism is a setting that if enabled will allow Alduin to automatically become Ethereal when the sun is setting and then switch back to the normal alduin mode morning after. **Please note that this feature is experimental.
+Contracting Vampirism is a setting that if enabled will allow Alduin to automatically become Ethereal when the sun is setting and then switch back to the normal alduin mode the next morning. **Please note that this feature is experimental.
 
     "Starts at 5pm - Ends at 7am
     let g:alduin_Contract_Vampirism = 1
