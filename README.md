@@ -28,17 +28,18 @@ Add the following to your .vimrc to enable Alduin's darker version:
     colorscheme alduin
 
 
-#### Aura Whisper ####
-This is will change the default MatchParen highlight group so that when your cursor is at a brace or parenthesis the matching set will be underlined in Ivory. 
-
-    let g:alduin_Shout_AuraWhisper = 1
-    colorscheme alduin
-
 #### Contract Vampirism ####
 Contracting Vampirism is a setting that if enabled will allow Alduin to automatically become Ethereal when the sun is setting and then switch back to the normal alduin mode morning after. **Please note that this feature is experimental.
 
     "Starts at 5pm - Ends at 7am
     let g:alduin_Contract_Vampirism = 1
+    colorscheme alduin
+
+
+#### Aura Whisper ####
+This is will change the default MatchParen highlight group so that when your cursor is at a brace or parenthesis the matching set will be underlined in Ivory. 
+
+    let g:alduin_Shout_AuraWhisper = 1
     colorscheme alduin
 
 
