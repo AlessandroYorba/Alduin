@@ -16,20 +16,18 @@
 " License:      MIT
 
 
-" --------------------------------
 set background=dark
-" --------------------------------
 
 highlight clear
 if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name="alduin"
 
-"
+
+" Default Become_Ethereal Aura_Whisper Contract Vampirism:
 "----------------------------------------------------------------
-"                   Shouts:
-"----------------------------------------------------------------
+
+let g:colors_name="alduin"
 
 if !exists("g:alduin_Shout_Become_Ethereal" ) " {{{
     let g:alduin_Shout_Become_Ethereal = 0
@@ -39,16 +37,13 @@ if !exists("g:alduin_Shout_Aura_Whisper") " {{{
     let g:alduin_Shout_Aura_Whisper = 0
 endif " }}}
 
-"----------------------------------------------------------------
-"                  Vampirism: 
-"----------------------------------------------------------------
-
 if !exists("g:alduin_Contract_Vampirism") " {{{
     let g:alduin_Contract_Vampirism = 0
 endif " }}}
 
-"----------------------------------------------------------------
 
+" Colors:
+"----------------------------------------------------------------
 let s:alduin = {}
 
 let s:alduin.Abyss       = [ '000000', 16  ]
@@ -78,8 +73,6 @@ let s:alduin.Riften      = [ '303030', 236 ]
 let s:alduin.Rorikstead  = [ '3a3a3a', 237 ]
 let s:alduin.Nightingale = [ '585858', 240 ]
 let s:alduin.Ivory       = [ 'eeeeee', 255 ]
-
-
 
 
 function! s:HL(group, fg, ...)
@@ -124,11 +117,8 @@ function! s:HL(group, fg, ...)
 endfunction
 
 
-
-" 
-" --------------------------------------------------------------------------------
-"                               Editor Settings:
-" --------------------------------------------------------------------------------
+" Editor Settings:
+"--------------------------------------------------------------------------------
 call s:HL( 'Normal', 'Whiterun', 'Skyrim', '' )
 call s:HL( 'CursorLineNR', 'Nightingale', '', 'none' )
 call s:HL( 'CursorLine', '', 'Ivarstead', 'none' )
@@ -137,9 +127,8 @@ call s:HL( 'LineNr', 'Rorikstead', 'Solitude','none' )
 "call s:HL( 'Cursor', '', '',          '' )
 
 
-" --------------------------------------------------------------------------------
-"                               Number Column:
-" --------------------------------------------------------------------------------
+" Number Column:
+"--------------------------------------------------------------------------------
 call s:HL( 'FoldColumn', 'Mirmulnir', 'Skyrim', '' )
 call s:HL( 'Folded', 'Rorikstead', 'Solitude', 'none' )
 "TODO
@@ -147,9 +136,8 @@ call s:HL( 'Folded', 'Rorikstead', 'Solitude', 'none' )
 "call s:HL( 'SignColumn', '', '', '' )      
 
 
-" --------------------------------------------------------------------------------
-"                           WindowTab Delimiters:
-" --------------------------------------------------------------------------------
+" WindowTab Delimiters:
+"--------------------------------------------------------------------------------
 call s:HL( 'VertSplit', 'Winterhold', 'Ivarstead', 'none' )
 call s:HL( 'TabLine', 'Winterhold', 'Solitude', 'none' )
 call s:HL( 'TabLineFill', 'Winterhold', 'Solitude', 'none' )
@@ -158,17 +146,15 @@ call s:HL( 'TabLineSel', 'Solitude', 'Winterhold', 'none' )
 "call s:HL( 'ColorColumn', '', '', '' )
 
 
-" --------------------------------------------------------------------------------
-"                             File Navigation: 
-" --------------------------------------------------------------------------------
+" File Navigation: 
+"--------------------------------------------------------------------------------
 call s:HL( 'Directory', 'Windhelm', '', 'none' )
 call s:HL( 'Search', 'Whiterun', 'Krosulhah', 'none' )
 call s:HL( 'IncSearch', 'Windhelm', '', 'reverse' )
 
 
-" --------------------------------------------------------------------------------
-"                             Prompt Status:
-" --------------------------------------------------------------------------------
+" Prompt Status:
+"--------------------------------------------------------------------------------
 call s:HL( 'StatusLine', 'Solitude', 'Winterhold', 'none' )
 call s:HL( 'StatusLineNC', 'Winterhold', 'Riften', 'none' )
 call s:HL( 'WildMenu', 'Whiterun', 'Krosulhah', 'none' )
@@ -179,9 +165,8 @@ call s:HL( 'ModeMsg', 'Mirmulnir', '', 'none' )
 "call s:HL( 'Question', '', '', '' )
 
 
-" --------------------------------------------------------------------------------
-"                              Visual Aid: 
-" --------------------------------------------------------------------------------
+" Visual Aid: 
+"--------------------------------------------------------------------------------
 call s:HL( 'MatchParen', 'Skyrim', 'Viinturuth', 'none' )
 call s:HL( 'Visual', 'Whiterun', 'Krosulhah', 'none' )
 call s:HL( 'VisualNOS', '', '', 'underline' )
@@ -196,9 +181,8 @@ call s:HL( 'SpecialKey', 'Mirmulnir', '', '' )
 "call s:HL( 'Ignore', '', '', '' )
 
 
-" --------------------------------------------------------------------------------
-"                             Variable Types:
-" --------------------------------------------------------------------------------
+" Variable Types:
+"--------------------------------------------------------------------------------
 call s:HL( 'Constant', 'Kruziikrel', '', 'none' )
 call s:HL( 'String', 'Paarthurnax', 'Ivarstead', 'none' )
 call s:HL( 'Character', 'Odahviing', '', 'none' )
@@ -211,9 +195,8 @@ call s:HL( 'Function', 'Durnehviir', '', 'none' )
 "call s:HL( 'StringDelimiter', '', '', '' )
 
 
-" --------------------------------------------------------------------------------
-"                           Language Constructs:
-" --------------------------------------------------------------------------------
+" Language Constructs:
+"--------------------------------------------------------------------------------
 call s:HL( 'Statement', 'Relonikiv', '', 'none' )
 call s:HL( 'Conditional', 'Relonikiv', '', 'none' )
 call s:HL( 'Repeat', 'Relonikiv', '', 'none' )
@@ -222,7 +205,6 @@ call s:HL( 'Operator', 'Relonikiv', '', 'none' )
 call s:HL( 'Keyword', 'Relonikiv', '', 'none' )
 call s:HL( 'Exception', 'Relonikiv', '', 'none' )
 call s:HL( 'Comment', 'Winterhold', '', 'none' )
-
 call s:HL( 'Special', 'Windhelm', '', 'none' )
 "TODO
 "call s:HL( 'SpecialChar', '', '', '' )
@@ -231,46 +213,43 @@ call s:HL( 'Special', 'Windhelm', '', 'none' )
 "call s:HL( 'SpecialComment', '', '', '' )
 "call s:HL( 'Debug', '', '', '' )
 
-" --------------------------------------------------------------------------------
-"                                C Like:
-" --------------------------------------------------------------------------------
+
+" C Like:
+"--------------------------------------------------------------------
 call s:HL( 'PreProc', 'Sahrotaar', '', 'none' )
 call s:HL( 'Include', 'Sahrotaar', '', 'none' )
 call s:HL( 'Define', 'Sahrotaar', '', 'none' )
 call s:HL( 'Macro', 'Sahrotaar', '', 'none' )
 call s:HL( 'PreCondit', 'Sahrotaar', '', 'none' )
-
 call s:HL( 'Type', 'Viinturuth', '', 'none' )
 call s:HL( 'StorageClass', 'Viinturuth', '', 'none' )
 call s:HL( 'Structure', 'Viinturuth', '', 'none' )
 call s:HL( 'Typedef', 'Viinturuth', '', 'none' )
 
 
-"--------------------------------------------------------------------
-"                                 HTML:                             |
+" HTML:
 "--------------------------------------------------------------------
 call s:HL( 'htmlArg', 'Durnehviir', '', 'none' )
 call s:HL( 'htmlItalic', 'Sahrotaar', '', 'none' )
 
 
-"--------------------------------------------------------------------
-"                                Diff:                              |
+" Diff:
 "--------------------------------------------------------------------
 call s:HL( 'DiffAdd', 'Ivarstead', 'Dawnstar', 'none' )
 call s:HL( 'DiffChange', 'Ivarstead', 'Morthal', 'none' )
 call s:HL( 'DiffDelete', 'Ivarstead', 'Windhelm', 'none' )
 call s:HL( 'DiffText', 'Ivarstead', 'Falkreath', 'none' )
 
-"--------------------------------------------------------------------
-"                           Completion Menu:                        |
+
+" Completion Menu:
 "--------------------------------------------------------------------
 call s:HL( 'Pmenu', 'Winterhold', 'Solitude', 'none' )
 call s:HL( 'PmenuSel', 'Whiterun', 'Krosulhah', 'none' )
 call s:HL( 'PmenuSbar', '', 'Solitude', 'none' )
 call s:HL( 'PmenuThumb', '', 'Whiterun', '' )
 
-"--------------------------------------------------------------------
-"                             Spelling:                             |
+
+" Spelling:
 "--------------------------------------------------------------------
 call s:HL( 'SpellBad', 'Windhelm', '', 'undercurl' )
 "TODO
@@ -278,8 +257,15 @@ call s:HL( 'SpellBad', 'Windhelm', '', 'undercurl' )
 "call s:HL( 'SpellLocal', '', '', '' )
 "call s:HL( 'SpellRare', '', '', '' )
 
+
+" Aura Whisper:
 "--------------------------------------------------------------------
-"                          Become Ethereal: 
+if g:alduin_Shout_Aura_Whisper
+    call s:HL( 'MatchParen', 'Ivory', 'Skyrim', 'underline' )
+end
+
+
+" Become Ethereal: 
 "--------------------------------------------------------------------
 if g:alduin_Shout_Become_Ethereal
     call s:HL( 'Normal', 'Whiterun', 'Oblivion', 'none' )
@@ -292,26 +278,13 @@ if g:alduin_Shout_Become_Ethereal
     call s:HL( 'FoldColumn', 'Mirmulnir', 'Oblivion', '' )
 end
 
-"--------------------------------------------------------------------
-"                          Aura Whisper: 
-"--------------------------------------------------------------------
 
-"White Underline color for the foreground of MatchParen
-if g:alduin_Shout_Aura_Whisper
-    call s:HL( 'MatchParen', 'Ivory', 'Skyrim', 'underline' )
-end
-
+" Contract Vampirism: 
 "--------------------------------------------------------------------
-"                          Contract Vampirism: 
-"--------------------------------------------------------------------
-
-" Alduin Change Mode Depending On Time Of Day
 if g:alduin_Contract_Vampirism
-    let hour = strftime("%H") 
-    " 7am - 5pm alduin default mode
-    if 7 <= hour && hour < 17
+    let alduin_Hour = strftime("%H") 
+    if 7 <= alduin_Hour && alduin_Hour < 17
         let g:alduin_Shout_Become_Ethereal = 0
-    " 5pm - 7am Become Ethereal
     else
         let g:alduin_Shout_Become_Ethereal = 1
     endif
