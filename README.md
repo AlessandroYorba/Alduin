@@ -25,24 +25,30 @@ colorscheme alduin
 #### Become Ethereal ####
 Add the following to your .vimrc to enable Alduin's darker version:
 
-    " Dark Version of Alduin
-    let g:alduin_Shout_Become_Ethereal = 1
-    colorscheme alduin
+```VimL
+" Dark Version of Alduin
+let g:alduin_Shout_Become_Ethereal = 1
+colorscheme alduin
+```
 
 
 #### Contract Vampirism ####
 If you're finding yourself using the default alduin throughout the day and then at night you're enabling Ethereal mode; you might have the onset of Sanguinare Vampiris syndrome. Try adding `let g:alduin_Contract_Vampirism = 1` to your vimrc. This will automatically enable Ethereal mode when you launch Vim after 5pm and then reset to the default alduin for the following morning. **Please note that this feature is experimental.
 
-    "Starts at 5pm - Ends at 7am
-    let g:alduin_Contract_Vampirism = 1
-    colorscheme alduin
+```VimL
+"Starts at 5pm - Ends at 7am
+let g:alduin_Contract_Vampirism = 1
+colorscheme alduin
+```
 
 
 #### Aura Whisper ####
 This is will change the default MatchParen highlight group so that when your cursor is at a brace or parenthesis the matching set will be underlined in Ivory. 
 
-    let g:alduin_Shout_Aura_Whisper = 1
-    colorscheme alduin
+```VimL
+let g:alduin_Shout_Aura_Whisper = 1
+colorscheme alduin
+```
 
 
 Moar Screenshots
