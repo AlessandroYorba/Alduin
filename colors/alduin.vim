@@ -9,7 +9,7 @@
 
 
 
-" A Terminal Vim colorscheme 
+" A Terminal and Gui colorscheme 
 " Author:       Alessandro Yorba 
 " Maintainer:   Alessandro Yorba
 " Script URL:   https://github.com/AlessandroYorba/Alduin
@@ -24,20 +24,37 @@ if exists("syntax_on")
 endif
 
 
-" Default Become_Ethereal Aura_Whisper Contract Vampirism:
+" Alduin Shouts:
 "----------------------------------------------------------------
 
+" Default:
 let g:colors_name="alduin"
 
-if !exists("g:alduin_Shout_Become_Ethereal" ) " {{{
-    let g:alduin_Shout_Become_Ethereal = 0
-endif " }}}
 
-if !exists("g:alduin_Shout_Aura_Whisper") " {{{
+" Aura Whisper:
+" Change the MatchParen HL to Underlined
+if !exists( "g:alduin_Shout_Aura_Whisper") " {{{
     let g:alduin_Shout_Aura_Whisper = 0
 endif " }}}
 
-if !exists("g:alduin_Contract_Vampirism") " {{{
+
+" Fire Breath:
+" Change the Special HL foreground color to Sahloknir
+if !exists( "g:alduin_Shout_Fire_Breath" ) " {{{
+    let g:alduin_Shout_Fire_Breath = 0
+endif " }}}
+
+
+" Become Ethereal:
+" Changes the Default Alduin to a Darker Version
+if !exists( "g:alduin_Shout_Become_Ethereal" ) " {{{
+    let g:alduin_Shout_Become_Ethereal = 0
+endif " }}}
+
+
+" Contract Vampirism:
+" Automatically changes the Alduin to Ethereal after 5pm
+if !exists( "g:alduin_Contract_Vampirism") " {{{
     let g:alduin_Contract_Vampirism = 0
 endif " }}}
 
@@ -131,9 +148,9 @@ call s:HL( 'LineNr', 'Rorikstead', 'Solitude','none' )
 "--------------------------------------------------------------------------------
 call s:HL( 'FoldColumn', 'Mirmulnir', 'Skyrim', '' )
 call s:HL( 'Folded', 'Rorikstead', 'Solitude', 'none' )
+call s:HL( 'SignColumn', 'Winterhold', 'Solitude','none' )
 "TODO
 "call s:HL( 'CursorColumn', '', '', '' )
-"call s:HL( 'SignColumn', '', '', '' )      
 
 
 " WindowTab Delimiters:
@@ -159,10 +176,9 @@ call s:HL( 'StatusLine', 'Solitude', 'Winterhold', 'none' )
 call s:HL( 'StatusLineNC', 'Winterhold', 'Riften', 'none' )
 call s:HL( 'WildMenu', 'Whiterun', 'Krosulhah', 'none' )
 call s:HL( 'Title', 'Sahrotaar', '', 'none' )
-call s:HL( 'MoreMsg', 'Markarth', '', 'none' )
+call s:HL( 'MoreMsg', 'Sahrotaar', '', 'none' )
 call s:HL( 'ModeMsg', 'Mirmulnir', '', 'none' )
-"TODO
-"call s:HL( 'Question', '', '', '' )
+call s:HL( 'Question', 'Durnehviir', '', '' )
 
 
 " Visual Aid: 
@@ -205,6 +221,7 @@ call s:HL( 'Operator', 'Relonikiv', '', 'none' )
 call s:HL( 'Keyword', 'Relonikiv', '', 'none' )
 call s:HL( 'Exception', 'Relonikiv', '', 'none' )
 call s:HL( 'Comment', 'Winterhold', '', 'none' )
+call s:HL( 'SpecialComment', 'Winterhold', 'Solitude', 'reverse' )
 call s:HL( 'Special', 'Windhelm', '', 'none' )
 "TODO
 "call s:HL( 'SpecialChar', '', '', '' )
@@ -265,6 +282,13 @@ if g:alduin_Shout_Aura_Whisper
 end
 
 
+" Fire Breath:
+if g:alduin_Shout_Fire_Breath
+    call s:HL( 'Special', 'Sahloknir', '', 'none' )
+    call s:HL( 'Title', 'Windhelm', '', 'none' )
+end
+
+
 " Become Ethereal: 
 "--------------------------------------------------------------------
 if g:alduin_Shout_Become_Ethereal
@@ -276,6 +300,7 @@ if g:alduin_Shout_Become_Ethereal
     call s:HL( 'TabLine', 'Winterhold', 'Abyss', 'none' )
     call s:HL( 'VertSplit', 'Winterhold', 'Solitude', 'none' )
     call s:HL( 'FoldColumn', 'Mirmulnir', 'Oblivion', '' )
+    call s:HL( 'SignColumn', 'Winterhold', 'Abyss','none' )
 end
 
 
