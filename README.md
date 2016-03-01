@@ -50,6 +50,13 @@ let g:alduin_Shout_Aura_Whisper = 1
 colorscheme alduin
 ```
 
+#### Fire Breath ####
+Changes the `Special` Highlight foreground color to a dark red color and Changes `Title` Highlight foreground color to a light red. Warning this setting is not for Milk Drinkers.
+
+```VimL
+let g:alduin_Shout_Fire_Breath = 1
+colorscheme alduin
+```
 
 Moar Screenshots
 ------------
