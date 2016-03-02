@@ -67,4 +67,4 @@ The screenshots of Alduin were made and tested using a default Vi IMproved 7.3 i
 
 Related
 -------
-I'd love to hear from you guys if you have any feedback, suggestions or issues that you encounter. Just open an Issue ticket for any bugs or suggestions; and if you like alduin you might want to check out my other Vim theme [sierra](https://github.com/AlessandroYorba/Sierra)
+I'd love to hear from you guys if you have any feedback, suggestions or issues that you encounter. Just open an Issue ticket for any bugs or suggestions; and if you like alduin you might want to check out my other Vim theme [Sierra](https://github.com/AlessandroYorba/Sierra)
