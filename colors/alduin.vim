@@ -9,7 +9,7 @@
 
 
 
-" A Terminal and Gui colorscheme 
+" A Terminal Vim colorscheme 
 " Author:       Alessandro Yorba 
 " Maintainer:   Alessandro Yorba
 " Script URL:   https://github.com/AlessandroYorba/Alduin
@@ -44,13 +44,17 @@ if !exists( "g:alduin_Shout_Fire_Breath" ) " {{{
     let g:alduin_Shout_Fire_Breath = 0
 endif " }}}
 
+" Clear Skies:
+" Removes Background HL from Strings
+if !exists( "g:alduin_Shout_Clear_Skies" ) "{{{
+    let g:alduin_Shout_Clear_Skies = 0
+endif
 
 " Become Ethereal:
 " Changes the Default Alduin to a Darker Version
 if !exists( "g:alduin_Shout_Become_Ethereal" ) " {{{
     let g:alduin_Shout_Become_Ethereal = 0
 endif " }}}
-
 
 " Contract Vampirism:
 " Automatically changes the Alduin to Ethereal after 5pm
@@ -88,6 +92,7 @@ let s:alduin.Skyrim      = [ '1c1c1c', 234 ]
 let s:alduin.Ivarstead   = [ '262626', 235 ]
 let s:alduin.Riften      = [ '303030', 236 ]
 let s:alduin.Rorikstead  = [ '3a3a3a', 237 ]
+let s:alduin.Helgen      = [ '444444', 238 ]
 let s:alduin.Nightingale = [ '585858', 240 ]
 let s:alduin.Ivory       = [ 'eeeeee', 255 ]
 
@@ -139,7 +144,7 @@ endfunction
 call s:HL( 'Normal', 'Whiterun', 'Skyrim', '' )
 call s:HL( 'CursorLineNR', 'Nightingale', '', 'none' )
 call s:HL( 'CursorLine', '', 'Ivarstead', 'none' )
-call s:HL( 'LineNr', 'Rorikstead', 'Solitude','none' )
+call s:HL( 'LineNr', 'Helgen', 'Solitude','none' )
 "TODO
 "call s:HL( 'Cursor', '', '',          '' )
 
@@ -283,10 +288,17 @@ end
 
 
 " Fire Breath:
+"--------------------------------------------------------------------
 if g:alduin_Shout_Fire_Breath
     call s:HL( 'Special', 'Sahloknir', '', 'none' )
     call s:HL( 'Title', 'Windhelm', '', 'none' )
 end
+
+" Clear Skies:
+"--------------------------------------------------------------------
+if g:alduin_Shout_Clear_Skies
+end
+
 
 
 " Become Ethereal: 
