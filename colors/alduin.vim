@@ -152,7 +152,7 @@ call s:HL( 'LineNr', 'Helgen', 'Solitude','none' )
 " Number Column:
 "--------------------------------------------------------------------------------
 call s:HL( 'FoldColumn', 'Mirmulnir', 'Skyrim', '' )
-call s:HL( 'Folded', 'Rorikstead', 'Solitude', 'none' )
+call s:HL( 'Folded', 'Whiterun', 'Dawnstar', 'none' )
 call s:HL( 'SignColumn', 'Winterhold', 'Solitude','none' )
 "TODO
 "call s:HL( 'CursorColumn', '', '', '' )
@@ -257,7 +257,7 @@ call s:HL( 'htmlItalic', 'Sahrotaar', '', 'none' )
 
 " Diff:
 "--------------------------------------------------------------------
-call s:HL( 'DiffAdd', 'Ivarstead', 'Dawnstar', 'none' )
+call s:HL( 'DiffAdd', 'Ivarstead', 'Sahrotaar', 'none' )
 call s:HL( 'DiffChange', 'Ivarstead', 'Morthal', 'none' )
 call s:HL( 'DiffDelete', 'Ivarstead', 'Windhelm', 'none' )
 call s:HL( 'DiffText', 'Ivarstead', 'Falkreath', 'none' )
