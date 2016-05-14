@@ -75,6 +75,7 @@ let s:alduin.Durnehviir  = [ '875f5f', 95  ]
 let s:alduin.Winterhold  = [ '87875f', 101 ]
 let s:alduin.Relonikiv   = [ '878787', 102 ]
 let s:alduin.Falkreath   = [ '8787af', 103 ]
+let s:alduin.Windpeak    = [ '87af87', 108 ]
 let s:alduin.Mirmulnir   = [ '87afaf', 109 ]
 let s:alduin.Markarth    = [ '87ffaf', 121 ]
 let s:alduin.Sahloknir   = [ 'af0000', 124 ]
@@ -257,7 +258,7 @@ call s:HL( 'htmlItalic', 'Sahrotaar', '', 'none' )
 
 " Diff:
 "--------------------------------------------------------------------
-call s:HL( 'DiffAdd', 'Ivarstead', 'Sahrotaar', 'none' )
+call s:HL( 'DiffAdd', 'Ivarstead', 'Windpeak', 'none' )
 call s:HL( 'DiffChange', 'Ivarstead', 'Morthal', 'none' )
 call s:HL( 'DiffDelete', 'Ivarstead', 'Windhelm', 'none' )
 call s:HL( 'DiffText', 'Ivarstead', 'Falkreath', 'none' )
