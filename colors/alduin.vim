@@ -87,7 +87,7 @@ let s:alduin.Riverwood   = [ 'afd7d7', 152 ]
 let s:alduin.Sahrotaar   = [ 'dfaf87', 180 ]
 let s:alduin.Whiterun    = [ 'dfdfaf', 187 ]
 let s:alduin.Paarthurnax = [ 'ffdf87', 222 ]
-let s:alduin.Oblivion    = [ '080808', 232 ]
+let s:alduin.Ethereal    = [ '080808', 232 ]
 let s:alduin.Solitude    = [ '121212', 233 ]
 let s:alduin.Skyrim      = [ '1c1c1c', 234 ]
 let s:alduin.Ivarstead   = [ '262626', 235 ]
@@ -305,14 +305,14 @@ end
 " Become Ethereal: 
 "--------------------------------------------------------------------
 if g:alduin_Shout_Become_Ethereal
-    call s:HL( 'Normal', 'Whiterun', 'Oblivion', 'none' )
+    call s:HL( 'Normal', 'Whiterun', 'Ethereal', 'none' )
     call s:HL( 'LineNr', 'Riften', 'Abyss','none' )
     call s:HL( 'String', 'Paarthurnax', 'Solitude', 'none' )
     call s:HL( 'CursorLine', '', 'Solitude', 'none' )
     call s:HL( 'TabLineFill', 'Winterhold', 'Abyss', 'none' )
     call s:HL( 'TabLine', 'Winterhold', 'Abyss', 'none' )
     call s:HL( 'VertSplit', 'Winterhold', 'Solitude', 'none' )
-    call s:HL( 'FoldColumn', 'Mirmulnir', 'Oblivion', '' )
+    call s:HL( 'FoldColumn', 'Mirmulnir', 'Ethereal', '' )
     call s:HL( 'SignColumn', 'Winterhold', 'Abyss','none' )
 end
 
