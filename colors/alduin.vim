@@ -62,11 +62,6 @@ if !exists( "g:alduin_Contract_Vampirism") " {{{
     let g:alduin_Contract_Vampirism = 0
 endif " }}}
 
-" Dragon Aspect:
-" Add ColorColumn to match CursorLine
-if !exists( "g:alduin_Shout_Dragon_Aspect" ) "{{{
-    let g:alduin_Shout_Dragon_Aspect = 0
-endif
 
 
 " Colors:
@@ -302,12 +297,6 @@ if g:alduin_Shout_Fire_Breath
 end
 
 
-" Shout Dragon Aspect:
-"--------------------------------------------------------------------
-if g:alduin_Shout_Dragon_Aspect
-    execute "set colorcolumn=" . join(range(81,335), ',')
-    hi! link ColorColumn CursorLine
- end
 
 
 " Become Ethereal: 
