@@ -58,6 +58,13 @@ let g:alduin_Shout_Fire_Breath = 1
 colorscheme alduin
 ```
 
+#### Dragon Aspect ####
+Adds a ColorColumn at column 80 which matches the CursorLine background
+
+```VimL
+let g:alduin_Shout_Dragon_Aspect = 1
+colorscheme alduin
+```
 Moar Screenshots
 ------------
 The screenshots of Alduin were made and tested using a default Vi IMproved 7.4 in [iTerm 2.1.4](https://www.iterm2.com) and the Vi IMproved 7.4 in the GUI MacVim app. Extended syntax for JavaScript provided by Jose Elera Campana's Plug-in [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax). Enjoy!!
