@@ -46,7 +46,6 @@ if !exists( "g:alduin_Shout_Fire_Breath" ) " {{{
 endif " }}}
 
 " Clear Skies:
-" Removes Background HL from Strings
 if !exists( "g:alduin_Shout_Clear_Skies" ) "{{{
     let g:alduin_Shout_Clear_Skies = 0
 endif
@@ -66,7 +65,7 @@ endif " }}}
 " Dragon Aspect:
 " Add ColorColumn to match CursorLine
 if !exists( "g:alduin_Shout_Dragon_Aspect" ) "{{{
-    let g:alduin_Shout_Test = 0
+    let g:alduin_Shout_Dragon_Aspect = 0
 endif
 
 
@@ -302,12 +301,9 @@ if g:alduin_Shout_Fire_Breath
     call s:HL( 'Title', 'Windhelm', '', 'none' )
 end
 
-" Clear Skies:
-"--------------------------------------------------------------------
-if g:alduin_Shout_Clear_Skies
-end
 
 " Shout Dragon Aspect:
+"--------------------------------------------------------------------
 if g:alduin_Shout_Dragon_Aspect
     execute "set colorcolumn=" . join(range(81,335), ',')
     hi! link ColorColumn CursorLine
