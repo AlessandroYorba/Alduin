@@ -167,7 +167,7 @@ call s:HL( 'TabLine', 'Winterhold', 'Solitude', 'none' )
 call s:HL( 'TabLineFill', 'Winterhold', 'Solitude', 'none' )
 call s:HL( 'TabLineSel', 'Solitude', 'Winterhold', 'none' )
 "TODO
-"call s:HL( 'ColorColumn', '', '', '' )
+call s:HL( 'ColorColumn', '', 'Ivarstead', '' )
 
 
 " File Navigation: 
@@ -297,8 +297,6 @@ if g:alduin_Shout_Fire_Breath
 end
 
 
-
-
 " Become Ethereal: 
 "--------------------------------------------------------------------
 if g:alduin_Shout_Become_Ethereal
@@ -306,6 +304,7 @@ if g:alduin_Shout_Become_Ethereal
     call s:HL( 'LineNr', 'Riften', 'Abyss','none' )
     call s:HL( 'String', 'Paarthurnax', 'Solitude', 'none' )
     call s:HL( 'CursorLine', '', 'Solitude', 'none' )
+    call s:HL( 'ColorColumn', '', 'Solitude', '' )
     call s:HL( 'TabLineFill', 'Winterhold', 'Abyss', 'none' )
     call s:HL( 'TabLine', 'Winterhold', 'Abyss', 'none' )
     call s:HL( 'VertSplit', 'Winterhold', 'Solitude', 'none' )
