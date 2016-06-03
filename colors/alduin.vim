@@ -144,7 +144,7 @@ endfunction
 " Editor Settings:
 "--------------------------------------------------------------------------------
 call s:HL( 'Normal', 'Whiterun', 'Skyrim', '' )
-call s:HL( 'CursorLineNR', 'Nightingale', '', 'none' )
+call s:HL( 'CursorLineNR', 'Nightingale', 'Solitude', 'none' )
 call s:HL( 'CursorLine', '', 'Ivarstead', 'none' )
 call s:HL( 'LineNr', 'Helgen', 'Solitude','none' )
 "TODO
@@ -304,6 +304,7 @@ if g:alduin_Shout_Become_Ethereal
     call s:HL( 'LineNr', 'Riften', 'Abyss','none' )
     call s:HL( 'String', 'Paarthurnax', 'Solitude', 'none' )
     call s:HL( 'CursorLine', '', 'Solitude', 'none' )
+    call s:HL( 'CursorLineNR', 'Nightingale', 'Abyss', 'none' )
     call s:HL( 'ColorColumn', '', 'Solitude', '' )
     call s:HL( 'TabLineFill', 'Winterhold', 'Abyss', 'none' )
     call s:HL( 'TabLine', 'Winterhold', 'Abyss', 'none' )
