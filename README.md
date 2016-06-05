@@ -1,6 +1,6 @@
-![Screenshot Alduin](https://cloud.githubusercontent.com/assets/11221489/12768994/d08b5f52-c9c8-11e5-81ec-aa05577e41a6.jpg)
-![Screenshots](https://cloud.githubusercontent.com/assets/11221489/13072382/d2575eaa-d44d-11e5-9a31-89ed30ff32b3.jpg)
+![Screenshots](https://cloud.githubusercontent.com/assets/11221489/15804998/979d1f1e-2ad0-11e6-8c8a-837db28d17d3.png)
 
+![Screenshots](https://cloud.githubusercontent.com/assets/11221489/15805002/ae6c4abc-2ad0-11e6-860d-eeef35b83cdc.png)
 Alduin
 ------
 
