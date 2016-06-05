@@ -1,10 +1,11 @@
-![Screenshots](https://cloud.githubusercontent.com/assets/11221489/15804998/979d1f1e-2ad0-11e6-8c8a-837db28d17d3.png)
-
-![Screenshots](https://cloud.githubusercontent.com/assets/11221489/15805002/ae6c4abc-2ad0-11e6-860d-eeef35b83cdc.png)
 Alduin
 ------
 
 A Vim colorscheme.
+
+![Screenshots](https://cloud.githubusercontent.com/assets/11221489/15804998/979d1f1e-2ad0-11e6-8c8a-837db28d17d3.png)
+
+![Screenshots](https://cloud.githubusercontent.com/assets/11221489/15805002/ae6c4abc-2ad0-11e6-860d-eeef35b83cdc.png)
 
 Installation
 ---------------
