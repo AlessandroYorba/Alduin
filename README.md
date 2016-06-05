@@ -18,12 +18,12 @@ There a few ways to install alduin. The first option is by using your favorite v
 ###### Package Manager Option
 
 | Package Manger   |                |                                                                           |
-|------------------|--------------------------------------------------------------------------------------------|
+|------------------|----------------|---------------------------------------------------------------------------|
 | Vundle           | add to .vimrc  | `Plugin 'alessandroyorba/alduin'`                                         |
 | NeoBundle        | add to .vimrc  | `NeoBundle 'alessandroyorba/alduin'`                                      |
 | VimPlug          | add to .vimrc  | `Plug 'alessandroyorba/alduin'`                                           |
 | Pathogen         | from terminal: | `cd ~/.vim/bundle && \ git clone git://github.com/alessandroyorba/alduin` |
-|------------------|--------------------------------------------------------------------------------------------|
+|------------------|----------------|---------------------------------------------------------------------------|
 
 ###### Download Option
 Download the .zip and copy `alduin.vim` to `~/.vim/colors` (on Windows `<your-vim-dir>\vimfiles\colors`). Or for global accessibility, `/usr/share/vim/vimfiles/colors`.
