@@ -11,56 +11,52 @@ Inspiration
 
 The idea behind Alduin was to create a dark colorscheme that combined warm yet soft colors for high readability with low distraction. Some of the features, and design cues pay homage to schemes like Jeet Sukumaran's [Sorcerer](http://jeetworks.org/sorcerer/), Ciaran McCreesh's [Inkpot](https://github.com/ciaranm/inkpot), as well as Romain Lafourcade's [Apprentice](https://github.com/romainl/Apprentice), and Steve Losh's [Badwolf](https://github.com/sjl/badwolf).
 
+Installation
+---------------
+There a few ways to install alduin. The first option is by using your favorite vim package manager. The second way is by manual download.
+
+### Package Manager Option ###
+
+Vundle users:
+```
+Plugin 'alessandroyorba/alduin'
+```
+
+NeoBundle users:
+```
+NeoBundle 'alessandroyorba/alduin'
+```
+
+VimPlug users:
+```
+Plug 'alessandroyorba/alduin'
+```
+
+Pathogen users:
+Run the following in a terminal:
+```
+cd ~/.vim/bundle
+git clone https://github.com/alessandroyorba/alduin
+```
+
+### Download Option ###
+Download the .zip and copy `alduin.vim` to `~/.vim/colors` (on Windows `<your-vim-dir>\vimfiles\colors`). Or for global accessibility, `/usr/share/vim/vimfiles/colors`.
+
+
 Alduin Settings
 ---------------
+Options must be set before the line `colorscheme alduin`.
 
-#### Alduin Mode ####
-To make alduin your default colorscheme add this to your .vimrc:
-
-```VimL
-colorscheme alduin
 ```
-
-
-#### Become Ethereal ####
-Add the following to your .vimrc to enable Alduin's darker version:
-
-```VimL
-" Dark Version of Alduin
-let g:alduin_Shout_Become_Ethereal = 1
-colorscheme alduin
-```
-
-
-#### Contract Vampirism ####
-If you're finding yourself using the default alduin throughout the day and then at night you're enabling Ethereal mode; you might have the onset of Sanguinare Vampiris syndrome. Try adding `let g:alduin_Contract_Vampirism = 1` to your vimrc. This will automatically enable Ethereal mode when you launch Vim after 5pm and then reset to the default alduin for the following morning. **Please note that this feature is experimental.
-
-```VimL
-"Starts at 5pm - Ends at 7am
-let g:alduin_Contract_Vampirism = 1
-colorscheme alduin
-```
-
-
-#### Aura Whisper ####
-This is will change the default MatchParen highlight group so that when your cursor is at a brace or parenthesis the matching set will be underlined in Ivory. 
-
-```VimL
-let g:alduin_Shout_Aura_Whisper = 1
-colorscheme alduin
-```
-
-#### Fire Breath ####
-Changes the `Special` Highlight foreground color to a dark red color and Changes `Title` Highlight foreground color to a light red. Warning this setting is not for Milk Drinkers.
-
-```VimL
-let g:alduin_Shout_Fire_Breath = 1
-colorscheme alduin
+let g:alduin_Shout_Become_Ethereal = 1   " Enable a darker version of alduin
+let g:alduin_Contract_Vampirism = 1      " Enables Ethereal mode after 5pm
+let g:alduin_Shout_Aura_Whisper = 1      " Underline Matching Parens
+let g:alduin_Shout_Fire_Breath = 1       " Dark Red for Special Highlight group
 ```
 
 Moar Screenshots
 ------------
-The screenshots of Alduin were made and tested using a default Vi IMproved 7.4 in [iTerm 2.1.4](https://www.iterm2.com) and the Vi IMproved 7.4 in the GUI MacVim app. Extended syntax for JavaScript provided by Jose Elera Campana's Plug-in [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax). Enjoy!!
+The screenshots of Alduin were made and tested using a default Vi IMproved 7.4 in [iTerm 3](https://www.iterm2.com) and the Vi IMproved 7.4 in the GUI MacVim app. Extended syntax found in Javascript screenshots provided by Jose Elera Campana's Plug-in [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax). Enjoy!!
 
 [Additional Screenshots](https://github.com/AlessandroYorba/Alduin/issues/5)
 
