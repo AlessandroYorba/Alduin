@@ -4,7 +4,6 @@ Alduin
 A Vim colorscheme.
 
 ###### Enable alduin
-------
 ```VimL
 colorscheme alduin
 ```
@@ -12,7 +11,6 @@ colorscheme alduin
 
 
 ###### Enable alduin Ethereal Mode with Fire Breath
-------
 ```VimL
 let g:alduin_Shout_Become_Ethereal = 1   " Enable a darker version of alduin
 let g:alduin_Shout_Fire_Breath = 1       " Dark Red for Special Highlight group
