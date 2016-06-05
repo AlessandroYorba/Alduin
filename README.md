@@ -16,6 +16,7 @@ Installation
 There a few ways to install alduin. The first option is by using your favorite vim package manager. The second way is by manual download.
 
 ###### Package Manager Option
+| Manager          |                 |                                                                           |
 |------------------|-----------------|---------------------------------------------------------------------------|
 | Vundle           | add to .vimrc:  | `Plugin 'alessandroyorba/alduin'`                                         |
 | NeoBundle        | add to .vimrc:  | `NeoBundle 'alessandroyorba/alduin'`                                      |
