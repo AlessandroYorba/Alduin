@@ -36,7 +36,7 @@ Download the .zip and copy `alduin.vim` to `~/.vim/colors` (on Windows `<your-vi
 
 Alduin Settings
 ---------------
-There are several options that you can enable for alduin. You can activate them by adding the following variables to your .vimrc. Just remember to place the variable before you declare `colorscheme alduin`.
+There are several options that you can enable for alduin. You can activate them by adding the following variables to your .vimrc. Just remember to place the variables before you declare `colorscheme alduin`.
 
 ```VimL
 let g:alduin_Shout_Become_Ethereal = 1   " Enable a darker version of alduin
