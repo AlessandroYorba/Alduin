@@ -4,8 +4,17 @@ Alduin
 A Vim colorscheme.
 
 ![Screenshots](https://cloud.githubusercontent.com/assets/11221489/15804998/979d1f1e-2ad0-11e6-8c8a-837db28d17d3.png)
+```
+colorscheme alduin
+```
 
 ![Screenshots](https://cloud.githubusercontent.com/assets/11221489/15805002/ae6c4abc-2ad0-11e6-860d-eeef35b83cdc.png)
+```
+let g:alduin_Shout_Become_Ethereal = 1   " Enable a darker version of alduin
+let g:alduin_Shout_Fire_Breath = 1       " Dark Red for Special Highlight group
+colorscheme alduin
+```
+
 
 Installation
 ---------------
@@ -24,9 +33,9 @@ Download the .zip and copy `alduin.vim` to `~/.vim/colors` (on Windows `<your-vi
 
 Alduin Settings
 ---------------
-There are several options that you can enable for alduin. You can activate them by adding the variable to .vimrc. Just remember to place the variable before you declare `colorscheme alduin`.
+There are several options that you can enable for alduin. You can activate them by adding the following variables to your .vimrc. Just remember to place the variable before you declare `colorscheme alduin`.
 
-```
+```VimL
 let g:alduin_Shout_Become_Ethereal = 1   " Enable a darker version of alduin
 let g:alduin_Contract_Vampirism = 1      " Enables Ethereal mode after 5pm
 let g:alduin_Shout_Aura_Whisper = 1      " Underline Matching Parens
