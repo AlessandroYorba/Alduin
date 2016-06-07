@@ -3,9 +3,10 @@ Alduin
 
 A Vim colorscheme.
 
-![Screenshots](https://cloud.githubusercontent.com/assets/11221489/15804998/979d1f1e-2ad0-11e6-8c8a-837db28d17d3.png)
-
-![Screenshots](https://cloud.githubusercontent.com/assets/11221489/15805002/ae6c4abc-2ad0-11e6-860d-eeef35b83cdc.png)
+![Screenshot](http://bit.ly/1svr0Kh)
+```VimL
+colorscheme alduin
+```
 
 
 Installation
@@ -13,12 +14,12 @@ Installation
 There a few ways to install alduin. The first option is by using your favorite vim package manager. The second way is by manual download.
 
 ###### Package Manager Option
-| Manager          |                 |                                                                           |
-|------------------|-----------------|---------------------------------------------------------------------------|
-| Vundle           | add to .vimrc:  | `Plugin 'alessandroyorba/alduin'`                                         |
-| NeoBundle        | add to .vimrc:  | `NeoBundle 'alessandroyorba/alduin'`                                      |
-| VimPlug          | add to .vimrc:  | `Plug 'alessandroyorba/alduin'`                                           |
-| Pathogen         | from terminal:  | `cd ~/.vim/bundle && \ git clone git://github.com/alessandroyorba/alduin` |
+| Manager          | SetUp                                                                                      |
+|------------------|--------------------------------------------------------------------------------------------|
+| Vundle           | add to .vimrc:   `Plugin 'alessandroyorba/alduin'`                                         |
+| NeoBundle        | add to .vimrc:   `NeoBundle 'alessandroyorba/alduin'`                                      |
+| VimPlug          | add to .vimrc:   `Plug 'alessandroyorba/alduin'`                                           |
+| Pathogen         | from terminal:   `cd ~/.vim/bundle && \ git clone git://github.com/alessandroyorba/alduin` |
 
 ###### Download Option
 Download the .zip and copy `alduin.vim` to `~/.vim/colors` (on Windows `<your-vim-dir>\vimfiles\colors`). Or for global accessibility, `/usr/share/vim/vimfiles/colors`.
@@ -27,12 +28,13 @@ Alduin Settings
 ---------------
 There are several options that you can enable for alduin. You can activate them by adding the following variables to your .vimrc. Just remember to place the variables before you declare `colorscheme alduin`.
 
-```VimL
-let g:alduin_Shout_Become_Ethereal = 1   " Enable a darker version of alduin
-let g:alduin_Contract_Vampirism = 1      " Enables Ethereal mode after 5pm
-let g:alduin_Shout_Aura_Whisper = 1      " Underline Matching Parens
-let g:alduin_Shout_Fire_Breath = 1       " Dark Red for Special Highlight group
-```
+| Setting                          | Add to .vimrc                            | Screenshot                                                                |
+|----------------------------------|------------------------------------------|---------------------------------------------------------------------------|
+| Default                          | `colorscheme alduin`                     | ![example](http://bit.ly/1svr0Kh)|
+| Darker Version                   | `let g:alduin_Shout_Become_Ethereal = 1` | ![example](http://bit.ly/1TXW6GB)|
+| Enable Darker Version after 5pm  | `let g:alduin_Contract_Vampirism = 1`    | ![example](http://bit.ly/1TXW6GB)|
+| Underline Matching Parens        | `let g:alduin_Shout_Aura_Whisper = 1`    | ![example](http://bit.ly/1PFlwXH)|
+| Dark Red Special Highlight       | `let g:alduin_Shout_Fire_Breath = 1`     | ![example](http://bit.ly/24xq9Vc)|
 
 Moar Screenshots
 ------------
