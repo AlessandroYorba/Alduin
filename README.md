@@ -30,11 +30,11 @@ There are several options that you can enable for alduin. You can activate them 
 
 | Setting                          | Add to .vimrc                            | Screenshot                                                                |
 |----------------------------------|------------------------------------------|---------------------------------------------------------------------------|
-| Default                          | `colorscheme alduin`                     | ![example](http://bit.ly/1svr0Kh)|
-| Darker Version                   | `let g:alduin_Shout_Become_Ethereal = 1` | ![example](http://bit.ly/1TXW6GB)|
-| Enable Darker Version after 5pm  | `let g:alduin_Contract_Vampirism = 1`    | ![example](http://bit.ly/1TXW6GB)|
-| Underline Matching Parens        | `let g:alduin_Shout_Aura_Whisper = 1`    | ![example](http://bit.ly/1PFlwXH)|
-| Dark Red Special Highlight       | `let g:alduin_Shout_Fire_Breath = 1`     | ![example](http://bit.ly/24xq9Vc)|
+| Default                          | `colorscheme alduin`                     | [example](http://bit.ly/1svr0Kh)|
+| Darker Version                   | `let g:alduin_Shout_Become_Ethereal = 1` | [example](http://bit.ly/1TXW6GB)|
+| Enable Darker Version after 5pm  | `let g:alduin_Contract_Vampirism = 1`    | [example](http://bit.ly/1TXW6GB)|
+| Underline Matching Parens        | `let g:alduin_Shout_Aura_Whisper = 1`    | [example](http://bit.ly/1PFlwXH)|
+| Dark Red Special Highlight       | `let g:alduin_Shout_Fire_Breath = 1`     | [example](http://bit.ly/24xq9Vc)|
 
 Moar Screenshots
 ------------
