@@ -11,7 +11,7 @@ colorscheme alduin
 
 Installation
 ---------------
-There a few ways to install alduin. The first option is by using your favorite vim package manager. The second way is by manual download.
+There are a few ways to install alduin. The first option is by using your favorite vim package manager and the second is by manual download.
 
 ###### Package Manager Option
 | Manager          | SetUp                                                                                      |
@@ -26,7 +26,7 @@ Download the .zip and copy `alduin.vim` to `~/.vim/colors` (on Windows `<your-vi
 
 Alduin Settings
 ---------------
-There are several options that you can enable for alduin. You can activate them by adding the following variables to your .vimrc. Just remember to place the variables before you declare `colorscheme alduin`.
+There are several options that you can enable for alduin. You can activate them by adding each of the following variables to your .vimrc. Remember to place the variables before you declare `colorscheme alduin`.
 
 | Setting                          | Add to .vimrc                            | Screenshot                                                                |
 |----------------------------------|------------------------------------------|---------------------------------------------------------------------------|
