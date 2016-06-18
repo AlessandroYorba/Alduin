@@ -4,9 +4,6 @@ Alduin
 A Vim colorscheme.
 
 ![Screenshot](http://bit.ly/1svr0Kh)
-```VimL
-colorscheme alduin
-```
 
 
 Installation
