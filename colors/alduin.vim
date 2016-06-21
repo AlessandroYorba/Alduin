@@ -19,55 +19,50 @@
 
 set background=dark
 
+
 highlight clear
 if exists("syntax_on")
     syntax reset
 endif
 
 
-" Alduin Shouts:
+"----------------------------------------------------------------
+" SET DEFAULT PARAMETERS:
 "----------------------------------------------------------------
 
-" Default:
+
 let g:colors_name="alduin"
 
 
-" Aura Whisper:
-" Change the MatchParen HL to Underlined
 if !exists( "g:alduin_Shout_Aura_Whisper") " {{{
     let g:alduin_Shout_Aura_Whisper = 0
 endif " }}}
 
 
-" Fire Breath:
-" Change the Special HL foreground color to Sahloknir
 if !exists( "g:alduin_Shout_Fire_Breath" ) " {{{
     let g:alduin_Shout_Fire_Breath = 0
 endif " }}}
 
-" Clear Skies:
-if !exists( "g:alduin_Shout_Clear_Skies" ) "{{{
-    let g:alduin_Shout_Clear_Skies = 0
-endif
 
-" Become Ethereal:
-" Changes the Default Alduin to a Darker Version
 if !exists( "g:alduin_Shout_Become_Ethereal" ) " {{{
     let g:alduin_Shout_Become_Ethereal = 0
 endif " }}}
 
-" Contract Vampirism:
-" Automatically changes the Alduin to Ethereal after 5pm
+
 if !exists( "g:alduin_Contract_Vampirism") " {{{
     let g:alduin_Contract_Vampirism = 0
 endif " }}}
 
 
+"-------------------------------------------
+" ALL COLORS:
+"-------------------------------------------
 
-" Colors:
-"----------------------------------------------------------------
+
 let s:alduin = {}
 
+
+" Variable ColorName       [   gui    term ] 
 let s:alduin.Abyss       = [ '000000', 16  ]
 let s:alduin.Krosulhah   = [ '5f0000', 52  ]
 let s:alduin.Morthal     = [ '5f5f87', 60  ]
@@ -141,44 +136,41 @@ function! s:HL(group, fg, ...)
 endfunction
 
 
+"--------------------------------------------------------------------
+" HIGLIGHT GROUPS:
+"--------------------------------------------------------------------
+
+
 " Editor Settings:
-"--------------------------------------------------------------------------------
 call s:HL( 'Normal', 'Whiterun', 'Skyrim', '' )
 call s:HL( 'CursorLineNR', 'Nightingale', 'Solitude', 'none' )
 call s:HL( 'CursorLine', '', 'Ivarstead', 'none' )
 call s:HL( 'LineNr', 'Helgen', 'Solitude','none' )
-"TODO
 "call s:HL( 'Cursor', '', '',          '' )
 
 
 " Number Column:
-"--------------------------------------------------------------------------------
 call s:HL( 'FoldColumn', 'Mirmulnir', 'Skyrim', '' )
 call s:HL( 'Folded', 'Whiterun', 'Dawnstar', 'none' )
 call s:HL( 'SignColumn', 'Winterhold', 'Solitude','none' )
-"TODO
 "call s:HL( 'CursorColumn', '', '', '' )
 
 
 " WindowTab Delimiters:
-"--------------------------------------------------------------------------------
 call s:HL( 'VertSplit', 'Winterhold', 'Ivarstead', 'none' )
 call s:HL( 'TabLine', 'Winterhold', 'Solitude', 'none' )
 call s:HL( 'TabLineFill', 'Winterhold', 'Solitude', 'none' )
 call s:HL( 'TabLineSel', 'Solitude', 'Winterhold', 'none' )
-"TODO
 call s:HL( 'ColorColumn', '', 'Ivarstead', '' )
 
 
 " File Navigation: 
-"--------------------------------------------------------------------------------
 call s:HL( 'Directory', 'Windhelm', '', 'none' )
 call s:HL( 'Search', 'Whiterun', 'Krosulhah', 'none' )
 call s:HL( 'IncSearch', 'Windhelm', '', 'reverse' )
 
 
 " Prompt Status:
-"--------------------------------------------------------------------------------
 call s:HL( 'StatusLine', 'Solitude', 'Winterhold', 'none' )
 call s:HL( 'StatusLineNC', 'Winterhold', 'Riften', 'none' )
 call s:HL( 'WildMenu', 'Whiterun', 'Krosulhah', 'none' )
@@ -189,7 +181,6 @@ call s:HL( 'Question', 'Durnehviir', '', '' )
 
 
 " Visual Aid: 
-"--------------------------------------------------------------------------------
 call s:HL( 'MatchParen', 'Skyrim', 'Viinturuth', 'none' )
 call s:HL( 'Visual', 'Whiterun', 'Krosulhah', 'none' )
 call s:HL( 'VisualNOS', '', '', 'underline' )
@@ -200,12 +191,10 @@ call s:HL( 'Error', 'Windhelm', 'Solitude', 'reverse' )
 call s:HL( 'ErrorMsg', 'Windhelm', 'Solitude', 'reverse' )
 call s:HL( 'WarningMsg', 'Windhelm', '', 'none' )
 call s:HL( 'SpecialKey', 'Mirmulnir', '', '' )
-"TODO
 "call s:HL( 'Ignore', '', '', '' )
 
 
 " Variable Types:
-"--------------------------------------------------------------------------------
 call s:HL( 'Constant', 'Kruziikrel', '', 'none' )
 call s:HL( 'String', 'Paarthurnax', 'Ivarstead', 'none' )
 call s:HL( 'Character', 'Odahviing', '', 'none' )
@@ -214,12 +203,10 @@ call s:HL( 'Boolean', 'Odahviing', '', 'none' )
 call s:HL( 'Float', 'Odahviing', '', 'none' )
 call s:HL( 'Identifier', 'Mirmulnir', '', 'none' )
 call s:HL( 'Function', 'Durnehviir', '', 'none' )
-"TODO
 "call s:HL( 'StringDelimiter', '', '', '' )
 
 
 " Language Constructs:
-"--------------------------------------------------------------------------------
 call s:HL( 'Statement', 'Relonikiv', '', 'none' )
 call s:HL( 'Conditional', 'Relonikiv', '', 'none' )
 call s:HL( 'Repeat', 'Relonikiv', '', 'none' )
@@ -230,7 +217,6 @@ call s:HL( 'Exception', 'Relonikiv', '', 'none' )
 call s:HL( 'Comment', 'Winterhold', '', 'none' )
 call s:HL( 'SpecialComment', 'Winterhold', 'Solitude', 'reverse' )
 call s:HL( 'Special', 'Windhelm', '', 'none' )
-"TODO
 "call s:HL( 'SpecialChar', '', '', '' )
 "call s:HL( 'Tag', '', '', '' )
 "call s:HL( 'Delimiter', '', '', '' )
@@ -239,7 +225,6 @@ call s:HL( 'Special', 'Windhelm', '', 'none' )
 
 
 " C Like:
-"--------------------------------------------------------------------
 call s:HL( 'PreProc', 'Sahrotaar', '', 'none' )
 call s:HL( 'Include', 'Sahrotaar', '', 'none' )
 call s:HL( 'Define', 'Sahrotaar', '', 'none' )
@@ -252,13 +237,11 @@ call s:HL( 'Typedef', 'Viinturuth', '', 'none' )
 
 
 " HTML:
-"--------------------------------------------------------------------
 call s:HL( 'htmlArg', 'Durnehviir', '', 'none' )
 call s:HL( 'htmlItalic', 'Sahrotaar', '', 'none' )
 
 
 " Diff:
-"--------------------------------------------------------------------
 call s:HL( 'DiffAdd', 'Ivarstead', 'Windpeak', 'none' )
 call s:HL( 'DiffChange', 'Ivarstead', 'Morthal', 'none' )
 call s:HL( 'DiffDelete', 'Ivarstead', 'Windhelm', 'none' )
@@ -266,7 +249,6 @@ call s:HL( 'DiffText', 'Ivarstead', 'Falkreath', 'none' )
 
 
 " Completion Menu:
-"--------------------------------------------------------------------
 call s:HL( 'Pmenu', 'Winterhold', 'Solitude', 'none' )
 call s:HL( 'PmenuSel', 'Whiterun', 'Krosulhah', 'none' )
 call s:HL( 'PmenuSbar', '', 'Solitude', 'none' )
@@ -274,23 +256,24 @@ call s:HL( 'PmenuThumb', '', 'Whiterun', '' )
 
 
 " Spelling:
-"--------------------------------------------------------------------
 call s:HL( 'SpellBad', 'Windhelm', '', 'undercurl' )
-"TODO
 "call s:HL( 'SpellCap', '', '', '' )
 "call s:HL( 'SpellLocal', '', '', '' )
 "call s:HL( 'SpellRare', '', '', '' )
 
 
-" Aura Whisper:
 "--------------------------------------------------------------------
+" CONFIGURABLE PARAMETERS:
+"--------------------------------------------------------------------
+
+
+" Aura Whisper:
 if g:alduin_Shout_Aura_Whisper
     call s:HL( 'MatchParen', 'Ivory', 'Skyrim', 'underline' )
 end
 
 
 " Fire Breath:
-"--------------------------------------------------------------------
 if g:alduin_Shout_Fire_Breath
     call s:HL( 'Special', 'Sahloknir', '', 'none' )
     call s:HL( 'Title', 'Windhelm', '', 'none' )
@@ -298,7 +281,6 @@ end
 
 
 " Become Ethereal: 
-"--------------------------------------------------------------------
 if g:alduin_Shout_Become_Ethereal
     call s:HL( 'Normal', 'Whiterun', 'Ethereal', 'none' )
     call s:HL( 'LineNr', 'Riften', 'Abyss','none' )
@@ -311,11 +293,11 @@ if g:alduin_Shout_Become_Ethereal
     call s:HL( 'VertSplit', 'Winterhold', 'Solitude', 'none' )
     call s:HL( 'FoldColumn', 'Mirmulnir', 'Ethereal', '' )
     call s:HL( 'SignColumn', 'Winterhold', 'Abyss','none' )
+    call s:HL( 'Todo', 'Odahviing', 'Ethereal', 'italic' )
 end
 
 
 " Contract Vampirism: 
-"--------------------------------------------------------------------
 if g:alduin_Contract_Vampirism
     let alduin_Hour = strftime("%H") 
     if 7 <= alduin_Hour && alduin_Hour < 17
@@ -324,4 +306,3 @@ if g:alduin_Contract_Vampirism
         let g:alduin_Shout_Become_Ethereal = 1
     endif
 end
-
