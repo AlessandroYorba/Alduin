@@ -66,6 +66,7 @@ let s:alduin = {}
 let s:alduin.Abyss       = [ '000000', 16  ]
 let s:alduin.Krosulhah   = [ '5f0000', 52  ]
 let s:alduin.Morthal     = [ '5f5f87', 60  ]
+let s:alduin.Cragslane   = [ '5f875f', 65  ]
 let s:alduin.Dawnstar    = [ '5f8787', 66  ]
 let s:alduin.Durnehviir  = [ '875f5f', 95  ]
 let s:alduin.Winterhold  = [ '87875f', 101 ]
@@ -73,6 +74,7 @@ let s:alduin.Relonikiv   = [ '878787', 102 ]
 let s:alduin.Falkreath   = [ '8787af', 103 ]
 let s:alduin.Windpeak    = [ '87af87', 108 ]
 let s:alduin.Mirmulnir   = [ '87afaf', 109 ]
+let s:alduin.Chillwind   = [ '87afff', 111 ]
 let s:alduin.Markarth    = [ '87ffaf', 121 ]
 let s:alduin.Sahloknir   = [ 'af0000', 124 ]
 let s:alduin.Odahviing   = [ 'af5f00', 130 ]
@@ -82,6 +84,8 @@ let s:alduin.Kruziikrel  = [ 'af8787', 138 ]
 let s:alduin.Riverwood   = [ 'afd7d7', 152 ]
 let s:alduin.Sahrotaar   = [ 'dfaf87', 180 ]
 let s:alduin.Whiterun    = [ 'dfdfaf', 187 ]
+let s:alduin.Redoran     = [ 'ff0000', 196 ]
+let s:alduin.Honeystrand = [ 'ff8700', 208 ]
 let s:alduin.Paarthurnax = [ 'ffdf87', 222 ]
 let s:alduin.Ethereal    = [ '080808', 232 ]
 let s:alduin.Solitude    = [ '121212', 233 ]
@@ -256,10 +260,10 @@ call s:HL( 'PmenuThumb', '', 'Whiterun', '' )
 
 
 " Spelling:
-call s:HL( 'SpellBad', 'Windhelm', '', 'undercurl' )
-"call s:HL( 'SpellCap', '', '', '' )
-"call s:HL( 'SpellLocal', '', '', '' )
-"call s:HL( 'SpellRare', '', '', '' )
+call s:HL( 'SpellBad', 'Redoran', 'Skyrim', 'undercurl' )
+call s:HL( 'SpellCap', 'Chillwind', 'Skyrim', 'undercurl' )
+call s:HL( 'SpellLocal', 'Cragslane', 'Skyrim', 'undercurl' )
+call s:HL( 'SpellRare', 'Honeystrand', 'Skyrim', 'undercurl' )
 
 
 "--------------------------------------------------------------------
