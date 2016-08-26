@@ -34,24 +34,39 @@ endif
 let g:colors_name="alduin"
 
 
-if !exists( "g:alduin_Shout_Aura_Whisper") " {{{
+if !exists("g:alduin_Shout_Clear_Skies")
+    let g:alduin_Shout_Clear_Skies = 0
+endif
+
+
+if !exists("g:alduin_Shout_Animal_Allegiance")
+    let g:alduin_Shout_Animal_Allegiance = 0
+endif
+
+"TODO
+if !exists( "g:alduin_Shout_Dragon_Aspect" )
+    let g:alduin_Shout_Dragon_Aspect = 0
+endif 
+"TODO
+
+if !exists( "g:alduin_Shout_Aura_Whisper")
     let g:alduin_Shout_Aura_Whisper = 0
-endif " }}}
+endif
 
 
-if !exists( "g:alduin_Shout_Fire_Breath" ) " {{{
+if !exists( "g:alduin_Shout_Fire_Breath" )
     let g:alduin_Shout_Fire_Breath = 0
-endif " }}}
+endif
 
 
-if !exists( "g:alduin_Shout_Become_Ethereal" ) " {{{
+if !exists( "g:alduin_Shout_Become_Ethereal" )
     let g:alduin_Shout_Become_Ethereal = 0
-endif " }}}
+endif
 
 
-if !exists( "g:alduin_Contract_Vampirism") " {{{
+if !exists( "g:alduin_Contract_Vampirism")
     let g:alduin_Contract_Vampirism = 0
-endif " }}}
+endif
 
 
 "-------------------------------------------
@@ -300,6 +315,22 @@ if g:alduin_Shout_Become_Ethereal
     call s:HL( 'Todo', 'Odahviing', 'Ethereal', 'italic' )
 end
 
+" Clear Skies:
+if g:alduin_Shout_Clear_Skies
+    hi CursorLine ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE
+end
+
+
+" Animal Allegiance:
+if g:alduin_Shout_Animal_Allegiance
+    hi String ctermbg=NONE guibg=NONE
+end
+
+"TODO
+" Dragon Aspect:
+if g:alduin_Shout_Dragon_Aspect
+end
+"TODO
 
 " Contract Vampirism: 
 if g:alduin_Contract_Vampirism
