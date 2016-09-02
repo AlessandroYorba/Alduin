@@ -9,8 +9,8 @@
 
 
 
-" A Terminal Vim colorscheme 
-" Author:       Alessandro Yorba 
+" A Terminal Vim colorscheme
+" Author:       Alessandro Yorba
 " Script URL:   https://github.com/AlessandroYorba/Alduin
 " License:      MIT
 
@@ -18,18 +18,18 @@
 "COLOR PALETTE:
 "================================================================================
 
-"White:                   
+"White:
 "================================================================================
 "Whiterun        187      #dfdfaf      http://www.colorhexa.com/dfdfaf
 "Ivory           255      #eeeeee      http://www.colorhexa.com/eeeeee
 
-"Black:                   
+"Black:
 "================================================================================
 "Abyss           16       #000000     http://www.colorhexa.com/000000
 "Ethereal        232      #080808     http://www.colorhexa.com/080808
 "Solitude        233      #121212     http://www.colorhexa.com/121212
 
-"Gray:                    
+"Gray:
 "================================================================================
 "Relonikiv       102      #878787      http://www.colorhexa.com/878787
 "Skyrim          234      #1c1c1c      http://www.colorhexa.com/1c1c1c
@@ -39,7 +39,7 @@
 "Helgen          238      #444444      http://www.colorhexa.com/444444
 "Nightingale     240      #585858      http://www.colorhexa.com/585858
 
-"Red:                      
+"Red:
 "================================================================================
 "Durnehviir      95       #875f5f     http://www.colorhexa.com/875f5f
 "Krosulhah       52       #5f0000     http://www.colorhexa.com/5f0000
@@ -63,7 +63,7 @@
 "Riverwood       152      #afd7d7     http://www.colorhexa.com/afd7d7
 "Mirmulnir       109      #87afaf     http://www.colorhexa.com/87afaf
 "Dawnstar        66       #5f8787     http://www.colorhexa.com/5f8787
-"Chillwind       111      #87afff     http://www.colorhexa.com/87afff         
+"Chillwind       111      #87afff     http://www.colorhexa.com/87afff
 
 "Blue:
 "================================================================================
@@ -101,7 +101,7 @@ endif
 "TODO
 if !exists( "g:alduin_Shout_Dragon_Aspect" )
     let g:alduin_Shout_Dragon_Aspect = 0
-endif 
+endif
 "TODO
 
 if !exists( "g:alduin_Shout_Aura_Whisper")
@@ -125,30 +125,30 @@ endif
 "================================================================================
 
 " Editor Settings:
-hi Normal           ctermfg=187     guifg=#dfdfaf     ctermbg=234      guibg=#1c1c1c     cterm=NONE      gui=NONE 
-hi CursorLine       ctermfg=NONE    guifg=NONE        ctermbg=235      guibg=#262626     cterm=NONE      gui=NONE 
-hi LineNr           ctermfg=238     guifg=#444444     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE 
-hi CursorLineNR     ctermfg=240     guifg=#585858     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE 
+hi Normal           ctermfg=187     guifg=#dfdfaf     ctermbg=234      guibg=#1c1c1c     cterm=NONE      gui=NONE
+hi CursorLine       ctermfg=NONE    guifg=NONE        ctermbg=235      guibg=#262626     cterm=NONE      gui=NONE
+hi LineNr           ctermfg=238     guifg=#444444     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
+hi CursorLineNR     ctermfg=240     guifg=#585858     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
 
 " Number Column:
-hi Folded           ctermfg=187     guifg=#dfdfaf     ctermbg=66       guibg=#5f8787     cterm=NONE      gui=NONE 
-hi FoldColumn       ctermfg=109     guifg=#87afaf     ctermbg=234      guibg=#1c1c1c     cterm=NONE      gui=NONE 
+hi Folded           ctermfg=187     guifg=#dfdfaf     ctermbg=66       guibg=#5f8787     cterm=NONE      gui=NONE
+hi FoldColumn       ctermfg=109     guifg=#87afaf     ctermbg=234      guibg=#1c1c1c     cterm=NONE      gui=NONE
 hi SignColumn       ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#1c1c1c     cterm=NONE      gui=NONE
 
 " WindowTab Delimiters:
 hi VertSplit        ctermfg=101     guifg=#87875f     ctermbg=235      guibg=#262626     cterm=NONE      gui=NONE
-hi TabLine          ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE    
+hi TabLine          ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
 hi TabLineFill      ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
 hi TabLineSel       ctermfg=233     guifg=#121212     ctermbg=101      guibg=#87875f     cterm=NONE      gui=NONE
 hi ColorColumn      ctermfg=NONE    guifg=NONE        ctermbg=235      guibg=#262626     cterm=NONE      gui=NONE
 
-" File Navigation: 
+" File Navigation:
 hi Search           ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f0000     cterm=NONE      gui=NONE
 hi Directory        ctermfg=131     guifg=#af5f5f     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi IncSearch        ctermfg=131     guifg=#af5f5f     ctermbg=NONE     guibg=NONE        cterm=reverse   gui=reverse
 
 " Prompt Status:
-hi StatusLine       ctermfg=233     guifg=#121212     ctermbg=101      guibg=#87875f     cterm=NONE      gui=NONE 
+hi StatusLine       ctermfg=233     guifg=#121212     ctermbg=101      guibg=#87875f     cterm=NONE      gui=NONE
 hi StatusLineNC     ctermfg=101     guifg=#87875f     ctermbg=236      guibg=#303030     cterm=NONE      gui=NONE
 hi WildMenu         ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f0000     cterm=NONE      gui=NONE
 hi Title            ctermfg=180     guifg=#dfaf87     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
@@ -156,7 +156,7 @@ hi ModeMsg          ctermfg=109     guifg=#87afaf     ctermbg=NONE     guibg=NON
 hi Question         ctermfg=95      guifg=#875f5f     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi MoreMsg          ctermfg=180     guifg=#dfaf87     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 
-" Visual Aid: 
+" Visual Aid:
 hi MatchParen       ctermfg=234     guifg=#1c1c1c     ctermbg=137      guibg=#af875f     cterm=NONE      gui=NONE
 hi Visual           ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f0000     cterm=NONE      gui=NONE
 hi NonText          ctermfg=101     guifg=#87875f     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
@@ -164,7 +164,7 @@ hi SpecialKey       ctermfg=109     guifg=#87afaf     ctermbg=NONE     guibg=NON
 hi Underlined       ctermfg=152     guifg=#afd7d7     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi WarningMsg       ctermfg=131     guifg=#af5f5f     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi Todo             ctermfg=130     guifg=#af5f00     ctermbg=233      guibg=#121212     cterm=italic    gui=italic
-hi Error            ctermfg=131     guifg=#af5f5f     ctermbg=233      guibg=#121212     cterm=reverse   gui=reverse  
+hi Error            ctermfg=131     guifg=#af5f5f     ctermbg=233      guibg=#121212     cterm=reverse   gui=reverse
 hi ErrorMsg         ctermfg=131     guifg=#af5f5f     ctermbg=233      guibg=#121212     cterm=reverse   gui=reverse
 hi VisualNOS        ctermfg=NONE    guifg=NONE        ctermbg=NONE     guibg=NONE        cterm=underline gui=underline
 
@@ -217,7 +217,7 @@ hi PmenuSel         ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f
 hi PmenuSbar        ctermfg=NONE    guifg=NONE        ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
 hi PmenuThumb       ctermfg=NONE    guifg=NONE        ctermbg=187      guibg=#dfdfaf     cterm=NONE      gui=NONE
 
-" Spelling:                             
+" Spelling:
 hi SpellBad         ctermfg=196     guifg=#ff0000     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
 hi SpellLocal       ctermfg=65      guifg=#5f875f     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
 hi SpellCap         ctermfg=111     guifg=#87afff     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
@@ -238,7 +238,7 @@ hi SpellRare        ctermfg=208     guifg=#ff8700     ctermbg=NONE     guibg=NON
 " AURA WHISPER:
 "===================================================================================================================
 if g:alduin_Shout_Aura_Whisper
-    " Visual Aid: 
+    " Visual Aid:
     hi MatchParen     ctermfg=255     guifg=#eeeeee     ctermbg=234      guibg=#1c1c1c      cterm=underline gui=underline
 end
 
@@ -254,7 +254,7 @@ end
 
 
 "===================================================================================================================
-" BECOME ETHEREAL: 
+" BECOME ETHEREAL:
 "===================================================================================================================
 if g:alduin_Shout_Become_Ethereal
     " Editor Settings:
@@ -276,7 +276,7 @@ if g:alduin_Shout_Become_Ethereal
     hi SignColumn     ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
     hi FoldColumn     ctermfg=109     guifg=#87afaf     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
 
-    " Visual Aid: 
+    " Visual Aid:
     hi Todo           ctermfg=130     guifg=#af5f00     ctermbg=232      guibg=#080808     cterm=italic   gui=italic
 end
 
@@ -309,7 +309,7 @@ end
 " CONTRACT VAMPIRISM:
 "===================================================================================================================
 if g:alduin_Contract_Vampirism
-    let alduin_Hour = strftime("%H") 
+    let alduin_Hour = strftime("%H")
     if 7 <= alduin_Hour && alduin_Hour < 17
         let g:alduin_Shout_Become_Ethereal = 0
     else
