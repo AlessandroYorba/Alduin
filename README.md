@@ -27,11 +27,11 @@ There are several options that you can enable for alduin. You can activate them 
 
 | Decription                            | Add variables to .vimrc                     | Screenshot                                                                |
 |---------------------------------------|---------------------------------------------|--------------------------------------|
-| dark gray background                  | `colorscheme alduin`                        | ![Screenshot](https://goo.gl/GYng6s) |
-| black background                      | `let g:alduin_Shout_Become_Ethereal = 1`    | ![Screenshot](https://goo.gl/JqvYXp) |
-| gray to black @ 5pm                   | `let g:alduin_Contract_Vampirism = 1`       | ![Screenshot](https://goo.gl/JqvYXp) |
-| underline matching parens             | `let g:alduin_Shout_Aura_Whisper = 1`       | ![Screenshot](https://goo.gl/XsZ1HQ)|
-| adds dark red color                   | `let g:alduin_Shout_Fire_Breath = 1`        | ![Screenshot](https://goo.gl/LHqJWO)|
+| dark gray background                  | `colorscheme alduin`                        | [Screenshot](https://goo.gl/GYng6s) |
+| black background                      | `let g:alduin_Shout_Become_Ethereal = 1`    | [Screenshot](https://goo.gl/JqvYXp) |
+| gray to black @ 5pm                   | `let g:alduin_Contract_Vampirism = 1`       | [Screenshot](https://goo.gl/JqvYXp) |
+| underline matching parens             | `let g:alduin_Shout_Aura_Whisper = 1`       | [Screenshot](https://goo.gl/XsZ1HQ)|
+| adds dark red color                   | `let g:alduin_Shout_Fire_Breath = 1`        | [Screenshot](https://goo.gl/LHqJWO)|
 | removes background HL from cursorline | `let g:alduin_Shout_Clear_Skies = 1`        | coming soon |
 | remove background HL from string      | `let g:alduin_Shout_Animal_Allegiance = 1 ` | coming soon |
 
