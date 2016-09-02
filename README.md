@@ -3,7 +3,7 @@ Alduin
 
 A Vim colorscheme.
 
-![Screenshot](http://bit.ly/1svr0Kh)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18198290/8c150eba-70b0-11e6-8c35-4e1e0449b0cc.png)
 
 
 Installation
