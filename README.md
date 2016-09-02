@@ -27,11 +27,11 @@ There are several options that you can enable for alduin. You can activate them 
 
 | Setting                           | Add variables to .vimrc                     | Screenshot                                                                |
 |---------------------------------- |---------------------------------------------|---------------------------------------------------------------------------|
-| Default - gray background         | `colorscheme alduin`                        |![](https://cloud.githubusercontent.com/assets/11221489/15875736/58510f56-2cbe-11e6-96eb-67d96ab50029.png)  |
-| Darker - black background         | `let g:alduin_Shout_Become_Ethereal = 1`    |![](https://cloud.githubusercontent.com/assets/11221489/15875757/68e1c37e-2cbe-11e6-8cd0-e5227afbeeed.png) |
-| Go from default to darker @ 5pm   | `let g:alduin_Contract_Vampirism = 1`       | ![](https://cloud.githubusercontent.com/assets/11221489/15875757/68e1c37e-2cbe-11e6-8cd0-e5227afbeeed.png)|
-| Underline Matching Parens         | `let g:alduin_Shout_Aura_Whisper = 1`       | ![](https://cloud.githubusercontent.com/assets/11221489/15875772/7c233e22-2cbe-11e6-98b7-54c9a5bc917e.png)|
-| Adds a deep dark red color        | `let g:alduin_Shout_Fire_Breath = 1`        | ![](https://cloud.githubusercontent.com/assets/11221489/15875782/8896f482-2cbe-11e6-9f4b-30a05b6ea7e7.png)|
+| gray background                   | `colorscheme alduin`                        | ![](https://goo.gl/GYng6s) |
+| black background                  | `let g:alduin_Shout_Become_Ethereal = 1`    | ![](https://goo.gl/JqvYXp) |
+| darker @ 5pm                      | `let g:alduin_Contract_Vampirism = 1`       | ![](https://goo.gl/JqvYXp) |
+| Underline Matching Parens         | `let g:alduin_Shout_Aura_Whisper = 1`       | ![](https://goo.gl/XsZ1HQ)|
+| add dark red                      | `let g:alduin_Shout_Fire_Breath = 1`        | ![](https://goo.gl/LHqJWO)|
 | Removes background from CursorLine| `let g:alduin_Shout_Clear_Skies = 1`        | coming soon |
 | Removes background from Strings   | `let g:alduin_Shout_Animal_Allegiance = 1 ` | coming soon |
 
