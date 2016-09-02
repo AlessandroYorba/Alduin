@@ -25,15 +25,15 @@ Alduin Settings
 ---------------
 There are several options that you can enable for alduin. You can activate them by adding each of the following variables to your .vimrc. Remember to place the variables before you declare `colorscheme alduin`.
 
-| Add variables to .vimrc                     | Screenshot                                                                |
-|---------------------------------------------|---------------------------------------------------------------------------|
-| `colorscheme alduin`                        | ![](https://goo.gl/GYng6s =100x) |
-| `let g:alduin_Shout_Become_Ethereal = 1`    | ![](https://goo.gl/JqvYXp) |
-| `let g:alduin_Contract_Vampirism = 1`       | ![](https://goo.gl/JqvYXp) |
-| `let g:alduin_Shout_Aura_Whisper = 1`       | ![](https://goo.gl/XsZ1HQ)|
-| `let g:alduin_Shout_Fire_Breath = 1`        | ![](https://goo.gl/LHqJWO)|
-| `let g:alduin_Shout_Clear_Skies = 1`        | coming soon |
-| `let g:alduin_Shout_Animal_Allegiance = 1 ` | coming soon |
+| Decription                            | Add variables to .vimrc                     | Screenshot                                                                |
+|---------------------------------------|---------------------------------------------|--------------------------------------|
+| dark gray background                  | `colorscheme alduin`                        | ![Screenshot](https://goo.gl/GYng6s) |
+| black background                      | `let g:alduin_Shout_Become_Ethereal = 1`    | ![Screenshot](https://goo.gl/JqvYXp) |
+| gray to black @ 5pm                   | `let g:alduin_Contract_Vampirism = 1`       | ![Screenshot](https://goo.gl/JqvYXp) |
+| underline matching parens             | `let g:alduin_Shout_Aura_Whisper = 1`       | ![Screenshot](https://goo.gl/XsZ1HQ)|
+| adds dark red color                   | `let g:alduin_Shout_Fire_Breath = 1`        | ![Screenshot](https://goo.gl/LHqJWO)|
+| removes background HL from cursorline | `let g:alduin_Shout_Clear_Skies = 1`        | coming soon |
+| remove background HL from string      | `let g:alduin_Shout_Animal_Allegiance = 1 ` | coming soon |
 
 
 Moar Screenshots
