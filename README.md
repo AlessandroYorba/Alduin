@@ -27,7 +27,7 @@ There are several options that you can enable for alduin. You can activate them 
 
 | Add variables to .vimrc                     | Screenshot                                                                |
 |---------------------------------------------|---------------------------------------------------------------------------|
-| `colorscheme alduin`                        | ![](https://goo.gl/GYng6s) |
+| `colorscheme alduin`                        | ![](https://goo.gl/GYng6s =100x) |
 | `let g:alduin_Shout_Become_Ethereal = 1`    | ![](https://goo.gl/JqvYXp) |
 | `let g:alduin_Contract_Vampirism = 1`       | ![](https://goo.gl/JqvYXp) |
 | `let g:alduin_Shout_Aura_Whisper = 1`       | ![](https://goo.gl/XsZ1HQ)|
