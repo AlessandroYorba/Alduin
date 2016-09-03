@@ -98,12 +98,6 @@ if !exists("g:alduin_Shout_Animal_Allegiance")
     let g:alduin_Shout_Animal_Allegiance = 0
 endif
 
-"TODO
-if !exists( "g:alduin_Shout_Dragon_Aspect" )
-    let g:alduin_Shout_Dragon_Aspect = 0
-endif
-"TODO
-
 if !exists( "g:alduin_Shout_Aura_Whisper")
     let g:alduin_Shout_Aura_Whisper = 0
 endif
@@ -118,6 +112,11 @@ endif
 
 if !exists( "g:alduin_Contract_Vampirism")
     let g:alduin_Contract_Vampirism = 0
+endif
+
+"TODO
+if !exists( "g:alduin_Shout_Dragon_Aspect" )
+    let g:alduin_Shout_Dragon_Aspect = 0
 endif
 
 "================================================================================
@@ -233,7 +232,6 @@ hi SpellRare        ctermfg=208     guifg=#ff8700     ctermbg=NONE     guibg=NON
 "hi Cursor
 "hi CursorColumn
 
-
 "===================================================================================================================
 " AURA WHISPER:
 "===================================================================================================================
@@ -241,7 +239,6 @@ if g:alduin_Shout_Aura_Whisper
     " Visual Aid:
     hi MatchParen     ctermfg=255     guifg=#eeeeee     ctermbg=234      guibg=#1c1c1c      cterm=underline gui=underline
 end
-
 
 "===================================================================================================================
 " FIRE BREATH:
@@ -251,7 +248,6 @@ if g:alduin_Shout_Fire_Breath
     hi Special        ctermfg=124     guifg=#af0000     ctermbg=NONE     guibg=NONE     cterm=NONE       gui=NONE
     hi Title          ctermfg=131     guifg=#af5f5f     ctermbg=NONE     guibg=NONE     cterm=NONE       gui=NONE
 end
-
 
 "===================================================================================================================
 " BECOME ETHEREAL:
@@ -288,7 +284,6 @@ if g:alduin_Shout_Clear_Skies
     hi CursorLine     ctermfg=NONE    guifg=NONE        ctermbg=NONE     guibg=NONE        cterm=NONE     gui=NONE
 end
 
-
 "===================================================================================================================
 " ANIMAL ALLEGIANCE:
 "===================================================================================================================
@@ -303,7 +298,6 @@ end
 "TODO
 if g:alduin_Shout_Dragon_Aspect
 end
-"TODO
 
 "===================================================================================================================
 " CONTRACT VAMPIRISM:
