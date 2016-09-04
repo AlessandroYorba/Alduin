@@ -94,10 +94,6 @@ if !exists("g:alduin_Shout_Clear_Skies")
     let g:alduin_Shout_Clear_Skies = 0
 endif
 
-if !exists("g:alduin_Shout_Animal_Allegiance")
-    let g:alduin_Shout_Animal_Allegiance = 0
-endif
-
 if !exists( "g:alduin_Shout_Aura_Whisper")
     let g:alduin_Shout_Aura_Whisper = 0
 endif
@@ -112,6 +108,11 @@ endif
 
 if !exists( "g:alduin_Contract_Vampirism")
     let g:alduin_Contract_Vampirism = 0
+endif
+
+"TODO
+if !exists("g:alduin_Shout_Animal_Allegiance")
+    let g:alduin_Shout_Animal_Allegiance = 0
 endif
 
 "TODO
@@ -169,7 +170,7 @@ hi VisualNOS        ctermfg=NONE    guifg=NONE        ctermbg=NONE     guibg=NON
 
 " Variable Types:
 hi Constant         ctermfg=138     guifg=#af8787     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
-hi String           ctermfg=222     guifg=#ffdf87     ctermbg=235      guibg=#262626     cterm=NONE      gui=NONE
+hi String           ctermfg=222     guifg=#ffdf87     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi Identifier       ctermfg=109     guifg=#87afaf     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi Function         ctermfg=95      guifg=#875f5f     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi Character        ctermfg=130     guifg=#af5f00     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
@@ -260,9 +261,6 @@ if g:alduin_Shout_Become_Ethereal
     hi ColorColumn    ctermfg=NONE    guifg=NONE        ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
     hi CursorLineNR   ctermfg=240     guifg=#585858     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
 
-    " Variable Types:
-    hi String         ctermfg=222     guifg=#ffdf87     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
-
     " WindowTab Delimiters:
     hi TabLineFill    ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
     hi TabLine        ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
@@ -287,9 +285,8 @@ end
 "===================================================================================================================
 " ANIMAL ALLEGIANCE:
 "===================================================================================================================
+"TODO
 if g:alduin_Shout_Animal_Allegiance
-    " Variable Types:
-    hi String        ctermfg=222      guifg=#ffdf87    ctermbg=NONE      guibg=NONE         cterm=NONE     gui=NONE
 end
 
 "===================================================================================================================

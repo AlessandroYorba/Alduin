@@ -33,7 +33,6 @@ There are several options that you can enable for alduin. You can activate them 
 | underline matching parens             | `let g:alduin_Shout_Aura_Whisper = 1`       | [Screenshot](https://goo.gl/XsZ1HQ)|
 | adds dark red color                   | `let g:alduin_Shout_Fire_Breath = 1`        | [Screenshot](https://goo.gl/LHqJWO)|
 | removes background HL from cursorline | `let g:alduin_Shout_Clear_Skies = 1`        | coming soon |
-| remove background HL from string      | `let g:alduin_Shout_Animal_Allegiance = 1 ` | coming soon |
 
 
 Moar Screenshots
