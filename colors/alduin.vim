@@ -27,7 +27,7 @@
 "================================================================================
 "Abyss           16       #000000     http://www.colorhexa.com/000000
 "Ethereal        232      #080808     http://www.colorhexa.com/080808
-"Solitude        233      #121212     http://www.colorhexa.com/121212
+"Aspect          233      #121212     http://www.colorhexa.com/121212
 
 "Gray:
 "================================================================================
@@ -322,15 +322,15 @@ end
 "Warning this setting is not fully baked and is subject to change!!
 if g:alduin_Shout_Summon_Odahviing
     " Editor Settings:
-    hi Normal         guifg=#dfdfaf     guibg=#1f1a18     gui=NONE
-    hi LineNr         guifg=#433834     guibg=#241e1c     gui=NONE
-    hi CursorLine     guifg=NONE        guibg=#241e1c     gui=NONE
+    hi Normal         guifg=#dfdfaf     guibg=#181413     gui=NONE
+    hi LineNr         guifg=#433834     guibg=#161211     gui=NONE
+    hi CursorLine     guifg=NONE        guibg=#161211     gui=NONE
     hi ColorColumn    guifg=NONE        guibg=#121212     gui=NONE
-    hi CursorLineNR   guifg=#433834     guibg=#241e1c     gui=NONE
+    hi CursorLineNR   guifg=#433834     guibg=#161211     gui=NONE
     hi StatusLineNC   guifg=#87875f     guibg=#1d1816     gui=NONE
 
     " Variable Types:
-    hi String         guifg=#ffdf87     guibg=#241e1c     gui=NONE
+    hi String         guifg=#ffdf87     guibg=#161211     gui=NONE
 
     " WindowTab Delimiters:
     hi TabLineFill    guifg=#87875f     guibg=#1d1816     gui=NONE
@@ -342,7 +342,7 @@ if g:alduin_Shout_Summon_Odahviing
     hi FoldColumn     guifg=#87afaf     guibg=#080808     gui=NONE
 
     " Visual Aid:
-    hi Todo           guifg=#af5f00     guibg=#1f1a18     gui=reverse
+    hi Todo           guifg=#af5f00     guibg=#181413     gui=reverse
 
     " Completion Menu:
     hi Pmenu          guifg=#87875f     guibg=#1d1816     gui=NONE
