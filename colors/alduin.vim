@@ -118,10 +118,6 @@ if !exists("g:alduin_Shout_Animal_Allegiance")
     let g:alduin_Shout_Animal_Allegiance = 0
 endif
 
-if !exists("g:alduin_Shout_Summon_Odahviing")
-    let g:alduin_Shout_Summon_Odahviing = 0
-endif
-
 "================================================================================
 " ALDUIN:
 "================================================================================
@@ -309,44 +305,7 @@ if g:alduin_Shout_Become_Ethereal
     hi Todo             ctermfg=130     guifg=#af5f00     ctermbg=232      guibg=#080808     cterm=reverse    gui=reverse
 end
 
-"===================================================================================================================
-" Summon Durnehviir:
-"===================================================================================================================
-"if g:alduin_Shout_Summon_Durnehviir
-"endif
 
-"===================================================================================================================
-" Summon Odahviing:
-"===================================================================================================================
-"TODO
-"Warning this setting is not fully baked and is subject to change!!
-if g:alduin_Shout_Summon_Odahviing
-    " Editor Settings:
-    hi Normal         guifg=#dfdfaf     guibg=#181413     gui=NONE
-    hi LineNr         guifg=#433834     guibg=#161211     gui=NONE
-    hi CursorLine     guifg=NONE        guibg=#161211     gui=NONE
-    hi ColorColumn    guifg=NONE        guibg=#121212     gui=NONE
-    hi CursorLineNR   guifg=#433834     guibg=#161211     gui=NONE
-    hi StatusLineNC   guifg=#87875f     guibg=#1d1816     gui=NONE
-
-    " Variable Types:
-    hi String         guifg=#ffdf87     guibg=#161211     gui=NONE
-
-    " WindowTab Delimiters:
-    hi TabLineFill    guifg=#87875f     guibg=#1d1816     gui=NONE
-    hi TabLine        guifg=#87875f     guibg=#181413     gui=NONE
-    hi VertSplit      guifg=#87875f     guibg=#1d1816     gui=NONE
-
-    " Number Column:
-    hi SignColumn     guifg=#87875f     guibg=#1d1816     gui=NONE
-    hi FoldColumn     guifg=#87afaf     guibg=#080808     gui=NONE
-
-    " Visual Aid:
-    hi Todo           guifg=#af5f00     guibg=#181413     gui=reverse
-
-    " Completion Menu:
-    hi Pmenu          guifg=#87875f     guibg=#1d1816     gui=NONE
-endif
 
 "===================================================================================================================
 " CLEAR SKIES:
