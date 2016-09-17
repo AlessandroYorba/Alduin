@@ -102,6 +102,10 @@ if !exists( "g:alduin_Shout_Fire_Breath" )
     let g:alduin_Shout_Fire_Breath = 0
 endif
 
+if !exists( "g:alduin_Shout_Dragon_Aspect" )
+    let g:alduin_Shout_Dragon_Aspect = 0
+endif
+
 if !exists( "g:alduin_Shout_Become_Ethereal" )
     let g:alduin_Shout_Become_Ethereal = 0
 endif
@@ -110,14 +114,12 @@ if !exists( "g:alduin_Contract_Vampirism")
     let g:alduin_Contract_Vampirism = 0
 endif
 
-"TODO
 if !exists("g:alduin_Shout_Animal_Allegiance")
     let g:alduin_Shout_Animal_Allegiance = 0
 endif
 
-"TODO
-if !exists( "g:alduin_Shout_Dragon_Aspect" )
-    let g:alduin_Shout_Dragon_Aspect = 0
+if !exists("g:alduin_Shout_Summon_Odahviing")
+    let g:alduin_Shout_Summon_Odahviing = 0
 endif
 
 "================================================================================
@@ -163,14 +165,14 @@ hi NonText          ctermfg=101     guifg=#87875f     ctermbg=NONE     guibg=NON
 hi SpecialKey       ctermfg=109     guifg=#87afaf     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi Underlined       ctermfg=152     guifg=#afd7d7     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi WarningMsg       ctermfg=131     guifg=#af5f5f     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
-hi Todo             ctermfg=130     guifg=#af5f00     ctermbg=233      guibg=#121212     cterm=italic    gui=italic
+hi Todo             ctermfg=130     guifg=#af5f00     ctermbg=233      guibg=#121212     cterm=reverse    gui=reverse
 hi Error            ctermfg=131     guifg=#af5f5f     ctermbg=233      guibg=#121212     cterm=reverse   gui=reverse
 hi ErrorMsg         ctermfg=131     guifg=#af5f5f     ctermbg=233      guibg=#121212     cterm=reverse   gui=reverse
 hi VisualNOS        ctermfg=NONE    guifg=NONE        ctermbg=NONE     guibg=NONE        cterm=underline gui=underline
 
 " Variable Types:
 hi Constant         ctermfg=138     guifg=#af8787     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
-hi String           ctermfg=222     guifg=#ffdf87     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
+hi String           ctermfg=222     guifg=#ffdf87     ctermbg=235      guibg=#262626     cterm=NONE      gui=NONE
 hi Identifier       ctermfg=109     guifg=#87afaf     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi Function         ctermfg=95      guifg=#875f5f     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi Character        ctermfg=130     guifg=#af5f00     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
@@ -248,6 +250,36 @@ if g:alduin_Shout_Fire_Breath
     " Language Constructs:
     hi Special        ctermfg=124     guifg=#af0000     ctermbg=NONE     guibg=NONE     cterm=NONE       gui=NONE
     hi Title          ctermfg=131     guifg=#af5f5f     ctermbg=NONE     guibg=NONE     cterm=NONE       gui=NONE
+    hi Statement 
+end
+
+"===================================================================================================================
+" DRAGON ASPECT:
+"===================================================================================================================
+"TODO
+"Warning this setting is not fully baked and is subject to change!!
+if g:alduin_Shout_Dragon_Aspect
+    " Editor Settings:
+    hi Normal         ctermfg=187     guifg=#dfdfaf     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+    hi LineNr         ctermfg=236     guifg=#303030     ctermbg=232       guibg=#080808     cterm=NONE     gui=NONE
+    hi CursorLine     ctermfg=NONE    guifg=NONE        ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
+    hi ColorColumn    ctermfg=NONE    guifg=NONE        ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
+    hi CursorLineNR   ctermfg=240     guifg=#585858     ctermbg=232       guibg=#080808     cterm=NONE     gui=NONE
+
+    " Variable Types:
+    hi String         ctermfg=222     guifg=#ffdf87     ctermbg=234      guibg=#1c1c1c        cterm=NONE      gui=NONE
+
+    " WindowTab Delimiters:
+    hi TabLineFill    ctermfg=101     guifg=#87875f     ctermbg=232       guibg=#080808     cterm=NONE     gui=NONE
+    hi TabLine        ctermfg=101     guifg=#87875f     ctermbg=232       guibg=#080808     cterm=NONE     gui=NONE
+    hi VertSplit      ctermfg=101     guifg=#87875f     ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
+
+    " Number Column:
+    hi SignColumn     ctermfg=101     guifg=#87875f     ctermbg=232       guibg=#080808     cterm=NONE     gui=NONE
+    hi FoldColumn     ctermfg=109     guifg=#87afaf     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+
+    " Visual Aid:
+    hi Todo             ctermfg=130     guifg=#af5f00     ctermbg=233      guibg=#121212     cterm=reverse    gui=reverse
 end
 
 "===================================================================================================================
@@ -261,6 +293,9 @@ if g:alduin_Shout_Become_Ethereal
     hi ColorColumn    ctermfg=NONE    guifg=NONE        ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
     hi CursorLineNR   ctermfg=240     guifg=#585858     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
 
+    " Variable Types:
+    hi String         ctermfg=222     guifg=#ffdf87     ctermbg=233      guibg=#121212        cterm=NONE      gui=NONE
+
     " WindowTab Delimiters:
     hi TabLineFill    ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
     hi TabLine        ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
@@ -271,8 +306,47 @@ if g:alduin_Shout_Become_Ethereal
     hi FoldColumn     ctermfg=109     guifg=#87afaf     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
 
     " Visual Aid:
-    hi Todo           ctermfg=130     guifg=#af5f00     ctermbg=232      guibg=#080808     cterm=italic   gui=italic
+    hi Todo             ctermfg=130     guifg=#af5f00     ctermbg=232      guibg=#080808     cterm=reverse    gui=reverse
 end
+
+"===================================================================================================================
+" Summon Durnehviir:
+"===================================================================================================================
+"if g:alduin_Shout_Summon_Durnehviir
+"endif
+
+"===================================================================================================================
+" Summon Odahviing:
+"===================================================================================================================
+"TODO
+"Warning this setting is not fully baked and is subject to change!!
+if g:alduin_Shout_Summon_Odahviing
+    " Editor Settings:
+    hi Normal         guifg=#dfdfaf     guibg=#1f1a18     gui=NONE
+    hi LineNr         guifg=#433834     guibg=#241e1c     gui=NONE
+    hi CursorLine     guifg=NONE        guibg=#241e1c     gui=NONE
+    hi ColorColumn    guifg=NONE        guibg=#121212     gui=NONE
+    hi CursorLineNR   guifg=#433834     guibg=#241e1c     gui=NONE
+    hi StatusLineNC   guifg=#87875f     guibg=#1d1816     gui=NONE
+
+    " Variable Types:
+    hi String         guifg=#ffdf87     guibg=#241e1c     gui=NONE
+
+    " WindowTab Delimiters:
+    hi TabLineFill    guifg=#87875f     guibg=#1d1816     gui=NONE
+    hi TabLine        guifg=#87875f     guibg=#181413     gui=NONE
+    hi VertSplit      guifg=#87875f     guibg=#1d1816     gui=NONE
+
+    " Number Column:
+    hi SignColumn     guifg=#87875f     guibg=#1d1816     gui=NONE
+    hi FoldColumn     guifg=#87afaf     guibg=#080808     gui=NONE
+
+    " Visual Aid:
+    hi Todo           guifg=#af5f00     guibg=#1f1a18     gui=reverse
+
+    " Completion Menu:
+    hi Pmenu          guifg=#87875f     guibg=#1d1816     gui=NONE
+endif
 
 "===================================================================================================================
 " CLEAR SKIES:
@@ -285,15 +359,9 @@ end
 "===================================================================================================================
 " ANIMAL ALLEGIANCE:
 "===================================================================================================================
-"TODO
 if g:alduin_Shout_Animal_Allegiance
-end
-
-"===================================================================================================================
-" DRAGON ASPECT:
-"===================================================================================================================
-"TODO
-if g:alduin_Shout_Dragon_Aspect
+    " Variable Types:
+    hi String       ctermfg=222     guifg=#ffdf87     ctermbg=NONE      guibg=NONE        cterm=NONE      gui=NONE
 end
 
 "===================================================================================================================
