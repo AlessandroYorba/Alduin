@@ -3,9 +3,27 @@ Alduin
 
 A Vim colorscheme.
 
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18812850/5bea202a-8296-11e6-9836-086f1d065a4f.png)
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18812851/65d55758-8296-11e6-899c-f7b75697ff9d.png)
+```VimL
+"medium grey background
+colorscheme alduin
+```
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18899673/8e9ec682-84ef-11e6-89e8-a6735ad39c6e.png)
 
+
+```VimL
+"dark grey background
+let g:alduin_Shout_Dragon_Aspect = 1
+colorscheme alduin
+```
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18899681/9e5beb90-84ef-11e6-8819-62bb7ee3a9a8.png)
+
+
+```VimL
+"black background
+let g:alduin_Shout_Become_Ethereal = 1
+colorscheme alduin
+```
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18899687/ac3fe3ec-84ef-11e6-84bb-96833348367f.png)
 
 Installation
 ---------------
@@ -28,7 +46,8 @@ There are several options that you can enable for alduin. You can activate them 
 
 | Decription                            | Add variables to .vimrc                     | Screenshot                                                                |
 |---------------------------------------|---------------------------------------------|--------------------------------------|
-| dark gray background                  | `colorscheme alduin`                        | [Screenshot](https://goo.gl/GYng6s) |
+| meduim gray background                | `colorscheme alduin`                        | [Screenshot](https://goo.gl/GYng6s) |
+| dark gray background                  | `let g:alduin_Shout_Dragon_Aspect = 1`      | [Screenshot](https://goo.gl/GYng6s) |
 | black background                      | `let g:alduin_Shout_Become_Ethereal = 1`    | [Screenshot](https://goo.gl/JqvYXp) |
 | gray to black @ 5pm                   | `let g:alduin_Contract_Vampirism = 1`       | [Screenshot](https://goo.gl/JqvYXp) |
 | underline matching parens             | `let g:alduin_Shout_Aura_Whisper = 1`       | [Screenshot](https://goo.gl/XsZ1HQ)|
