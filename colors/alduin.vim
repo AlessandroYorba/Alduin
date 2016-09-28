@@ -248,7 +248,6 @@ if g:alduin_Shout_Fire_Breath
     " Language Constructs:
     hi Special        ctermfg=124     guifg=#af0000     ctermbg=NONE     guibg=NONE     cterm=NONE       gui=NONE
     hi Title          ctermfg=131     guifg=#af5f5f     ctermbg=NONE     guibg=NONE     cterm=NONE       gui=NONE
-    hi Statement 
 end
 
 "===================================================================================================================
