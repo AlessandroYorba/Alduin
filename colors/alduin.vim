@@ -102,6 +102,10 @@ if !exists( "g:alduin_Shout_Fire_Breath" )
     let g:alduin_Shout_Fire_Breath = 0
 endif
 
+if !exists("g:alduin_Shout_Animal_Allegiance")
+    let g:alduin_Shout_Animal_Allegiance = 0
+endif
+
 if !exists( "g:alduin_Shout_Dragon_Aspect" )
     let g:alduin_Shout_Dragon_Aspect = 0
 endif
@@ -114,9 +118,6 @@ if !exists( "g:alduin_Contract_Vampirism")
     let g:alduin_Contract_Vampirism = 0
 endif
 
-if !exists("g:alduin_Shout_Animal_Allegiance")
-    let g:alduin_Shout_Animal_Allegiance = 0
-endif
 
 "================================================================================
 " ALDUIN:
@@ -213,7 +214,8 @@ hi DiffText         ctermfg=235     guifg=#262626     ctermbg=103      guibg=#87
 hi Pmenu            ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
 hi PmenuSel         ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f0000     cterm=NONE      gui=NONE
 hi PmenuSbar        ctermfg=NONE    guifg=NONE        ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
-hi PmenuThumb       ctermfg=NONE    guifg=NONE        ctermbg=187      guibg=#dfdfaf     cterm=NONE      gui=NONE
+hi PmenuThumb       ctermfg=NONE    guifg=NONE        ctermbg=101      guibg=#87875f     cterm=NONE      gui=NONE
+hi PmenuSbar        ctermfg=NONE    guifg=NONE        ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
 
 " Spelling:
 hi SpellBad         ctermfg=196     guifg=#ff0000     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
@@ -276,6 +278,7 @@ if g:alduin_Shout_Dragon_Aspect
 
     " Visual Aid:
     hi Todo             ctermfg=130     guifg=#af5f00     ctermbg=233      guibg=#121212     cterm=reverse    gui=reverse
+
 end
 
 "===================================================================================================================
