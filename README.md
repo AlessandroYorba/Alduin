@@ -44,20 +44,21 @@ Alduin Settings
 ---------------
 There are several options that you can enable for alduin. You can activate them by adding each of the following variables to your .vimrc. Remember to place the variables before you declare `colorscheme alduin`.
 
-| Decription                            | Add variables to .vimrc                     | Screenshot                                                                |
-|---------------------------------------|---------------------------------------------|--------------------------------------|
+| Decription                            | Add variables to .vimrc                     | Screenshot                          |
+|---------------------------------------|---------------------------------------------|-------------------------------------|
 | meduim gray background                | `colorscheme alduin`                        | [Screenshot](https://goo.gl/GYng6s) |
 | dark gray background                  | `let g:alduin_Shout_Dragon_Aspect = 1`      | [Screenshot](https://goo.gl/GYng6s) |
 | black background                      | `let g:alduin_Shout_Become_Ethereal = 1`    | [Screenshot](https://goo.gl/JqvYXp) |
 | gray to black @ 5pm                   | `let g:alduin_Contract_Vampirism = 1`       | [Screenshot](https://goo.gl/JqvYXp) |
 | underline matching parens             | `let g:alduin_Shout_Aura_Whisper = 1`       | [Screenshot](https://goo.gl/XsZ1HQ)|
 | adds dark red color                   | `let g:alduin_Shout_Fire_Breath = 1`        | [Screenshot](https://goo.gl/LHqJWO)|
-| removes background HL from cursorline | `let g:alduin_Shout_Clear_Skies = 1`        | coming soon |
+| removes background from Strings       | `let g:alduin_Shout_Animal_Allegiance = 1`  | |
+| removes cursorline                    | `let g:alduin_Shout_Clear_Skies = 1`        | |
 
 
 Moar Screenshots
 ------------
-The screenshots of Alduin were made and tested using a default Vi IMproved 7.4 in [iTerm 3](https://www.iterm2.com) and the Vi IMproved 7.4 in the GUI MacVim app. Extended syntax found in Javascript screenshots provided by Jose Elera Campana's Plug-in [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax).
+The screenshots of Alduin were made and tested using a default Vi IMproved 8.0 in [iTerm 3](https://www.iterm2.com) and the Vi IMproved 8.0 in the GUI MacVim app. Extended syntax found in Javascript screenshots provided by Jose Elera Campana's Plug-in [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax).
 
 [Additional Screenshots](https://github.com/AlessandroYorba/Alduin/issues/5)
 
