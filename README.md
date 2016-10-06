@@ -1,29 +1,30 @@
 Alduin
 ------
 
-A Vim colorscheme.
-
+###### Alduin
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19174337/e3f3aa68-8be2-11e6-8474-4908f44e7505.png)
 ```VimL
 "medium grey background
 colorscheme alduin
 ```
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18899673/8e9ec682-84ef-11e6-89e8-a6735ad39c6e.png)
 
 
+###### Dragon Aspect
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19174353/fc6a4fca-8be2-11e6-8364-55262ee8686e.png)
 ```VimL
 "dark grey background
 let g:alduin_Shout_Dragon_Aspect = 1
 colorscheme alduin
 ```
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18899681/9e5beb90-84ef-11e6-8819-62bb7ee3a9a8.png)
 
 
+###### Become Ethereal
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19174364/16e706fe-8be3-11e6-9214-d09b501a903e.png)
 ```VimL
 "black background
 let g:alduin_Shout_Become_Ethereal = 1
 colorscheme alduin
 ```
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/18899687/ac3fe3ec-84ef-11e6-84bb-96833348367f.png)
 
 Installation
 ---------------
