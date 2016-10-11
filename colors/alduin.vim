@@ -213,9 +213,8 @@ hi DiffText         ctermfg=235     guifg=#262626     ctermbg=103      guibg=#87
 " Completion Menu:
 hi Pmenu            ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
 hi PmenuSel         ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f0000     cterm=NONE      gui=NONE
-hi PmenuSbar        ctermfg=NONE    guifg=NONE        ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
-hi PmenuThumb       ctermfg=NONE    guifg=NONE        ctermbg=101      guibg=#87875f     cterm=NONE      gui=NONE
-hi PmenuSbar        ctermfg=NONE    guifg=NONE        ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
+hi PmenuSbar        ctermfg=233     guifg=#121212     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
+hi PmenuThumb       ctermfg=233     guifg=#121212     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
 
 " Spelling:
 hi SpellBad         ctermfg=196     guifg=#ff0000     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
@@ -253,8 +252,6 @@ end
 "===================================================================================================================
 " DRAGON ASPECT:
 "===================================================================================================================
-"TODO
-"Warning this setting is not fully baked and is subject to change!!
 if g:alduin_Shout_Dragon_Aspect
     " Editor Settings:
     hi Normal         ctermfg=187     guifg=#dfdfaf     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
@@ -277,6 +274,12 @@ if g:alduin_Shout_Dragon_Aspect
 
     " Visual Aid:
     hi Todo             ctermfg=130     guifg=#af5f00     ctermbg=233      guibg=#121212     cterm=reverse    gui=reverse
+
+    " Completion Menu:
+    hi Pmenu            ctermfg=101     guifg=#87875f     ctermbg=232      guibg=#080808     cterm=NONE      gui=NONE
+    hi PmenuSel         ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f0000     cterm=NONE      gui=NONE
+    hi PmenuSbar        ctermfg=232     guifg=#080808     ctermbg=232      guibg=#080808     cterm=NONE      gui=NONE
+    hi PmenuThumb       ctermfg=232     guifg=#080808     ctermbg=232      guibg=#080808     cterm=NONE      gui=NONE
 
 end
 
@@ -305,6 +308,12 @@ if g:alduin_Shout_Become_Ethereal
 
     " Visual Aid:
     hi Todo             ctermfg=130     guifg=#af5f00     ctermbg=232      guibg=#080808     cterm=reverse    gui=reverse
+
+    " Completion Menu:
+    hi Pmenu            ctermfg=101    guifg=#87875f     ctermbg=16      guibg=#000000     cterm=NONE      gui=NONE
+    hi PmenuSel         ctermfg=187    guifg=#dfdfaf     ctermbg=52      guibg=#5f0000     cterm=NONE      gui=NONE
+    hi PmenuSbar        ctermfg=16     guifg=#000000     ctermbg=16      guibg=#000000     cterm=NONE      gui=NONE
+    hi PmenuThumb       ctermfg=16     guifg=#000000     ctermbg=16      guibg=#000000     cterm=NONE      gui=NONE
 end
 
 
@@ -330,9 +339,18 @@ end
 "===================================================================================================================
 if g:alduin_Contract_Vampirism
     let alduin_Hour = strftime("%H")
+
+    "Day: 7am - 5pm
     if 7 <= alduin_Hour && alduin_Hour < 17
         let g:alduin_Shout_Become_Ethereal = 0
+
+    "Dragon Aspect: 5pm - 12am
+    elseif 17 <= alduin_Hour && alduin_Hour < 24
+        let g:alduin_Shout_Dragon_Aspect = 1
+
+    "Ethereal: 5pm - 7am
     else
+        let g:alduin_Shout_Dragon_Aspect = 0
         let g:alduin_Shout_Become_Ethereal = 1
     endif
 end
