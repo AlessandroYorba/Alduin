@@ -3,26 +3,11 @@ Alduin
 
 ###### Alduin
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19174337/e3f3aa68-8be2-11e6-8474-4908f44e7505.png)
-```VimL
-"medium grey background
-colorscheme alduin
-```
-
-
-###### Dragon Aspect
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19174353/fc6a4fca-8be2-11e6-8364-55262ee8686e.png)
-```VimL
-"dark grey background
-let g:alduin_Shout_Dragon_Aspect = 1
-colorscheme alduin
-```
-
-
-###### Become Ethereal
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19262924/6eea0bd0-8f4e-11e6-9bba-73c268290a36.png)
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19174364/16e706fe-8be3-11e6-9214-d09b501a903e.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19174364/16e706fe-8be3-11e6-9214-d09b501a903e.png)
+
 ```VimL
-"black background
-let g:alduin_Shout_Become_Ethereal = 1
 colorscheme alduin
 ```
 
@@ -47,14 +32,14 @@ There are several options that you can enable for alduin. You can activate them 
 
 | Decription                            | Add variables to .vimrc                     | Screenshot                          |
 |---------------------------------------|---------------------------------------------|-------------------------------------|
-| meduim gray background                | `colorscheme alduin`                        | [Screenshot](https://goo.gl/GYng6s) |
-| dark gray background                  | `let g:alduin_Shout_Dragon_Aspect = 1`      | [Screenshot](https://goo.gl/GYng6s) |
-| black background                      | `let g:alduin_Shout_Become_Ethereal = 1`    | [Screenshot](https://goo.gl/JqvYXp) |
-| gray to black @ 5pm                   | `let g:alduin_Contract_Vampirism = 1`       | [Screenshot](https://goo.gl/JqvYXp) |
-| underline matching parens             | `let g:alduin_Shout_Aura_Whisper = 1`       | [Screenshot](https://goo.gl/XsZ1HQ)|
-| adds dark red color                   | `let g:alduin_Shout_Fire_Breath = 1`        | [Screenshot](https://goo.gl/LHqJWO)|
-| removes background from Strings       | `let g:alduin_Shout_Animal_Allegiance = 1`  | |
-| removes cursorline                    | `let g:alduin_Shout_Clear_Skies = 1`        | |
+| meduim gray background                | `colorscheme alduin`                        | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19174337/e3f3aa68-8be2-11e6-8474-4908f44e7505.png) |
+| dark gray background                  | `let g:alduin_Shout_Dragon_Aspect = 1`      | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263012/f45e8ca0-8f4e-11e6-860d-7fdf24b75a0a.png) |
+| black background                      | `let g:alduin_Shout_Become_Ethereal = 1`    | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263164/cb2628d8-8f4f-11e6-8202-fe0eda4d2335.png) |
+| gray to black @ 5pm                   | `let g:alduin_Contract_Vampirism = 1`       | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263262/53ccd54c-8f50-11e6-8f49-a90efd127ae5.png) |
+| underline matching parens             | `let g:alduin_Shout_Aura_Whisper = 1`       | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263436/36c3e99e-8f51-11e6-9c7a-3a957afab5ce.png) |
+| adds dark red color                   | `let g:alduin_Shout_Fire_Breath = 1`        | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263338/adb7cf44-8f50-11e6-840b-b07180b03941.png) |
+| removes background from Strings       | `let g:alduin_Shout_Animal_Allegiance = 1`  | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263701/69d87024-8f52-11e6-8086-ecaeca0b18b3.png) |
+| removes cursorline                    | `let g:alduin_Shout_Clear_Skies = 1`        | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19264102/4230e2d4-8f54-11e6-9bf5-2fba384c6bae.png) |
 
 
 Moar Screenshots
