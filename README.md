@@ -32,8 +32,7 @@ There are several options that you can enable for alduin. You can activate them 
 
 | Decription                            | Add variables to .vimrc                     | Screenshot                          |
 |---------------------------------------|---------------------------------------------|-------------------------------------|
-| meduim gray background                | `colorscheme alduin`                        | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19174337/e3f3aa68-8be2-11e6-8474-4908f44e7505.png) |
-| dark gray background                  | `let g:alduin_Shout_Dragon_Aspect = 1`      | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263012/f45e8ca0-8f4e-11e6-860d-7fdf24b75a0a.png) |
+| dark gray background                  | `colorscheme alduin`                        | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263012/f45e8ca0-8f4e-11e6-860d-7fdf24b75a0a.png) |
 | black background                      | `let g:alduin_Shout_Become_Ethereal = 1`    | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263164/cb2628d8-8f4f-11e6-8202-fe0eda4d2335.png) |
 | gray to black @ 5pm                   | `let g:alduin_Contract_Vampirism = 1`       | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263262/53ccd54c-8f50-11e6-8f49-a90efd127ae5.png) |
 | underline matching parens             | `let g:alduin_Shout_Aura_Whisper = 1`       | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263436/36c3e99e-8f51-11e6-9c7a-3a957afab5ce.png) |
