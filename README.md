@@ -1,7 +1,7 @@
 Alduin
 ------
 
-###### Alduin
+###### Alduin version 4.0.0
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19174337/e3f3aa68-8be2-11e6-8474-4908f44e7505.png)
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19262924/6eea0bd0-8f4e-11e6-9bba-73c268290a36.png)
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19262969/ae6acfb0-8f4e-11e6-81bb-43552a1b03a6.png)
@@ -41,6 +41,11 @@ There are several options that you can enable for alduin. You can activate them 
 | removes cursorline                    | `let g:alduin_Shout_Clear_Skies = 1`        | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19264102/4230e2d4-8f54-11e6-9bf5-2fba384c6bae.png) |
 
 
+TODO: Improvements currently in development
+-----
+* Setting to remove certain UI colors within Alduin for Terminals that support image backgrounds / transparency
+* Rework Diff colors so that they are more inline with Alduin's palette 
+
 Moar Screenshots
 ------------
 The screenshots of Alduin were made and tested using a default Vi IMproved 8.0 in [iTerm 3](https://www.iterm2.com) and the Vi IMproved 8.0 in the GUI MacVim app. Extended syntax found in Javascript screenshots provided by Jose Elera Campana's Plug-in [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax).
@@ -51,4 +56,8 @@ Skyrim belongs to the Nords!!
 -------
 If you like certain colorschemes like Twilight, Mustang, and Inkpot, I encourage you to give Alduin a try. The idea behind Alduin was to create a dark colorscheme that combined warm and soft colors for high readability with low distraction. Some of the features, and design cues pay homage to schemes like Jeet Sukumaran's [Sorcerer](http://jeetworks.org/sorcerer/), Ciaran McCreesh's [Inkpot](https://github.com/ciaranm/inkpot), as well as Romain Lafourcade's [Apprentice](https://github.com/romainl/Apprentice), and Steve Losh's [Badwolf](https://github.com/sjl/badwolf).
 
-I'd love to hear from you guys if you have any feedback, suggestions or issues that you encounter. Just open an Issue ticket for any bugs or suggestions; and if you like alduin you might want to check out my other Vim theme [Sierra](https://github.com/AlessandroYorba/Sierra)
+Related 
+-------
+Feedback, issues or suggestions? Open an Issue [Alduin Issues](https://github.com/AlessandroYorba/Alduin/issues)! Also, if you like Alduin you might want to check out a few of the other Vim themes I manage:
+* [Sierra](https://github.com/AlessandroYorba/Sierra)
+* [Despacio](https://github.com/AlessandroYorba/Despacio)
