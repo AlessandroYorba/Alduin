@@ -106,6 +106,10 @@ if !exists("g:alduin_Shout_Animal_Allegiance")
     let g:alduin_Shout_Animal_Allegiance = 0
 endif
 
+if !exists("g:alduin_Shout_Dragon_Aspect" )
+    let g:alduin_Shout_Dragon_Aspect = 0
+endif
+
 if !exists( "g:alduin_Shout_Become_Ethereal" )
     let g:alduin_Shout_Become_Ethereal = 0
 endif
@@ -114,28 +118,9 @@ if !exists( "g:alduin_Contract_Vampirism")
     let g:alduin_Contract_Vampirism = 0
 endif
 
-
 "================================================================================
-" ALDUIN:
+" ALDUIN HIGHLIGHTING:
 "================================================================================
-
-" Editor Settings:
-hi Normal           ctermfg=187     guifg=#dfdfaf     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
-hi CursorLine       ctermfg=NONE    guifg=NONE        ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
-hi LineNr           ctermfg=236     guifg=#303030     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
-hi CursorLineNR     ctermfg=240     guifg=#585858     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
-
-" Number Column:
-hi Folded           ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
-hi FoldColumn       ctermfg=109     guifg=#87afaf     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
-hi SignColumn       ctermfg=101     guifg=#87875f     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
-
-" WindowTab Delimiters:
-hi VertSplit        ctermfg=101     guifg=#87875f     ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
-hi TabLine          ctermfg=101     guifg=#87875f     ctermbg=232       guibg=#080808     cterm=NONE     gui=NONE
-hi TabLineFill      ctermfg=101     guifg=#87875f     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
-hi TabLineSel       ctermfg=233     guifg=#121212     ctermbg=101      guibg=#87875f     cterm=NONE      gui=NONE
-hi ColorColumn      ctermfg=NONE    guifg=NONE        ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
 
 " File Navigation:
 hi Search           ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f0000     cterm=NONE      gui=NONE
@@ -165,7 +150,6 @@ hi VisualNOS        ctermfg=NONE    guifg=NONE        ctermbg=NONE     guibg=NON
 
 " Variable Types:
 hi Constant         ctermfg=138     guifg=#af8787     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
-hi String           ctermfg=222     guifg=#ffdf87     ctermbg=234      guibg=#1c1c1c     cterm=NONE      gui=NONE
 hi Identifier       ctermfg=109     guifg=#87afaf     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi Function         ctermfg=95      guifg=#875f5f     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi Character        ctermfg=130     guifg=#af5f00     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
@@ -206,19 +190,13 @@ hi DiffChange       ctermfg=235     guifg=#262626     ctermbg=60       guibg=#5f
 hi DiffText         ctermfg=235     guifg=#262626     ctermbg=103      guibg=#8787af     cterm=NONE      gui=NONE
 hi DiffDelete       ctermfg=235     guifg=#262626     ctermbg=131      guibg=#af5f5f     cterm=NONE      gui=NONE
 
-" Completion Menu:
-hi Pmenu            ctermfg=101     guifg=#87875f     ctermbg=232      guibg=#080808     cterm=NONE      gui=NONE
-hi PmenuSel         ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f0000     cterm=NONE      gui=NONE
-hi PmenuSbar        ctermfg=232     guifg=#080808     ctermbg=232      guibg=#080808     cterm=NONE      gui=NONE
-hi PmenuThumb       ctermfg=232     guifg=#080808     ctermbg=232      guibg=#080808     cterm=NONE      gui=NONE
-
 " Spelling:
 hi SpellBad         ctermfg=196     guifg=#ff0000     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
 hi SpellLocal       ctermfg=65      guifg=#5f875f     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
 hi SpellCap         ctermfg=111     guifg=#87afff     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
 hi SpellRare        ctermfg=208     guifg=#ff8700     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
 
-
+"TODO
 "hi Ignore
 "hi StringDelimiter
 "hi SpecialChar
@@ -228,30 +206,80 @@ hi SpellRare        ctermfg=208     guifg=#ff8700     ctermbg=NONE     guibg=NON
 "hi Cursor
 "hi CursorColumn
 
-"===================================================================================================================
-" AURA WHISPER:
-"===================================================================================================================
-if g:alduin_Shout_Aura_Whisper
-    " Visual Aid:
-    hi MatchParen     ctermfg=255     guifg=#eeeeee     ctermbg=234      guibg=#1c1c1c      cterm=underline gui=underline
-end
+
+"================================================================================
+" ALDUIN UI:
+"================================================================================
+if 1
+    " Editor Settings:
+    hi Normal           ctermfg=187     guifg=#dfdfaf     ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
+    hi CursorLine       ctermfg=NONE    guifg=NONE        ctermbg=235      guibg=#262626     cterm=NONE     gui=NONE
+    hi LineNr           ctermfg=238     guifg=#444444     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+    hi CursorLineNR     ctermfg=240     guifg=#585858     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+
+    " Number Column:
+    hi Folded           ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
+    hi FoldColumn       ctermfg=109     guifg=#87afaf     ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
+    hi SignColumn       ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+
+    " Variable Types:
+    hi String         ctermfg=222     guifg=#ffdf87     ctermbg=235      guibg=#262626        cterm=NONE      gui=NONE
+
+    " WindowTab Delimiters:
+    hi VertSplit        ctermfg=101     guifg=#87875f     ctermbg=235      guibg=#262626     cterm=NONE     gui=NONE
+    hi TabLine          ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+    hi TabLineFill      ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+    hi TabLineSel       ctermfg=234     guifg=#1c1c1c     ctermbg=101      guibg=#87875f     cterm=NONE      gui=NONE
+    hi ColorColumn      ctermfg=NONE    guifg=NONE        ctermbg=235      guibg=#262626     cterm=NONE     gui=NONE
+
+    " Completion Menu:
+    hi Pmenu            ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
+    hi PmenuSel         ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f0000     cterm=NONE      gui=NONE
+    hi PmenuSbar        ctermfg=233     guifg=#121212     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
+    hi PmenuThumb       ctermfg=233     guifg=#121212     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
+endif
+
+
 
 "===================================================================================================================
-" FIRE BREATH:
+" DRAGON ASPECT UI:
 "===================================================================================================================
-if g:alduin_Shout_Fire_Breath
-    " Language Constructs:
-    hi Special        ctermfg=124     guifg=#af0000     ctermbg=NONE     guibg=NONE     cterm=NONE       gui=NONE
-    hi Title          ctermfg=131     guifg=#af5f5f     ctermbg=NONE     guibg=NONE     cterm=NONE       gui=NONE
-end
+if g:alduin_Shout_Dragon_Aspect
+    " Editor Settings:
+    hi Normal           ctermfg=187     guifg=#dfdfaf     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+    hi CursorLine       ctermfg=NONE    guifg=NONE        ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
+    hi LineNr           ctermfg=238     guifg=#444444     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
+    hi CursorLineNR     ctermfg=240     guifg=#585858     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
+
+    " Number Column:
+    hi Folded           ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
+    hi FoldColumn       ctermfg=109     guifg=#87afaf     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+    hi SignColumn       ctermfg=101     guifg=#87875f     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
+
+    " Variable Types:
+    hi String         ctermfg=222     guifg=#ffdf87     ctermbg=234      guibg=#1c1c1c        cterm=NONE      gui=NONE
+
+    " WindowTab Delimiters:
+    hi VertSplit        ctermfg=101     guifg=#87875f     ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
+    hi TabLine          ctermfg=101     guifg=#87875f     ctermbg=232       guibg=#080808     cterm=NONE     gui=NONE
+    hi TabLineFill      ctermfg=101     guifg=#87875f     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
+    hi TabLineSel       ctermfg=233     guifg=#121212     ctermbg=101      guibg=#87875f     cterm=NONE      gui=NONE
+    hi ColorColumn      ctermfg=NONE    guifg=NONE        ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
+
+    " Completion Menu:
+    hi Pmenu            ctermfg=101     guifg=#87875f     ctermbg=232      guibg=#080808     cterm=NONE      gui=NONE
+    hi PmenuSel         ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f0000     cterm=NONE      gui=NONE
+    hi PmenuSbar        ctermfg=232     guifg=#080808     ctermbg=232      guibg=#080808     cterm=NONE      gui=NONE
+    hi PmenuThumb       ctermfg=232     guifg=#080808     ctermbg=232      guibg=#080808     cterm=NONE      gui=NONE
+endif
 
 "===================================================================================================================
-" BECOME ETHEREAL:
+" BECOME ETHEREAL UI:
 "===================================================================================================================
 if g:alduin_Shout_Become_Ethereal
     " Editor Settings:
     hi Normal         ctermfg=187     guifg=#dfdfaf     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
-    hi LineNr         ctermfg=236     guifg=#303030     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
+    hi LineNr         ctermfg=238     guifg=#444444     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
     hi CursorLine     ctermfg=NONE    guifg=NONE        ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
     hi ColorColumn    ctermfg=NONE    guifg=NONE        ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
     hi CursorLineNR   ctermfg=240     guifg=#585858     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
@@ -279,7 +307,6 @@ if g:alduin_Shout_Become_Ethereal
 end
 
 
-
 "===================================================================================================================
 " CLEAR SKIES:
 "===================================================================================================================
@@ -297,17 +324,41 @@ if g:alduin_Shout_Animal_Allegiance
 end
 
 "===================================================================================================================
+" AURA WHISPER:
+"===================================================================================================================
+if g:alduin_Shout_Aura_Whisper
+    " Visual Aid:
+    hi MatchParen     ctermfg=255     guifg=#eeeeee     ctermbg=234      guibg=#1c1c1c      cterm=underline gui=underline
+end
+
+"===================================================================================================================
+" FIRE BREATH:
+"===================================================================================================================
+if g:alduin_Shout_Fire_Breath
+    " Language Constructs:
+    hi Special        ctermfg=124     guifg=#af0000     ctermbg=NONE     guibg=NONE     cterm=NONE       gui=NONE
+    hi Title          ctermfg=131     guifg=#af5f5f     ctermbg=NONE     guibg=NONE     cterm=NONE       gui=NONE
+end
+
+"===================================================================================================================
 " CONTRACT VAMPIRISM:
 "===================================================================================================================
 if g:alduin_Contract_Vampirism
     let alduin_Hour = strftime("%H")
 
-    "Day: 7am - 5pm
+    "Alduin: 7am - 5pm
     if 7 <= alduin_Hour && alduin_Hour < 17
+        let g:alduin_Shout_Dragon_Aspect = 0
         let g:alduin_Shout_Become_Ethereal = 0
 
-    "Ethereal: 5pm - 7am
+    "Shout_Dragon_Aspect: 5pm - 12am
+    elseif 17 <= alduin_Hour && alduin_Hour < 24
+        let g:alduin_Shout_Dragon_Aspect = 1
+        let g:alduin_Shout_Become_Ethereal = 0
+
+    "Shout_Become_Ethereal: 12am - 7am
     else 
+        let g:alduin_Shout_Dragon_Aspect = 0
         let g:alduin_Shout_Become_Ethereal = 1
     endif
 end
