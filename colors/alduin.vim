@@ -214,7 +214,7 @@ if 1
     hi Normal           ctermfg=187     guifg=#dfdfaf     ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
     hi CursorLine       ctermfg=NONE    guifg=NONE        ctermbg=235      guibg=#262626     cterm=NONE     gui=NONE
     hi LineNr           ctermfg=238     guifg=#444444     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
-    hi CursorLineNR     ctermfg=240     guifg=#585858     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+    hi CursorLineNR     ctermfg=144     guifg=#afaf87     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
 
     " Number Column:
     hi Folded           ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
@@ -252,7 +252,7 @@ if g:alduin_Shout_Dragon_Aspect
     hi Normal           ctermfg=187     guifg=#dfdfaf     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
     hi CursorLine       ctermfg=NONE    guifg=NONE        ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
     hi LineNr           ctermfg=238     guifg=#444444     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
-    hi CursorLineNR     ctermfg=240     guifg=#585858     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
+    hi CursorLineNR     ctermfg=144     guifg=#afaf87     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
 
     " Number Column:
     hi Folded           ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
@@ -289,7 +289,7 @@ if g:alduin_Shout_Become_Ethereal
     hi LineNr           ctermfg=238     guifg=#444444     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
     hi CursorLine       ctermfg=NONE    guifg=NONE        ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
     hi ColorColumn      ctermfg=NONE    guifg=NONE        ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
-    hi CursorLineNR     ctermfg=240     guifg=#585858     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
+    hi CursorLineNR     ctermfg=144     guifg=#afaf87     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
 
     " Variable Types:
     hi String           ctermfg=222     guifg=#ffdf87     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
