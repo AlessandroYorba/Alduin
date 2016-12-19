@@ -50,13 +50,14 @@
 
 "Green:
 "================================================================================
-"windpeak        108      #87af87     http://www.colorhexa.com/87af87
-"cragslane       65       #5f875f     http://www.colorhexa.com/5f875f
+"Cragslane       65       #5f875f     http://www.colorhexa.com/5f875f
+"Winterhold      101      #87875f     http://www.colorhexa.com/87875f
+"Windpeak        108      #87af87     http://www.colorhexa.com/87af87
+"Eastmarch       144      #afaf87     http://www.colorhexa.com/afaf87
 
 "Yellow:
 "================================================================================
 "Paarthurnax     222      #ffdf87     http://www.colorhexa.com/ffdf87
- "Winterhold     101      #87875f     http://www.colorhexa.com/87875f
 
 "Cyan:
 "================================================================================
@@ -132,18 +133,16 @@ hi StatusLine       ctermfg=233     guifg=#121212     ctermbg=101      guibg=#87
 hi StatusLineNC     ctermfg=101     guifg=#87875f     ctermbg=236      guibg=#303030     cterm=NONE      gui=NONE
 hi WildMenu         ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f0000     cterm=NONE      gui=NONE
 hi Title            ctermfg=180     guifg=#dfaf87     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
-hi ModeMsg          ctermfg=109     guifg=#87afaf     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
+hi ModeMsg          ctermfg=144     guifg=#afaf87     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi Question         ctermfg=95      guifg=#875f5f     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi MoreMsg          ctermfg=180     guifg=#dfaf87     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 
 " Visual Aid:
-hi MatchParen       ctermfg=234     guifg=#1c1c1c     ctermbg=137      guibg=#af875f     cterm=NONE      gui=NONE
+hi MatchParen       ctermfg=187     guifg=#dfdfaf     ctermbg=95       guibg=#875f5f     cterm=NONE      gui=NONE
 hi Visual           ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f0000     cterm=NONE      gui=NONE
-hi NonText          ctermfg=101     guifg=#87875f     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi SpecialKey       ctermfg=109     guifg=#87afaf     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi Underlined       ctermfg=152     guifg=#afd7d7     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 hi WarningMsg       ctermfg=131     guifg=#af5f5f     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
-hi Todo             ctermfg=130     guifg=#af5f00     ctermbg=233      guibg=#121212     cterm=reverse    gui=reverse
 hi Error            ctermfg=131     guifg=#af5f5f     ctermbg=233      guibg=#121212     cterm=reverse   gui=reverse
 hi ErrorMsg         ctermfg=131     guifg=#af5f5f     ctermbg=233      guibg=#121212     cterm=reverse   gui=reverse
 hi VisualNOS        ctermfg=NONE    guifg=NONE        ctermbg=NONE     guibg=NONE        cterm=underline gui=underline
@@ -223,20 +222,24 @@ if 1
     hi SignColumn       ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
 
     " Variable Types:
-    hi String         ctermfg=222     guifg=#ffdf87     ctermbg=235      guibg=#262626        cterm=NONE      gui=NONE
+    hi String           ctermfg=222     guifg=#ffdf87     ctermbg=235      guibg=#262626     cterm=NONE     gui=NONE
 
     " WindowTab Delimiters:
     hi VertSplit        ctermfg=101     guifg=#87875f     ctermbg=235      guibg=#262626     cterm=NONE     gui=NONE
     hi TabLine          ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
     hi TabLineFill      ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
-    hi TabLineSel       ctermfg=234     guifg=#1c1c1c     ctermbg=101      guibg=#87875f     cterm=NONE      gui=NONE
+    hi TabLineSel       ctermfg=234     guifg=#1c1c1c     ctermbg=101      guibg=#87875f     cterm=NONE     gui=NONE
     hi ColorColumn      ctermfg=NONE    guifg=NONE        ctermbg=235      guibg=#262626     cterm=NONE     gui=NONE
 
     " Completion Menu:
-    hi Pmenu            ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
-    hi PmenuSel         ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f0000     cterm=NONE      gui=NONE
-    hi PmenuSbar        ctermfg=233     guifg=#121212     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
-    hi PmenuThumb       ctermfg=233     guifg=#121212     ctermbg=233      guibg=#121212     cterm=NONE      gui=NONE
+    hi Pmenu            ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+    hi PmenuSel         ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f0000     cterm=NONE     gui=NONE
+    hi PmenuSbar        ctermfg=233     guifg=#121212     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+    hi PmenuThumb       ctermfg=233     guifg=#121212     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+
+    " Visual Aid:
+    hi Todo             ctermfg=130     guifg=#af5f00     ctermbg=233      guibg=#121212     cterm=reverse  gui=reverse
+    hi NonText          ctermfg=101     guifg=#87875f     ctermbg=235      guibg=#262626     cterm=NONE     gui=NONE
 endif
 
 
@@ -257,13 +260,13 @@ if g:alduin_Shout_Dragon_Aspect
     hi SignColumn       ctermfg=101     guifg=#87875f     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
 
     " Variable Types:
-    hi String         ctermfg=222     guifg=#ffdf87     ctermbg=234      guibg=#1c1c1c        cterm=NONE      gui=NONE
+    hi String           ctermfg=222     guifg=#ffdf87     ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
 
     " WindowTab Delimiters:
     hi VertSplit        ctermfg=101     guifg=#87875f     ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
-    hi TabLine          ctermfg=101     guifg=#87875f     ctermbg=232       guibg=#080808     cterm=NONE     gui=NONE
+    hi TabLine          ctermfg=101     guifg=#87875f     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
     hi TabLineFill      ctermfg=101     guifg=#87875f     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
-    hi TabLineSel       ctermfg=233     guifg=#121212     ctermbg=101      guibg=#87875f     cterm=NONE      gui=NONE
+    hi TabLineSel       ctermfg=233     guifg=#121212     ctermbg=101      guibg=#87875f     cterm=NONE     gui=NONE
     hi ColorColumn      ctermfg=NONE    guifg=NONE        ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
 
     " Completion Menu:
@@ -271,6 +274,10 @@ if g:alduin_Shout_Dragon_Aspect
     hi PmenuSel         ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f0000     cterm=NONE      gui=NONE
     hi PmenuSbar        ctermfg=232     guifg=#080808     ctermbg=232      guibg=#080808     cterm=NONE      gui=NONE
     hi PmenuThumb       ctermfg=232     guifg=#080808     ctermbg=232      guibg=#080808     cterm=NONE      gui=NONE
+
+    " Visual Aid:
+    hi Todo             ctermfg=130     guifg=#af5f00     ctermbg=232      guibg=#080808     cterm=reverse  gui=reverse
+    hi NonText          ctermfg=101     guifg=#87875f     ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
 endif
 
 "===================================================================================================================
@@ -278,34 +285,34 @@ endif
 "===================================================================================================================
 if g:alduin_Shout_Become_Ethereal
     " Editor Settings:
-    hi Normal         ctermfg=187     guifg=#dfdfaf     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
-    hi LineNr         ctermfg=238     guifg=#444444     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
-    hi CursorLine     ctermfg=NONE    guifg=NONE        ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
-    hi ColorColumn    ctermfg=NONE    guifg=NONE        ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
-    hi CursorLineNR   ctermfg=240     guifg=#585858     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
+    hi Normal           ctermfg=187     guifg=#dfdfaf     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
+    hi LineNr           ctermfg=238     guifg=#444444     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
+    hi CursorLine       ctermfg=NONE    guifg=NONE        ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+    hi ColorColumn      ctermfg=NONE    guifg=NONE        ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+    hi CursorLineNR     ctermfg=240     guifg=#585858     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
 
     " Variable Types:
-    hi String         ctermfg=222     guifg=#ffdf87     ctermbg=233      guibg=#121212        cterm=NONE      gui=NONE
+    hi String           ctermfg=222     guifg=#ffdf87     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
 
     " WindowTab Delimiters:
-    hi TabLineFill    ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
-    hi TabLine        ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
-    hi VertSplit      ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+    hi TabLineFill      ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
+    hi TabLine          ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
+    hi VertSplit        ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
 
     " Number Column:
-    hi SignColumn     ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
-    hi FoldColumn     ctermfg=109     guifg=#87afaf     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
-
-    " Visual Aid:
-    hi Todo             ctermfg=130     guifg=#af5f00     ctermbg=232      guibg=#080808     cterm=reverse    gui=reverse
+    hi SignColumn       ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
+    hi FoldColumn       ctermfg=109     guifg=#87afaf     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
 
     " Completion Menu:
-    hi Pmenu            ctermfg=101    guifg=#87875f     ctermbg=16      guibg=#000000     cterm=NONE      gui=NONE
-    hi PmenuSel         ctermfg=187    guifg=#dfdfaf     ctermbg=52      guibg=#5f0000     cterm=NONE      gui=NONE
-    hi PmenuSbar        ctermfg=16     guifg=#000000     ctermbg=16      guibg=#000000     cterm=NONE      gui=NONE
-    hi PmenuThumb       ctermfg=16     guifg=#000000     ctermbg=16      guibg=#000000     cterm=NONE      gui=NONE
-end
+    hi Pmenu            ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
+    hi PmenuSel         ctermfg=187     guifg=#dfdfaf     ctermbg=52       guibg=#5f0000     cterm=NONE     gui=NONE
+    hi PmenuSbar        ctermfg=16      guifg=#000000     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
+    hi PmenuThumb       ctermfg=16      guifg=#000000     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
 
+    " Visual Aid:
+    hi Todo             ctermfg=130     guifg=#af5f00     ctermbg=16       guibg=#000000     cterm=reverse  gui=reverse
+    hi NonText          ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
+end
 
 "===================================================================================================================
 " CLEAR SKIES:
@@ -328,7 +335,7 @@ end
 "===================================================================================================================
 if g:alduin_Shout_Aura_Whisper
     " Visual Aid:
-    hi MatchParen     ctermfg=255     guifg=#eeeeee     ctermbg=234      guibg=#1c1c1c      cterm=underline gui=underline
+    hi MatchParen     ctermfg=255     guifg=#eeeeee     ctermbg=234      guibg=#1c1c1c    cterm=underline gui=underline
 end
 
 "===================================================================================================================
