@@ -2,10 +2,7 @@ Alduin
 ------
 
 ###### Alduin version 4.0.0
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19174337/e3f3aa68-8be2-11e6-8474-4908f44e7505.png)
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19262924/6eea0bd0-8f4e-11e6-9bba-73c268290a36.png)
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19262969/ae6acfb0-8f4e-11e6-81bb-43552a1b03a6.png)
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263809/0a473360-8f53-11e6-850d-c8af33cd3e06.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21332707/238e2076-c5ff-11e6-96af-ec653790fe8b.png)
 
 ```VimL
 colorscheme alduin
