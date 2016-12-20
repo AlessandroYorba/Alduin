@@ -217,7 +217,7 @@ if 1
     hi CursorLineNR     ctermfg=144     guifg=#afaf87     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
 
     " Number Column:
-    hi Folded           ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
+    hi Folded           ctermfg=144     guifg=#afaf87     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
     hi FoldColumn       ctermfg=109     guifg=#87afaf     ctermbg=234      guibg=#1c1c1c     cterm=NONE     gui=NONE
     hi SignColumn       ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
 
@@ -255,7 +255,7 @@ if g:alduin_Shout_Dragon_Aspect
     hi CursorLineNR     ctermfg=144     guifg=#afaf87     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
 
     " Number Column:
-    hi Folded           ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
+    hi Folded           ctermfg=144     guifg=#afaf87     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
     hi FoldColumn       ctermfg=109     guifg=#87afaf     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
     hi SignColumn       ctermfg=101     guifg=#87875f     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
 
@@ -300,6 +300,7 @@ if g:alduin_Shout_Become_Ethereal
     hi VertSplit        ctermfg=101     guifg=#87875f     ctermbg=233      guibg=#121212     cterm=NONE     gui=NONE
 
     " Number Column:
+    hi Folded           ctermfg=144     guifg=#afaf87     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
     hi SignColumn       ctermfg=101     guifg=#87875f     ctermbg=16       guibg=#000000     cterm=NONE     gui=NONE
     hi FoldColumn       ctermfg=109     guifg=#87afaf     ctermbg=232      guibg=#080808     cterm=NONE     gui=NONE
 
