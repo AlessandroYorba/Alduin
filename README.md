@@ -2,7 +2,7 @@ Alduin
 ------
 
 ###### Alduin version 4.0.0
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21333272/7e5708d4-c603-11e6-9781-6473346744eb.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465580/7e28388e-c95e-11e6-9a91-29f03b00c3d0.png)
 
 ```VimL
 colorscheme alduin
@@ -29,19 +29,11 @@ There are several options that you can enable for alduin. You can activate them 
 
 | Decription                            | Add variables to .vimrc                     | Screenshot                          |
 |---------------------------------------|---------------------------------------------|-------------------------------------|
-| dark gray background                  | `colorscheme alduin`                        | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263012/f45e8ca0-8f4e-11e6-860d-7fdf24b75a0a.png) |
-| black background                      | `let g:alduin_Shout_Become_Ethereal = 1`    | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263164/cb2628d8-8f4f-11e6-8202-fe0eda4d2335.png) |
-| gray to black @ 5pm                   | `let g:alduin_Contract_Vampirism = 1`       | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263262/53ccd54c-8f50-11e6-8f49-a90efd127ae5.png) |
-| underline matching parens             | `let g:alduin_Shout_Aura_Whisper = 1`       | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263436/36c3e99e-8f51-11e6-9c7a-3a957afab5ce.png) |
-| adds dark red color                   | `let g:alduin_Shout_Fire_Breath = 1`        | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263338/adb7cf44-8f50-11e6-840b-b07180b03941.png) |
-| removes background from Strings       | `let g:alduin_Shout_Animal_Allegiance = 1`  | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19263701/69d87024-8f52-11e6-8086-ecaeca0b18b3.png) |
-| removes cursorline                    | `let g:alduin_Shout_Clear_Skies = 1`        | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/19264102/4230e2d4-8f54-11e6-9bf5-2fba384c6bae.png) |
+| dark gray background                  | `colorscheme alduin`                        | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465616/b94e9722-c95f-11e6-95a2-d96ceb58cc94.png) |
+| almost black background               | `let g:alduin_Dragon_Aspect`                | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465618/c067bc3c-c95f-11e6-89e6-724f37fc54f3.png) |
+| black background                      | `let g:alduin_Shout_Become_Ethereal = 1`    | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465619/c858399e-c95f-11e6-8585-a944628673b0.png) |
+| adds dark red color                   | `let g:alduin_Shout_Fire_Breath = 1`        | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465622/e741e9b8-c95f-11e6-8b66-c753115a69c7.png) |
 
-
-TODO: Improvements currently in development
------
-* Setting to remove certain UI colors within Alduin for Terminals that support image backgrounds / transparency
-* Rework Diff colors so that they are more inline with Alduin's palette 
 
 Moar Screenshots
 ------------
@@ -56,5 +48,6 @@ If you like certain colorschemes like Twilight, Mustang, and Inkpot, I encourage
 Related 
 -------
 Feedback, issues or suggestions? Open an Issue [Alduin Issues](https://github.com/AlessandroYorba/Alduin/issues)! Also, if you like Alduin you might want to check out a few of the other Vim themes I manage:
-* [Sierra](https://github.com/AlessandroYorba/Sierra)
-* [Despacio](https://github.com/AlessandroYorba/Despacio)
+* ![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21465597/26696888-c95f-11e6-8b25-316b616eba01.png) [Sierra](https://github.com/AlessandroYorba/Sierra)
+* ![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21465596/1fcf4114-c95f-11e6-81cf-dbbfa61243c9.png) [Despacio](https://github.com/AlessandroYorba/Despacio)
+* ![arcadiaPalette](https://cloud.githubusercontent.com/assets/11221489/21465593/130798f0-c95f-11e6-80b9-1f19bd9e652f.png) [Arcadia](https://github.com/AlessandroYorba/Arcadia)
