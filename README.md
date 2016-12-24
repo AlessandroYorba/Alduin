@@ -13,12 +13,12 @@ Installation
 There are a few ways to install alduin. The first option is by using your favorite vim package manager and the second is by manual download.
 
 ###### Package Manager Option
-| Manager          | SetUp                                                                                      |
+| Manager          | Location       | SetUp                                                                     |
 |------------------|--------------------------------------------------------------------------------------------|
-| Vundle           | add to .vimrc:   `Plugin 'alessandroyorba/alduin'`                                         |
-| NeoBundle        | add to .vimrc:   `NeoBundle 'alessandroyorba/alduin'`                                      |
-| VimPlug          | add to .vimrc:   `Plug 'alessandroyorba/alduin'`                                           |
-| Pathogen         | from terminal:   `cd ~/.vim/bundle && \ git clone git://github.com/alessandroyorba/alduin` |
+| Vundle           | add to .vimrc: | `Plugin 'alessandroyorba/alduin'`                                         |
+| NeoBundle        | add to .vimrc: | `NeoBundle 'alessandroyorba/alduin'`                                      |
+| VimPlug          | add to .vimrc: | `Plug 'alessandroyorba/alduin'`                                           |
+| Pathogen         | from terminal: | `cd ~/.vim/bundle && \ git clone git://github.com/alessandroyorba/alduin` |
 
 ###### Download Option
 Download the .zip and copy `alduin.vim` to `~/.vim/colors` (on Windows `<your-vim-dir>\vimfiles\colors`). Or for global accessibility, `/usr/share/vim/vimfiles/colors`.
@@ -27,7 +27,7 @@ Alduin Settings
 ---------------
 There are several options that you can enable for alduin. You can activate them by adding each of the following variables to your .vimrc. Remember to place the variables before you declare `colorscheme alduin`.
 
-| Decription                            | Add variables to .vimrc                     | Screenshot                          |
+| Decription                            | Set up in .vimrc                            | Screenshot                          |
 |---------------------------------------|---------------------------------------------|-------------------------------------|
 | dark gray background                  | `colorscheme alduin`                        | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465616/b94e9722-c95f-11e6-95a2-d96ceb58cc94.png) |
 | almost black background               | `let g:alduin_Dragon_Aspect`                | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465618/c067bc3c-c95f-11e6-89e6-724f37fc54f3.png) |
