@@ -7,6 +7,7 @@ Alduin
 ```VimL
 colorscheme alduin
 ```
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465616/b94e9722-c95f-11e6-95a2-d96ceb58cc94.png)
 
 Installation
 ---------------
