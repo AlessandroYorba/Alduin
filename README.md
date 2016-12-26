@@ -49,6 +49,12 @@ If you like certain colorschemes like Twilight, Mustang, and Inkpot, I encourage
 Related 
 -------
 Feedback, issues or suggestions? Open an Issue [Alduin Issues](https://github.com/AlessandroYorba/Alduin/issues)! Also, if you like Alduin you might want to check out a few of the other Vim themes I manage:
-* ![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21465597/26696888-c95f-11e6-8b25-316b616eba01.png) [Sierra](https://github.com/AlessandroYorba/Sierra)
-* ![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21465596/1fcf4114-c95f-11e6-81cf-dbbfa61243c9.png) [Despacio](https://github.com/AlessandroYorba/Despacio)
-* ![arcadiaPalette](https://cloud.githubusercontent.com/assets/11221489/21465593/130798f0-c95f-11e6-80b9-1f19bd9e652f.png) [Arcadia](https://github.com/AlessandroYorba/Arcadia)
+
+Despacio  
+[![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21479519/ec31ac1e-cb09-11e6-82a2-4c0756672eff.png)](https://github.com/AlessandroYorba/Despacio) 
+
+Arcadia  
+[![arcadiaPalette](https://cloud.githubusercontent.com/assets/11221489/21479527/f4c03dbe-cb09-11e6-8bc4-03acc900dc87.png)](https://github.com/AlessandroYorba/Arcadia) 
+
+Sierra  
+[![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21479522/f03b6142-cb09-11e6-859c-25ad16a61b26.png)](https://github.com/AlessandroYorba/Sierra)
