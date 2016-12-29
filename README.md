@@ -54,7 +54,7 @@ Despacio
 [![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21479519/ec31ac1e-cb09-11e6-82a2-4c0756672eff.png)](https://github.com/AlessandroYorba/Despacio) 
 
 Arcadia  
-[![arcadiaPalette](https://cloud.githubusercontent.com/assets/11221489/21479527/f4c03dbe-cb09-11e6-8bc4-03acc900dc87.png)](https://github.com/AlessandroYorba/Arcadia) 
+[![arcadiaPalette](https://cloud.githubusercontent.com/assets/11221489/21535129/9b7338c4-cd25-11e6-99fb-b81de5350603.png)](https://github.com/AlessandroYorba/Arcadia) 
 
 Sierra  
 [![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21479522/f03b6142-cb09-11e6-859c-25ad16a61b26.png)](https://github.com/AlessandroYorba/Sierra)
