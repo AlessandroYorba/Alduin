@@ -50,7 +50,7 @@ Related
 -------
 Feedback, issues or suggestions? Open an Issue [Alduin Issues](https://github.com/AlessandroYorba/Alduin/issues)! Also, if you like Alduin you might want to check out a few of the other Vim themes I manage:
 
-Sierra  
+Despacio  
 [![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21479519/ec31ac1e-cb09-11e6-82a2-4c0756672eff.png)](https://github.com/AlessandroYorba/Despacio)
 
 Sierra  
