@@ -184,10 +184,10 @@ hi htmlItalic       ctermfg=180     guifg=#dfaf87     ctermbg=NONE     guibg=NON
 hi htmlArg          ctermfg=95      guifg=#875f5f     ctermbg=NONE     guibg=NONE        cterm=NONE      gui=NONE
 
 " Diff:
-hi DiffAdd          ctermfg=235     guifg=#262626     ctermbg=108      guibg=#87af87     cterm=NONE      gui=NONE
-hi DiffChange       ctermfg=235     guifg=#262626     ctermbg=60       guibg=#5f5f87     cterm=NONE      gui=NONE
-hi DiffText         ctermfg=235     guifg=#262626     ctermbg=103      guibg=#8787af     cterm=NONE      gui=NONE
-hi DiffDelete       ctermfg=235     guifg=#262626     ctermbg=131      guibg=#af5f5f     cterm=NONE      gui=NONE
+hi DiffAdd          ctermfg=108     guifg=#87af87     ctermbg=NONE     guibg=NONE        cterm=reverse   gui=reverse
+hi DiffChange       ctermfg=60      guifg=#5f5f87     ctermbg=NONE     guibg=NONE        cterm=reverse   gui=reverse
+hi DiffText         ctermfg=103     guifg=#8787af     ctermbg=NONE     guibg=NONE        cterm=reverse   gui=reverse
+hi DiffDelete       ctermfg=131     guifg=#af5f5f     ctermbg=NONE     guibg=NONE        cterm=reverse   gui=reverse
 
 " Spelling:
 hi SpellBad         ctermfg=196     guifg=#ff0000     ctermbg=NONE     guibg=NONE        cterm=undercurl gui=undercurl
