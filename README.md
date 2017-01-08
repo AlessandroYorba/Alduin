@@ -2,7 +2,7 @@ Alduin
 ------
 
 ###### Alduin version 4.0.0
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465580/7e28388e-c95e-11e6-9a91-29f03b00c3d0.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21754581/230ea54e-d5b8-11e6-9691-51fa154bbf08.png)
 
 ```VimL
 colorscheme alduin
@@ -51,7 +51,10 @@ Related
 Feedback, issues or suggestions? Open an Issue [Alduin Issues](https://github.com/AlessandroYorba/Alduin/issues)! Also, if you like Alduin you might want to check out a few of the other Vim themes I manage:
 
 Despacio  
-[![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21479519/ec31ac1e-cb09-11e6-82a2-4c0756672eff.png)](https://github.com/AlessandroYorba/Despacio)
+[![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21754583/279ff8e2-d5b8-11e6-9af5-61116c153848.png)](https://github.com/AlessandroYorba/Despacio)
 
 Sierra  
-[![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21479522/f03b6142-cb09-11e6-859c-25ad16a61b26.png)](https://github.com/AlessandroYorba/Sierra)
+[![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21754584/2c79e256-d5b8-11e6-9d77-79a35253052a.png)](https://github.com/AlessandroYorba/Sierra)
+
+Sidonia
+[![sidoniaPalette](https://cloud.githubusercontent.com/assets/11221489/21754587/30c8dff6-d5b8-11e6-9c69-676ab2a18d13.png)](https://github.com/AlessandroYorba/Sierra)
