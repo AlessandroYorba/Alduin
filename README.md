@@ -57,4 +57,4 @@ Sierra
 [![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21754584/2c79e256-d5b8-11e6-9d77-79a35253052a.png)](https://github.com/AlessandroYorba/Sierra)
 
 Sidonia
-[![sidoniaPalette](https://cloud.githubusercontent.com/assets/11221489/21754587/30c8dff6-d5b8-11e6-9c69-676ab2a18d13.png)](https://github.com/AlessandroYorba/Sierra)
+[![sidoniaPalette](https://cloud.githubusercontent.com/assets/11221489/21754587/30c8dff6-d5b8-11e6-9c69-676ab2a18d13.png)](https://github.com/AlessandroYorba/Sidonia)
