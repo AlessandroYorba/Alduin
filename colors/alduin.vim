@@ -115,10 +115,6 @@ if !exists( "g:alduin_Shout_Become_Ethereal" )
     let g:alduin_Shout_Become_Ethereal = 0
 endif
 
-if !exists( "g:alduin_Contract_Vampirism")
-    let g:alduin_Contract_Vampirism = 0
-endif
-
 "================================================================================
 " ALDUIN HIGHLIGHTING:
 "================================================================================
@@ -178,7 +174,6 @@ highlight! link Character           Number
 highlight! link Boolean             Number
 highlight! link Float               Number
 
-
 "================================================================================
 " ALDUIN UI:
 "================================================================================
@@ -204,8 +199,6 @@ if 1
     highlight! link PmenuThumb      PmenuSbar
     highlight! link VertSplit       NonText
 endif
-
-
 
 "===================================================================================================================
 " DRAGON ASPECT UI:
@@ -287,26 +280,3 @@ if g:alduin_Shout_Fire_Breath
     highlight! Special        ctermfg=124     guifg=#af0000     ctermbg=NONE     guibg=NONE     cterm=NONE   gui=NONE
     highlight! Title          ctermfg=131     guifg=#af5f5f     ctermbg=NONE     guibg=NONE     cterm=NONE   gui=NONE
 endif
-
-"===================================================================================================================
-" CONTRACT VAMPIRISM:
-"===================================================================================================================
-if g:alduin_Contract_Vampirism
-    let alduin_Hour = strftime("%H")
-
-    "Alduin: 7am - 5pm
-    if 7 <= alduin_Hour && alduin_Hour < 17
-        let g:alduin_Shout_Dragon_Aspect = 0
-        let g:alduin_Shout_Become_Ethereal = 0
-
-    "Shout_Dragon_Aspect: 5pm - 12am
-    elseif 17 <= alduin_Hour && alduin_Hour < 24
-        let g:alduin_Shout_Dragon_Aspect = 1
-        let g:alduin_Shout_Become_Ethereal = 0
-
-    "Shout_Become_Ethereal: 12am - 7am
-    else
-        let g:alduin_Shout_Dragon_Aspect = 0
-        let g:alduin_Shout_Become_Ethereal = 1
-    endif
-end
