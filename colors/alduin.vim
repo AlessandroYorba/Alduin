@@ -20,63 +20,63 @@
 
 "White:
 "================================================================================
-"Whiterun        187      #dfdfaf      http://www.colorhexa.com/dfdfaf
-"Ivory           255      #eeeeee      http://www.colorhexa.com/eeeeee
+"Whiterun        187      #dfdfaf
+"Ivory           255      #eeeeee
 
 "Black:
 "================================================================================
-"Abyss           16       #000000     http://www.colorhexa.com/000000
-"Ethereal        232      #080808     http://www.colorhexa.com/080808
-"Aspect          233      #121212     http://www.colorhexa.com/121212
+"Abyss           16       #000000
+"Ethereal        232      #080808
+"Aspect          233      #121212
 
 "Gray:
 "================================================================================
-"Relonikiv       102      #878787      http://www.colorhexa.com/878787
-"Skyrim          234      #1c1c1c      http://www.colorhexa.com/1c1c1c
-"Ivarstead       235      #262626      http://www.colorhexa.com/262626
-"Riften          236      #303030      http://www.colorhexa.com/303030
-"Rorikstead      237      #3a3a3a      http://www.colorhexa.com/3a3a3a
-"Helgen          238      #444444      http://www.colorhexa.com/444444
-"Nightingale     240      #585858      http://www.colorhexa.com/585858
+"Relonikiv       102      #878787
+"Skyrim          234      #1c1c1c
+"Ivarstead       235      #262626
+"Riften          236      #303030
+"Rorikstead      237      #3a3a3a
+"Helgen          238      #444444
+"Nightingale     240      #585858
 
 "Red:
 "================================================================================
-"Durnehviir      95       #875f5f     http://www.colorhexa.com/875f5f
-"Krosulhah       52       #5f0000     http://www.colorhexa.com/5f0000
-"Windhelm        131      #af5f5f     http://www.colorhexa.com/af5f5f
-"Kruziikrel      138      #af8787     http://www.colorhexa.com/af8787
-"Redoran         196      #ff0000     http://www.colorhexa.com/ff0000
-"Sahloknir       124      #af0000     http://www.colorhexa.com/af0000
+"Durnehviir      95       #875f5f
+"Krosulhah       52       #5f0000
+"Windhelm        131      #af5f5f
+"Kruziikrel      138      #af8787
+"Redoran         196      #ff0000
+"Sahloknir       124      #af0000
 
 "Green:
 "================================================================================
-"Cragslane       65       #5f875f     http://www.colorhexa.com/5f875f
-"Winterhold      101      #87875f     http://www.colorhexa.com/87875f
-"Windpeak        108      #87af87     http://www.colorhexa.com/87af87
-"Eastmarch       144      #afaf87     http://www.colorhexa.com/afaf87
+"Cragslane       65       #5f875f
+"Winterhold      101      #87875f
+"Windpeak        108      #87af87
+"Eastmarch       144      #afaf87
 
 "Yellow:
 "================================================================================
-"Paarthurnax     222      #ffdf87     http://www.colorhexa.com/ffdf87
+"Paarthurnax     222      #ffdf87
 
 "Cyan:
 "================================================================================
-"Riverwood       152      #afd7d7     http://www.colorhexa.com/afd7d7
-"Mirmulnir       109      #87afaf     http://www.colorhexa.com/87afaf
-"Dawnstar        66       #5f8787     http://www.colorhexa.com/5f8787
-"Chillwind       111      #87afff     http://www.colorhexa.com/87afff
+"Riverwood       152      #afd7d7
+"Mirmulnir       109      #87afaf
+"Dawnstar        66       #5f8787
+"Chillwind       111      #87afff
 
 "Blue:
 "================================================================================
-"Falkreath       103      #8787af     http://www.colorhexa.com/8787af
-"Morthal         60       #5f5f87     http://www.colorhexa.com/5f5f87
+"Falkreath       103      #8787af
+"Morthal         60       #5f5f87
 
 "Orange:
 "================================================================================
-"Sahrotaar       180      #dfaf87     http://www.colorhexa.com/dfaf87
-"Odahviing       130      #af5f00     http://www.colorhexa.com/af5f00
-"Viinturuth      137      #af875f     http://www.colorhexa.com/af875f
-"Honeystrand     208      #ff8700     http://www.colorhexa.com/ff8700
+"Sahrotaar       180      #dfaf87
+"Odahviing       130      #af5f00
+"Viinturuth      137      #af875f
+"Honeystrand     208      #ff8700
 
 "================================================================================
 " SET DEFAULT PARAMETERS:
