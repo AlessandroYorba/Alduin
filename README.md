@@ -7,7 +7,7 @@ Skyrim belongs to the Nords!!
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465616/b94e9722-c95f-11e6-95a2-d96ceb58cc94.png)
 
 
-:rocket: Installation and Setup
+:rocket: Setup
 ---------------
 There are several options that you can enable for alduin. You can activate them by adding each of the following variables to your .vimrc. Remember to place the variables before you declare `colorscheme alduin`.
 
@@ -18,9 +18,10 @@ There are several options that you can enable for alduin. You can activate them 
 | black background                      | `let g:alduin_Shout_Become_Ethereal = 1`    | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465619/c858399e-c95f-11e6-8585-a944628673b0.png) |
 | adds dark red color                   | `let g:alduin_Shout_Fire_Breath = 1`        | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465622/e741e9b8-c95f-11e6-8b66-c753115a69c7.png) |
 
-:open_file_folder: Package Manager Option
+:open_file_folder: Installation
 ---------------
-There are a few ways to install alduin. The first option is by using your favorite vim package manager and the second is by manual download.
+
+###### Package Manager Option
 
 | Manager          | Location       | SetUp                                                                     |
 |------------------|----------------|---------------------------------------------------------------------------|
