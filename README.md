@@ -2,9 +2,7 @@ Skyrim belongs to the Nords!!
 -------
 
 ###### Alduin version 4.0.0
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21754581/230ea54e-d5b8-11e6-9691-51fa154bbf08.png)
-
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465616/b94e9722-c95f-11e6-95a2-d96ceb58cc94.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22007275/61bafaee-dc26-11e6-992a-2b0045636cbd.png)
 
 
 :rocket: Setup
@@ -38,11 +36,14 @@ Download the .zip and copy `alduin.vim` to `~/.vim/colors` (on Windows `<your-vi
 -------
 Feedback, issues or suggestions? Open an Issue [Alduin Issues](https://github.com/AlessandroYorba/Alduin/issues)! Also, if you like Alduin you might want to check out a few of the other Vim themes I manage:
 
-Despacio  
-[![despacioPalette](https://cloud.githubusercontent.com/assets/11221489/21754583/279ff8e2-d5b8-11e6-9af5-61116c153848.png)](https://github.com/AlessandroYorba/Despacio)
-
 Sierra  
-[![sierraPalette](https://cloud.githubusercontent.com/assets/11221489/21754584/2c79e256-d5b8-11e6-9d77-79a35253052a.png)](https://github.com/AlessandroYorba/Sierra)
+[![sierraScreenshot](https://cloud.githubusercontent.com/assets/11221489/21754584/2c79e256-d5b8-11e6-9d77-79a35253052a.png)](https://github.com/AlessandroYorba/Sierra)
+
+Despacio  
+[![despacioScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007285/75edcac8-dc26-11e6-83b0-f2fd9d5d1ca2.png)](https://github.com/AlessandroYorba/Despacio)
 
 Sidonia
-[![sidoniaPalette](https://cloud.githubusercontent.com/assets/11221489/21754587/30c8dff6-d5b8-11e6-9c69-676ab2a18d13.png)](https://github.com/AlessandroYorba/Sidonia)
+[![sidoniaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007300/7f5bff08-dc26-11e6-974b-70b30412a8b8.png)](https://github.com/AlessandroYorba/Sidonia)
+
+Monrovia
+[![monroviaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007309/86bab42e-dc26-11e6-85da-ed987685c6c6.png)](https://github.com/AlessandroYorba/Monrovia)
