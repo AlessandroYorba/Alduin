@@ -16,6 +16,10 @@ There are several options that you can enable for alduin. You can activate them 
 | black background                      | `let g:alduin_Shout_Become_Ethereal = 1`    | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465619/c858399e-c95f-11e6-8585-a944628673b0.png) |
 | adds dark red color                   | `let g:alduin_Shout_Fire_Breath = 1`        | [Screenshot](https://cloud.githubusercontent.com/assets/11221489/21465622/e741e9b8-c95f-11e6-8b66-c753115a69c7.png) |
 
+```VimL
+colorscheme alduin
+```
+
 :open_file_folder: Installation
 ---------------
 
