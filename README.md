@@ -37,7 +37,7 @@ Download the .zip and copy `alduin.vim` to `~/.vim/colors` (on Windows `<your-vi
 Feedback, issues or suggestions? Open an Issue [Alduin Issues](https://github.com/AlessandroYorba/Alduin/issues)! Also, if you like Alduin you might want to check out a few of the other Vim themes I manage:
 
 Sierra  
-[![sierraScreenshot](https://cloud.githubusercontent.com/assets/11221489/21754584/2c79e256-d5b8-11e6-9d77-79a35253052a.png)](https://github.com/AlessandroYorba/Sierra)
+[![sierraScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007069/de0ceaa0-dc24-11e6-80c5-2e047f42d29b.png)](https://github.com/AlessandroYorba/Sierra)
 
 Despacio  
 [![despacioScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007285/75edcac8-dc26-11e6-83b0-f2fd9d5d1ca2.png)](https://github.com/AlessandroYorba/Despacio)
