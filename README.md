@@ -2,7 +2,7 @@ Skyrim belongs to the Nords!!
 -------
 
 ###### Alduin version 4.0.0
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22007275/61bafaee-dc26-11e6-992a-2b0045636cbd.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22487230/6dfac892-e7c1-11e6-811d-f91b658145a4.png)
 
 
 :rocket: Setup
