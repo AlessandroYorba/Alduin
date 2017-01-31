@@ -13,6 +13,25 @@
 " Script URL:   https://github.com/AlessandroYorba/Alduin
 " License:      MIT
 
+"=================================================================================
+" ANSI COLORS ALDUIN:
+"=================================================================================
+"     Foreground   #dfdfaf                                                       |
+"     Background   #121212                                                       |
+"     CursorColor  #dfdfaf                                                       |
+"---------------------------------------|-----------------------------------------
+"     NORMAL       Hex          xterm   |      "BRIGHT      Hex          xterm   |
+"---------------------------------------|-----------------------------------------
+"     Black        #1c1c1c      0       |      brBlack      #87875f      8       |
+"     Red          #af8787      1       |      brRed        #af1600      9       |
+"     Green        #dfaf87      2       |      brGreen      #af875f      10      |
+"     Yellow       #878787      3       |      brYellow     #878787      11      |
+"     Blue         #af5f5f      4       |      brBlue       #af5f00      12      |
+"     Magenta      #875f5f      5       |      brMagenta    #5f5f87      13      |
+"     Cyan         #87afaf      6       |      brCyan       #afd7d7      14      |
+"     White        #ffdf87      7       |      brWhite      #dfdfaf      15      |
+"---------------------------------------|-----------------------------------------
+
 "================================================================================
 " SET DEFAULT PARAMETERS:
 "================================================================================
@@ -85,7 +104,7 @@ highlight! VisualNOS               guifg=NONE     guibg=NONE     gui=underline  
 highlight! PmenuSbar               guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE  ctermbg=NONE  cterm=NONE
 
 highlight! link PmenuThumb         PmenuSbar
-highlight! link VertSplit          NonText
+highlight! link VertSplit          LineNr
 highlight! link WildMenu           Search
 highlight! link Visual             Search
 highlight! link PmenuSel           Search

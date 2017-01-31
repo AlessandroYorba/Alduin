@@ -5,15 +5,15 @@
 
 ! black
 *.color0:       #1c1c1c
-*.color8:       #565656
+*.color8:       #87875f
 
 ! red
 *.color1:       #af8787
-*.color9:       #af8787
+*.color9:       #af1600
 
 ! green
 *.color2:       #dfaf87
-*.color10:      #dfaf87
+*.color10:      #af875f
 
 ! yellow
 *.color3:       #878787
@@ -21,16 +21,16 @@
 
 ! blue
 *.color4:       #af5f5f
-*.color12:      #af5f5f
+*.color12:      #af5f00
 
 ! magenta
 *.color5:       #875f5f
-*.color13:      #875f5f
+*.color13:      #5f5f87
 
 ! cyan
-*.color6:       #87875f
-*.color14:      #87875f
+*.color6:       #87afaf
+*.color14:      #afd7d7
 
 ! white
-*.color7:       #999999
-*.color15:      #ffffff
+*.color7:       #ffdf87
+*.color15:      #dfdfaf
