@@ -2,7 +2,7 @@ Skyrim belongs to the Nords!!
 -------
 
 ###### Alduin version 4.0.0
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22487230/6dfac892-e7c1-11e6-811d-f91b658145a4.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22623084/331438b8-eb03-11e6-98ec-4f5ada677186.png)
 
 
 :rocket: Setup
@@ -41,13 +41,13 @@ Download the .zip and copy `alduin.vim` to `~/.vim/colors` (on Windows `<your-vi
 Feedback, issues or suggestions? Open an Issue [Alduin Issues](https://github.com/AlessandroYorba/Alduin/issues)! Also, if you like Alduin you might want to check out a few of the other Vim themes I manage:
 
 Sierra  
-[![sierraScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007069/de0ceaa0-dc24-11e6-80c5-2e047f42d29b.png)](https://github.com/AlessandroYorba/Sierra)
+[![sierraScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623099/75bed3f8-eb03-11e6-8682-244acd57f080.png)](https://github.com/AlessandroYorba/Sierra)
 
 Despacio  
-[![despacioScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007285/75edcac8-dc26-11e6-83b0-f2fd9d5d1ca2.png)](https://github.com/AlessandroYorba/Despacio)
+[![despacioScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623087/431bb100-eb03-11e6-94dc-ce57d811084c.png)](https://github.com/AlessandroYorba/Despacio)
 
 Sidonia
-[![sidoniaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007300/7f5bff08-dc26-11e6-974b-70b30412a8b8.png)](https://github.com/AlessandroYorba/Sidonia)
+[![sidoniaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623096/65d3fedc-eb03-11e6-8c53-867429df4b9c.png)](https://github.com/AlessandroYorba/Sidonia)
 
 Monrovia
-[![monroviaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22259039/a22c6c46-e218-11e6-8183-280ad153c6b7.png)](https://github.com/AlessandroYorba/Monrovia)
+[![monroviaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623092/51a2cf06-eb03-11e6-8dbf-ddecb9e12b4c.png)](https://github.com/AlessandroYorba/Monrovia)
