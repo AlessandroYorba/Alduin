@@ -72,6 +72,26 @@ if !exists( "g:alduin_Contract_Vampirism")
     let g:alduin_Contract_Vampirism = 0
 endif
 
+"===================================================================================================================
+" CONTRACT VAMPIRISM:
+"===================================================================================================================
+if g:alduin_Contract_Vampirism
+    let alduin_Hour = strftime("%H")
+    "Alduin: 7am - 5pm
+    if 7 <= alduin_Hour && alduin_Hour < 17
+        let g:alduin_Shout_Dragon_Aspect = 0
+        let g:alduin_Shout_Become_Ethereal = 0
+    "Shout_Dragon_Aspect: 5pm - 12am
+    elseif 17 <= alduin_Hour && alduin_Hour < 24
+        let g:alduin_Shout_Dragon_Aspect = 1
+        let g:alduin_Shout_Become_Ethereal = 0
+    "Shout_Become_Ethereal: 12am - 7am
+    else
+        let g:alduin_Shout_Dragon_Aspect = 0
+        let g:alduin_Shout_Become_Ethereal = 1
+    endif
+endif
+
 "================================================================================
 " ALDUIN HIGHLIGHTING:
 "================================================================================
@@ -235,24 +255,4 @@ if g:alduin_Shout_Fire_Breath
     highlight! Search               guifg=#dfdfaf  guibg=#5f0000  gui=NONE  ctermfg=187  ctermbg=52    cterm=NONE
     highlight! Special              guifg=#af0000  guibg=NONE     gui=NONE  ctermfg=124  ctermbg=NONE  cterm=NONE
     highlight! Title                guifg=#af5f5f  guibg=NONE     gui=NONE  ctermfg=131  ctermbg=NONE  cterm=NONE
-endif
-
-"===================================================================================================================
-" CONTRACT VAMPIRISM:
-"===================================================================================================================
-if g:alduin_Contract_Vampirism
-    let alduin_Hour = strftime("%H")
-    "Alduin: 7am - 5pm
-    if 7 <= alduin_Hour && alduin_Hour < 17
-        let g:alduin_Shout_Dragon_Aspect = 0
-        let g:alduin_Shout_Become_Ethereal = 0
-    "Shout_Dragon_Aspect: 5pm - 12am
-    elseif 17 <= alduin_Hour && alduin_Hour < 24
-        let g:alduin_Shout_Dragon_Aspect = 1
-        let g:alduin_Shout_Become_Ethereal = 0
-    "Shout_Become_Ethereal: 12am - 7am
-    else
-        let g:alduin_Shout_Dragon_Aspect = 0
-        let g:alduin_Shout_Become_Ethereal = 1
-    endif
 endif
