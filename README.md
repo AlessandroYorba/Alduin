@@ -41,5 +41,8 @@ colorscheme alduin
 
 :octopus: Moar Colorschemes
 -------
-[Despacio](https://github.com/AlessandroYorba/Despacio) [Sierra](https://github.com/AlessandroYorba/Sierra) [Sidonia](https://github.com/AlessandroYorba/Sidonia) [Monrovia](https://github.com/AlessandroYorba/Monrovia)
+[Despacio](https://github.com/AlessandroYorba/Despacio)<br>
+[Sierra](https://github.com/AlessandroYorba/Sierra)<br>
+[Sidonia](https://github.com/AlessandroYorba/Sidonia)<br>
+[Monrovia](https://github.com/AlessandroYorba/Monrovia)
 
