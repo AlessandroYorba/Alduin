@@ -35,7 +35,7 @@ colorscheme alduin
 
 :octocat: Credits
 -----------------
-[Alduin Airline Theme by Danilo Augusto](https://github.com/danilo-augusto)
+[Alduin Airline Theme by Danilo Augusto](https://github.com/danilo-augusto)<br>
 [Arch Linux Package by George Angelopoulos](https://github.com/lathan)
 
 
