@@ -31,10 +31,13 @@ colorscheme alduin
 ```
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23393872/99652f70-fd3a-11e6-82d1-04e59067eee6.png)
 
-:octocat: Credits
+:octocat: Special Thanks
 -----------------
 [Alduin Airline Theme by Danilo Augusto](https://github.com/danilo-augusto)<br>
 [Arch Linux Package by George Angelopoulos](https://github.com/lathan)
+[KKPMW for Design Inspiration](https://github.com/KKPMW/moonshine-vim)
+[Romain Lafourcade for Design Inspiration](https://github.com/romainl/Apprentice)
+[jiyyt for UI contribution](https://github.com/jiyyt)
 
 :octopus: Moar Colorschemes
 -------
