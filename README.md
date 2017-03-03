@@ -34,9 +34,9 @@ colorscheme alduin
 :octocat: Special Thanks
 -----------------
 [Alduin Airline Theme by Danilo Augusto](https://github.com/danilo-augusto)<br>
-[Arch Linux Package by George Angelopoulos](https://github.com/lathan)
-[KKPMW for Design Inspiration](https://github.com/KKPMW/moonshine-vim)
-[Romain Lafourcade for Design Inspiration](https://github.com/romainl/Apprentice)
+[Arch Linux Package by George Angelopoulos](https://github.com/lathan)<br>
+[KKPMW for Design Inspiration](https://github.com/KKPMW/moonshine-vim)<br>
+[Romain Lafourcade for Design Inspiration](https://github.com/romainl/Apprentice)<br>
 [jiyyt for UI contribution](https://github.com/jiyyt)
 
 :octopus: Moar Colorschemes
