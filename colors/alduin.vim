@@ -33,7 +33,7 @@
 " THE SOFTWARE.
 
 "=================================================================================
-" ANSI COLORS ALDUIN:
+" BASIC COLORS:
 "=================================================================================
 "     Foreground   #dfdfaf              |      Selection     #875f5f             |
 "     Background   #121212              |      Selected Text #dfdfaf             |
