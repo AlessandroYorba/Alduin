@@ -5,27 +5,27 @@
 
 ! black
 *.color0:       #1c1c1c
-*.color8:       #af0000
+*.color8:       #875f5f
 
 ! red
-*.color1:       #af5f5f
-*.color9:       #af8787
+*.color1:       #af1600
+*.color9:       #af5f5f
 
 ! green
-*.color2:       #87875f
-*.color10:      #af5f00
+*.color2:       #af5f00
+*.color10:      #d75f00
 
 ! yellow
 *.color3:       #878787
-*.color11:      #8787af
+*.color11:      #5f5f87
 
 ! blue
 *.color4:       #af875f
 *.color12:      #dfaf87
 
 ! magenta
-*.color5:       #5f0700
-*.color13:      #875f5f
+*.color5:       #875f5f
+*.color13:      #af8787
 
 ! cyan
 *.color6:       #87afaf

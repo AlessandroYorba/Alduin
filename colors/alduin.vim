@@ -46,12 +46,12 @@
 "---------------------------------------|-----------------------------------------
 "     NORMAL       Hex          xterm   |      "BRIGHT      Hex          xterm   |
 "---------------------------------------|-----------------------------------------
-"     Black        #1c1c1c      0       |      brBlack      #af0000      8       |
-"     Red          #af5f5f      1       |      brRed        #af8787      9       |
-"     Green        #87875f      2       |      brGreen      #af5f00      10      |
-"     Yellow       #878787      3       |      brYellow     #8787af      11      |
+"     Black        #1c1c1c      0       |      brBlack      #87875f      8       |
+"     Red          #af1600      1       |      brRed        #af5f5f      9       |
+"     Green        #af5f00      2       |      brGreen      #d75f00      10      |
+"     Yellow       #878787      3       |      brYellow     #5f5f87      11      |
 "     Blue         #af875f      4       |      brBlue       #dfaf87      12      |
-"     Magenta      #5f0700      5       |      brMagenta    #875f5f      13      |
+"     Magenta      #875f5f      5       |      brMagenta    #af8787      13      |
 "     Cyan         #87afaf      6       |      brCyan       #afd7d7      14      |
 "     White        #dfdfaf      7       |      brWhite      #ffdf87      15      |
 "---------------------------------------|-----------------------------------------
@@ -125,17 +125,17 @@ highlight! Constant               guifg=#af8787  guibg=NONE     gui=NONE       c
 highlight! Statement              guifg=#878787  guibg=NONE     gui=NONE       ctermfg=102   ctermbg=NONE  cterm=NONE
 highlight! PreProc                guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
 highlight! Search                 guifg=#dfdfaf  guibg=#875f5f  gui=NONE       ctermfg=187   ctermbg=95    cterm=NONE
-highlight! Comment                guifg=#87875f  guibg=NONE     gui=NONE       ctermfg=101   ctermbg=NONE  cterm=NONE
 highlight! MatchParen             guifg=#dfdfaf  guibg=#875f5f  gui=NONE       ctermfg=187   ctermbg=95    cterm=NONE
 highlight! ModeMsg                guifg=#afaf87  guibg=NONE     gui=NONE       ctermfg=144   ctermbg=NONE  cterm=NONE
 highlight! Function               guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
-highlight! Todo                   guifg=#af5f00  guibg=NONE     gui=reverse    ctermfg=130   ctermbg=NONE  cterm=reverse
 highlight! Identifier             guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
 highlight! Special                guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131   ctermbg=NONE  cterm=NONE
 highlight! Underlined             guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152   ctermbg=NONE  cterm=NONE
 highlight! NonText                guifg=#87875f  guibg=NONE     gui=NONE       ctermfg=101   ctermbg=NONE  cterm=NONE
+highlight! Comment                guifg=#87875f  guibg=NONE     gui=NONE       ctermfg=101   ctermbg=NONE  cterm=NONE
+highlight! SpecialComment         guifg=#87875f  guibg=NONE     gui=reverse    ctermfg=101   ctermbg=NONE  cterm=reverse
 highlight! IncSearch              guifg=#af5f5f  guibg=NONE     gui=reverse    ctermfg=131   ctermbg=NONE  cterm=reverse
-highlight! SpecialComment         guifg=#87875f  guibg=NONE     gui=reverse    ctermfg=101   ctermbg=NONE   cterm=reverse
+highlight! Todo                   guifg=#af5f00  guibg=NONE     gui=reverse    ctermfg=130   ctermbg=NONE  cterm=reverse
 highlight! Error                  guifg=#af5f5f  guibg=#121212  gui=reverse    ctermfg=131   ctermbg=233   cterm=reverse
 highlight! DiffAdd                guifg=#87af87  guibg=NONE     gui=reverse    ctermfg=108   ctermbg=NONE  cterm=reverse
 highlight! DiffChange             guifg=#5f5f87  guibg=NONE     gui=reverse    ctermfg=60    ctermbg=NONE  cterm=reverse
@@ -144,7 +144,7 @@ highlight! DiffDelete             guifg=#af5f5f  guibg=NONE     gui=reverse    c
 highlight! SpellBad               guifg=#ff0000  guibg=NONE     gui=undercurl  ctermfg=196   ctermbg=NONE  cterm=undercurl
 highlight! SpellLocal             guifg=#5f875f  guibg=NONE     gui=undercurl  ctermfg=65    ctermbg=NONE  cterm=undercurl
 highlight! SpellCap               guifg=#87afff  guibg=NONE     gui=undercurl  ctermfg=111   ctermbg=NONE  cterm=undercurl
-highlight! SpellRare              guifg=#ff8700  guibg=NONE     gui=undercurl  ctermfg=208   ctermbg=NONE  cterm=undercurl
+highlight! SpellRare              guifg=#d75f00  guibg=NONE     gui=undercurl  ctermfg=166   ctermbg=NONE  cterm=undercurl
 highlight! VisualNOS              guifg=NONE     guibg=NONE     gui=underline  ctermfg=NONE  ctermbg=NONE  cterm=underline
 highlight! PmenuSbar              guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE  ctermbg=NONE  cterm=NONE
 
@@ -200,8 +200,8 @@ if 1
     highlight! link SignColumn    TabLine
     highlight! link TabLineFill   TabLine
     highlight! link Pmenu         StatusLine
-    highlight! link TabLineSel    StatusLine           
-    highlight! link TabLine       LineNr              
+    highlight! link TabLineSel    StatusLine
+    highlight! link TabLine       LineNr
     highlight! link Folded        LineNr
 endif
 
@@ -224,8 +224,8 @@ if g:alduin_Shout_Dragon_Aspect
     highlight! link SignColumn    TabLine
     highlight! link TabLineFill   TabLine
     highlight! link Pmenu         StatusLine
-    highlight! link TabLineSel    StatusLine           
-    highlight! link TabLine       LineNr              
+    highlight! link TabLineSel    StatusLine
+    highlight! link TabLine       LineNr
     highlight! link Folded        LineNr
 endif
 
@@ -248,8 +248,8 @@ if g:alduin_Shout_Become_Ethereal
     highlight! link SignColumn    TabLine
     highlight! link TabLineFill   TabLine
     highlight! link Pmenu         StatusLine
-    highlight! link TabLineSel    StatusLine           
-    highlight! link TabLine       LineNr              
+    highlight! link TabLineSel    StatusLine
+    highlight! link TabLine       LineNr
     highlight! link Folded        LineNr
 endif
 
