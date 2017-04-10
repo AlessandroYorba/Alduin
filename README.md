@@ -1,4 +1,4 @@
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/24349520/2a21f8ea-1294-11e7-8d1a-c575bdef994f.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/24883335/471c0e2a-1df9-11e7-8715-34e23d9f8628.png)
 
 ###### For Darkest Grey Background [Screenshot](https://cloud.githubusercontent.com/assets/11221489/24883335/471c0e2a-1df9-11e7-8715-34e23d9f8628.png)
 ```VimL
