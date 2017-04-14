@@ -20,6 +20,10 @@ let g:alduin_Shout_Become_Ethereal = 1
 colorscheme alduin 
 ```
 
+:crescent_moon: Nightly Build
+----------------------------
+pre-release version [here](https://github.com/AlessandroYorba/Alduin/tree/nightly)
+
 :octocat: Special Thanks
 -----------------
 [Alduin Airline Theme by Danilo Augusto](https://github.com/danilo-augusto)<br>
