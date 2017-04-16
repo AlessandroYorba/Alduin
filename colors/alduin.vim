@@ -146,9 +146,7 @@ highlight! SpellLocal             guifg=#5f875f  guibg=NONE     gui=undercurl  c
 highlight! SpellCap               guifg=#87afff  guibg=NONE     gui=undercurl  ctermfg=111   ctermbg=NONE  cterm=undercurl
 highlight! SpellRare              guifg=#d75f00  guibg=NONE     gui=undercurl  ctermfg=166   ctermbg=NONE  cterm=undercurl
 highlight! VisualNOS              guifg=NONE     guibg=NONE     gui=underline  ctermfg=NONE  ctermbg=NONE  cterm=underline
-highlight! PmenuSbar              guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE  ctermbg=NONE  cterm=NONE
 
-highlight! link PmenuThumb        PmenuSbar
 highlight! link VertSplit         LineNr
 highlight! link WildMenu          Search
 highlight! link Visual            Search
@@ -196,7 +194,9 @@ if 1
     highlight! FoldColumn         guifg=#87afaf  guibg=#1c1c1c  gui=NONE     ctermfg=109   ctermbg=234  cterm=NONE
     highlight! String             guifg=#ffdf87  guibg=#262626  gui=NONE     ctermfg=222   ctermbg=235  cterm=NONE
     highlight! ColorColumn        guifg=NONE     guibg=#262626  gui=NONE     ctermfg=NONE  ctermbg=235  cterm=NONE
+    highlight! PmenuSbar          guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233  cterm=NONE
 
+    highlight! link PmenuThumb    PmenuSbar
     highlight! link SignColumn    TabLine
     highlight! link TabLineFill   TabLine
     highlight! link Pmenu         StatusLine
@@ -220,7 +220,9 @@ if g:alduin_Shout_Dragon_Aspect
     highlight! TabLine            guifg=#87875f  guibg=#080808  gui=NONE     ctermfg=101   ctermbg=232  cterm=NONE
     highlight! TabLineSel         guifg=#121212  guibg=#87875f  gui=NONE     ctermfg=233   ctermbg=101  cterm=NONE
     highlight! ColorColumn        guifg=NONE     guibg=#1c1c1c  gui=NONE     ctermfg=NONE  ctermbg=234  cterm=NONE
+    highlight! PmenuSbar          guifg=#080808  guibg=#080808  gui=NONE     ctermfg=232   ctermbg=232  cterm=NONE
 
+    highlight! link PmenuThumb    PmenuSbar
     highlight! link SignColumn    TabLine
     highlight! link TabLineFill   TabLine
     highlight! link Pmenu         StatusLine
@@ -244,7 +246,9 @@ if g:alduin_Shout_Become_Ethereal
     highlight! TabLine            guifg=#87875f  guibg=#000000  gui=NONE     ctermfg=101   ctermbg=16   cterm=NONE
     highlight! TabLineSel         guifg=#080808  guibg=#87875f  gui=NONE     ctermfg=232   ctermbg=101  cterm=NONE
     highlight! ColorColumn        guifg=NONE     guibg=#121212  gui=NONE     ctermfg=NONE  ctermbg=233  cterm=NONE
+    highlight! PmenuSbar          guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE     ctermfg=234   ctermbg=234  cterm=NONE
 
+    highlight! link PmenuThumb    PmenuSbar
     highlight! link SignColumn    TabLine
     highlight! link TabLineFill   TabLine
     highlight! link Pmenu         StatusLine
@@ -282,3 +286,4 @@ if g:alduin_Shout_Fire_Breath
     highlight! Special            guifg=#af0000  guibg=NONE     gui=NONE  ctermfg=124  ctermbg=NONE  cterm=NONE
     highlight! Title              guifg=#af5f5f  guibg=NONE     gui=NONE  ctermfg=131  ctermbg=NONE  cterm=NONE
 endif
+
