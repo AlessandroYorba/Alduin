@@ -130,9 +130,7 @@ highlight! ModeMsg                guifg=#afaf87  guibg=NONE     gui=NONE       c
 highlight! Function               guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
 highlight! Identifier             guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
 highlight! Special                guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131   ctermbg=NONE  cterm=NONE
-highlight! Underlined             guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152   ctermbg=NONE  cterm=NONE
-highlight! NonText                guifg=#87875f  guibg=NONE     gui=NONE       ctermfg=101   ctermbg=NONE  cterm=NONE
-highlight! Comment                guifg=#87875f  guibg=NONE     gui=NONE       ctermfg=101   ctermbg=NONE  cterm=NONE
+highlight! Comment                guifg=#87875f  guibg=NONE     gui=NONE       ctermfg=101   ctermbg=NONE cterm=NONE
 highlight! SpecialComment         guifg=#87875f  guibg=NONE     gui=reverse    ctermfg=101   ctermbg=NONE  cterm=reverse
 highlight! IncSearch              guifg=#af5f5f  guibg=NONE     gui=reverse    ctermfg=131   ctermbg=NONE  cterm=reverse
 highlight! Todo                   guifg=#af5f00  guibg=NONE     gui=reverse    ctermfg=130   ctermbg=NONE  cterm=reverse
@@ -146,6 +144,8 @@ highlight! SpellLocal             guifg=#5f875f  guibg=NONE     gui=undercurl  c
 highlight! SpellCap               guifg=#87afff  guibg=NONE     gui=undercurl  ctermfg=111   ctermbg=NONE  cterm=undercurl
 highlight! SpellRare              guifg=#d75f00  guibg=NONE     gui=undercurl  ctermfg=166   ctermbg=NONE  cterm=undercurl
 highlight! VisualNOS              guifg=NONE     guibg=NONE     gui=underline  ctermfg=NONE  ctermbg=NONE  cterm=underline
+highlight! Underlined             guifg=#afd7d7  guibg=NONE     gui=NONE       ctermfg=152   ctermbg=NONE  cterm=NONE
+
 
 highlight! link VertSplit         LineNr
 highlight! link WildMenu          Search
@@ -160,7 +160,6 @@ highlight! link PreCondit         PreProc
 highlight! link htmlItalic        PreProc
 highlight! link cssIdentifier     PreProc
 highlight! link cssClassName      PreProc
-highlight! link SpecialKey        Identifier
 highlight! link Directory         Special
 highlight! link WarningMsg        Special
 highlight! link ErrorMsg          Error
@@ -195,6 +194,7 @@ if 1
     highlight! String             guifg=#ffdf87  guibg=#262626  gui=NONE     ctermfg=222   ctermbg=235  cterm=NONE
     highlight! ColorColumn        guifg=NONE     guibg=#262626  gui=NONE     ctermfg=NONE  ctermbg=235  cterm=NONE
     highlight! PmenuSbar          guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233  cterm=NONE
+    highlight! NonText            guifg=#303030  guibg=NONE     gui=NONE     ctermfg=236   ctermbg=NONE cterm=NONE
 
     highlight! link PmenuThumb    PmenuSbar
     highlight! link SignColumn    TabLine
@@ -203,6 +203,8 @@ if 1
     highlight! link TabLineSel    StatusLine
     highlight! link TabLine       LineNr
     highlight! link Folded        LineNr
+    highlight! link Underlined    NonText
+    highlight! link SpecialKey      NonText
 endif
 
 "===================================================================================================================
@@ -221,6 +223,7 @@ if g:alduin_Shout_Dragon_Aspect
     highlight! TabLineSel         guifg=#121212  guibg=#87875f  gui=NONE     ctermfg=233   ctermbg=101  cterm=NONE
     highlight! ColorColumn        guifg=NONE     guibg=#1c1c1c  gui=NONE     ctermfg=NONE  ctermbg=234  cterm=NONE
     highlight! PmenuSbar          guifg=#080808  guibg=#080808  gui=NONE     ctermfg=232   ctermbg=232  cterm=NONE
+    highlight! NonText            guifg=#262626  guibg=NONE     gui=NONE     ctermfg=235   ctermbg=NONE cterm=NONE
 
     highlight! link PmenuThumb    PmenuSbar
     highlight! link SignColumn    TabLine
@@ -229,6 +232,7 @@ if g:alduin_Shout_Dragon_Aspect
     highlight! link TabLineSel    StatusLine
     highlight! link TabLine       LineNr
     highlight! link Folded        LineNr
+    highlight! link SpecialKey    NonText
 endif
 
 "===================================================================================================================
@@ -247,6 +251,7 @@ if g:alduin_Shout_Become_Ethereal
     highlight! TabLineSel         guifg=#080808  guibg=#87875f  gui=NONE     ctermfg=232   ctermbg=101  cterm=NONE
     highlight! ColorColumn        guifg=NONE     guibg=#121212  gui=NONE     ctermfg=NONE  ctermbg=233  cterm=NONE
     highlight! PmenuSbar          guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE     ctermfg=234   ctermbg=234  cterm=NONE
+    highlight! NonText            guifg=#1c1c1c  guibg=NONE     gui=NONE     ctermfg=234   ctermbg=NONE cterm=NONE
 
     highlight! link PmenuThumb    PmenuSbar
     highlight! link SignColumn    TabLine
@@ -255,6 +260,7 @@ if g:alduin_Shout_Become_Ethereal
     highlight! link TabLineSel    StatusLine
     highlight! link TabLine       LineNr
     highlight! link Folded        LineNr
+    highlight! link SpecialKey    NonText
 endif
 
 "===================================================================================================================
@@ -286,4 +292,3 @@ if g:alduin_Shout_Fire_Breath
     highlight! Special            guifg=#af0000  guibg=NONE     gui=NONE  ctermfg=124  ctermbg=NONE  cterm=NONE
     highlight! Title              guifg=#af5f5f  guibg=NONE     gui=NONE  ctermfg=131  ctermbg=NONE  cterm=NONE
 endif
-
