@@ -128,6 +128,7 @@ highlight! Search                 guifg=#dfdfaf  guibg=#875f5f  gui=NONE       c
 highlight! MatchParen             guifg=#dfdfaf  guibg=#875f5f  gui=NONE       ctermfg=187   ctermbg=95    cterm=NONE
 highlight! ModeMsg                guifg=#afaf87  guibg=NONE     gui=NONE       ctermfg=144   ctermbg=NONE  cterm=NONE
 highlight! Function               guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
+highlight! Type                   guifg=#af875f  guibg=NONE     gui=NONE       ctermfg=137   ctermbg=NONE  cterm=NONE
 highlight! Identifier             guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
 highlight! Special                guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131   ctermbg=NONE  cterm=NONE
 highlight! Comment                guifg=#87875f  guibg=NONE     gui=NONE       ctermfg=101   ctermbg=NONE cterm=NONE
@@ -168,7 +169,6 @@ highlight! link structure         Function
 highlight! link typedef           Function
 highlight! link htmlArg           Function
 highlight! link Question          Function
-highlight! link Type              Function
 highlight! link Operator          Statement
 highlight! link Label             Statement
 highlight! link Conditional       Statement
