@@ -179,6 +179,7 @@ highlight! link Character         Number
 highlight! link Boolean           Number
 highlight! link Float             Number
 highlight! link VimCommentTitle   SpecialComment
+highlight! link htmlLink          Special
 
 "===================================================================================================================
 " ALDUIN UI:
@@ -292,3 +293,4 @@ if g:alduin_Shout_Fire_Breath
     highlight! Special            guifg=#af0000  guibg=NONE     gui=NONE  ctermfg=124  ctermbg=NONE  cterm=NONE
     highlight! Title              guifg=#af5f5f  guibg=NONE     gui=NONE  ctermfg=131  ctermbg=NONE  cterm=NONE
 endif
+
