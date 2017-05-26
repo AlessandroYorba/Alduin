@@ -168,8 +168,7 @@ highlight! SpecialComment         guifg=#87875f  guibg=NONE     gui=reverse    c
 highlight! Error                  guifg=#af5f5f  guibg=#121212  gui=reverse    ctermfg=131   ctermbg=233   cterm=reverse
 highlight! ErrorMsg               guifg=#af5f5f  guibg=#121212  gui=reverse    ctermfg=131   ctermbg=233   cterm=reverse
 
-highlight! TabLineSel             guifg=#87afaf  guibg=NONE     gui=reverse    ctermfg=109   ctermbg=NONE cterm=reverse
-highlight! CursorLineNR           guifg=#87afaf  guibg=NONE     gui=reverse    ctermfg=109   ctermbg=NONE cterm=reverse
+highlight! CursorLineNR           guifg=#5f8787  guibg=NONE     gui=reverse    ctermfg=66   ctermbg=NONE cterm=reverse
 
 highlight! IncSearch              guifg=#af5f5f  guibg=NONE     gui=reverse    ctermfg=131   ctermbg=NONE  cterm=reverse
 highlight! Todo                   guifg=#af5f00  guibg=NONE     gui=reverse    ctermfg=130   ctermbg=NONE  cterm=reverse
@@ -196,6 +195,7 @@ highlight! SpellRare              guifg=#d75f00  guibg=NONE     gui=undercurl  c
 "===================================================================================================================
 if 1
     highlight! Normal             guifg=#dfdfaf  guibg=#1c1c1c  gui=NONE     ctermfg=187   ctermbg=234  cterm=NONE
+    highlight! TabLineSel         guifg=#1c1c1c  guibg=#5f8787  gui=NONE     ctermfg=234   ctermbg=66   cterm=NONE
 
     highlight! StatusLine         guifg=#87875f  guibg=#121212  gui=NONE     ctermfg=101   ctermbg=233  cterm=NONE
     highlight! Pmenu              guifg=#87875f  guibg=#121212  gui=NONE     ctermfg=101   ctermbg=233  cterm=NONE
@@ -228,6 +228,7 @@ endif
 "===================================================================================================================
 if g:alduin_Shout_Dragon_Aspect
     highlight! Normal             guifg=#dfdfaf  guibg=#121212  gui=NONE     ctermfg=187   ctermbg=233  cterm=NONE
+    highlight! TabLineSel         guifg=#121212  guibg=#5f8787  gui=NONE     ctermfg=233   ctermbg=66   cterm=NONE
 
     highlight! StatusLine         guifg=#87875f  guibg=#080808  gui=NONE     ctermfg=101   ctermbg=232  cterm=NONE
     highlight! Pmenu              guifg=#87875f  guibg=#080808  gui=NONE     ctermfg=101   ctermbg=232  cterm=NONE
@@ -260,6 +261,7 @@ endif
 "===================================================================================================================
 if g:alduin_Shout_Become_Ethereal
     highlight! Normal             guifg=#dfdfaf  guibg=#080808  gui=NONE     ctermfg=187   ctermbg=232  cterm=NONE
+    highlight! TabLineSel         guifg=#080808  guibg=#5f8787  gui=NONE     ctermfg=232   ctermbg=66   cterm=NONE
 
     highlight! StatusLine         guifg=#87875f  guibg=#1c1c1c  gui=NONE     ctermfg=101   ctermbg=234  cterm=NONE
     highlight! Pmenu              guifg=#87875f  guibg=#1c1c1c  gui=NONE     ctermfg=101   ctermbg=234  cterm=NONE
