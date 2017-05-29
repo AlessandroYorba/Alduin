@@ -1,20 +1,20 @@
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/26433284/928bf020-40b6-11e7-80f2-d15674a7258b.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/26562601/a7260376-447c-11e7-9544-acd9686d580f.png)
 
 :space_invader: Set Up
 ------
 
-###### Dark Grey Background [Screenshot](https://cloud.githubusercontent.com/assets/11221489/24883335/471c0e2a-1df9-11e7-8715-34e23d9f8628.png)
+###### Dark Grey Background 
 ```VimL
 colorscheme alduin 
 ```
 
-###### Almost Black Background [Screenshot](https://cloud.githubusercontent.com/assets/11221489/24883448/ca7b5f1e-1df9-11e7-96a7-e1ad1093c00a.png)
+###### Almost Black Background
 ```VimL
 let g:alduin_Shout_Dragon_Aspect = 1
 colorscheme alduin 
 ```
 
-###### Black Background [Screenshot](https://cloud.githubusercontent.com/assets/11221489/24883494/f6e46118-1df9-11e7-97a9-cff8fd7bee02.png)
+###### Black Background
 ```VimL
 let g:alduin_Shout_Become_Ethereal = 1
 colorscheme alduin 
