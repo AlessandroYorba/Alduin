@@ -1,4 +1,4 @@
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/26562601/a7260376-447c-11e7-9544-acd9686d580f.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/26618880/db1a22ce-4590-11e7-8b41-042181b330ca.png)
 
 :space_invader: Set Up
 ------
@@ -8,16 +8,28 @@
 colorscheme alduin 
 ```
 
-###### Almost Black Background
+###### Dragon Aspect - Almost Black Background
 ```VimL
 let g:alduin_Shout_Dragon_Aspect = 1
 colorscheme alduin 
 ```
 
-###### Black Background
+###### Become Ethereal - Black Background
 ```VimL
 let g:alduin_Shout_Become_Ethereal = 1
 colorscheme alduin 
+```
+
+######  Sanguinare Vampiris - Automatically cycles thru modes depending on time of night
+```VimL
+let g:alduin_Contract_Vampirism = 1
+colorscheme alduin 
+```
+
+###### Dark Red - Special Highlighting
+```VimL
+let g:alduin_Shout_Fire_Breath = 1
+colorscheme alduin
 ```
 
 :crescent_moon: Nightly Build
