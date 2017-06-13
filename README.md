@@ -50,4 +50,5 @@ pre-release version [here](https://github.com/AlessandroYorba/Alduin/tree/nightl
 [Sierra](https://github.com/AlessandroYorba/Sierra)<br>
 [Sidonia](https://github.com/AlessandroYorba/Sidonia)<br>
 [Monrovia](https://github.com/AlessandroYorba/Monrovia)<br>
-[Arcadia](https://github.com/AlessandroYorba/Arcadia)
+[Arcadia](https://github.com/AlessandroYorba/Arcadia)<br>
+[Absolute](htts://github.com/AlessandroYorba/Absolute)
