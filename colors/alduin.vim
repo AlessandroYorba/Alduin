@@ -6,49 +6,83 @@
 "  "       /_ _||  || || || || || || || ||      "
 "  "      (  - \\, \\  \\/  \\/\\ \\ \\ \\      "
 
-" SKYRIM BELONGS TO THE NORDS:
+" AUTHOR:       Alessandro Yorba
+" SCRIPT URL:   https://github.com/AlessandroYorba/Alduin
+" UPDATED: August 03, 2017
 
-" A Vim colorscheme
-" Author:       Alessandro Yorba
-" Script URL:   https://github.com/AlessandroYorba/Alduin
 
-" Copyright (c) 2017 Alessandro Yorba
-"
-" Permission is hereby granted, free of charge, to any person obtaining a copy
-" of this software and associated documentation files (the "Software"), to deal
-" in the Software without restriction, including without limitation the rights
-" to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-" copies of the Software, and to permit persons to whom the Software is
-" furnished to do so, subject to the following conditions:
-"
-" The above copyright notice and this permission notice shall be included in
-" all copies or substantial portions of the Software.
-"
-" THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-" IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-" FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-" AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-" LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-" OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-" THE SOFTWARE.
+" CREDITS:
+" Maintainer             Alessandro Yorba        https://github.com/AlessandroYorba
+" Arch Linux Package     George Angelopoulos     https://github.com/lathan
+" Design Inspiration     Karolis Koncevičius     https://github.com/KKPMW
+" Design Inspiration     Romain Lafourcade       https://github.com/romainl
+" UI Contributions       jiyyti                  https://github.com/jiyyt
+" Airline Theme          Danilo Augusto          https://github.com/danilo-augusto
 
-"=================================================================================
-" BASIC COLORS:
-"=================================================================================
+
+" SUPPORTED ENVIRONMENTS:
+" Alduin is designed to be accurate across any of the following environments:
+"       256 color terminals
+"       Gui versions of vim
+"       Termguicolors versions of vim
+
+
+" INSTALL INSTRUCTIONS:
+" Unix users, place alduin.vim in ~/.vim/colors
+" Windows users, place alduin.vim in  ~\vimfiles\colors
+
+
+" SETUP AND CUSTOMIZATION:
+" Inside Vim, Alduin can be enabled from the command line by :color alduin
+" To set Alduin as the default colorscheme add the following to your .vimrc:
+"       colorscheme alduin
+
+" In addition, Alduin comes with several optional settings that can be enabled
+" within your .vimrc. Here are some examples of how to enable them:
+"
+"       "Darker Background
+"       let g:alduin_Shout_Dragon_Aspect = 1
+"       colorscheme alduin
+
+"       "Black Background
+"       let g:alduin_Shout_Become_Ethereal = 1
+"       colorscheme alduin
+
+"       "Automatically cycles thru modes depending on time of night
+"       let g:alduin_Contract_Vampirism = 1
+"       colorscheme alduin
+
+"       "Dark Red Highlighting
+"       let g:alduin_Shout_Fire_Breath = 1
+"       colorscheme alduin
+
+"       "Remove background highlight from Strings
+"       let g:alduin_Shout_Animal_Allegiance = 1
+"       colorscheme alduin
+
+"       "Removes block MatchParen adds underline
+"       let g:alduin_Shout_Aura_Whisper = 1
+"       colorscheme alduin
+
+" MATCHING TERMINAL:
+"---------------------------------------|-----------------------------------------
+"     BASIC        HEX                  |      BASIC         HEX                 |
+"---------------------------------------|-----------------------------------------
 "     Foreground   #dfdfaf              |      Selection     #af8787             |
 "     Background   #1c1c1c              |      Selected Text #dfdfaf             |
 "     Bold         #ffffff              |                                        |
 "     Links        #af0000              |                                        |
-"=================================================================================
-" CURSOR COLORS:
-"=================================================================================
+"---------------------------------------|-----------------------------------------
+
+"---------------------------------------|-----------------------------------------
+"     CURSOR       HEX                                                           |
+"---------------------------------------|-----------------------------------------
 "     Cursor       #dfdfaf              |                                        |
 "     Cursor Text  #1c1c1c              |                                        |
-"=================================================================================
-" ANSI COLORS ALDUIN:
-"=================================================================================
 "---------------------------------------|-----------------------------------------
-"     NORMAL       Hex          xterm   |      "BRIGHT      Hex          xterm   |
+
+"---------------------------------------|-----------------------------------------
+"     NORMAL       HEX          XTERM   |      BRIGHT       HEX          XTERM   |
 "---------------------------------------|-----------------------------------------
 "     Black        #1c1c1c      0       |      brBlack      #878787      8       |
 "     Red          #af5f5f      1       |      brRed        #af5f5f      9       |
@@ -60,9 +94,6 @@
 "     White        #dfdfaf      7       |      brWhite      #dfdfaf      15      |
 "---------------------------------------|-----------------------------------------
 
-"=================================================================================
-" SETUP:
-"=================================================================================
 
 set background=dark
 
@@ -72,10 +103,6 @@ if exists("syntax_on")
 endif
 
 let g:colors_name="alduin"
-
-if !exists("g:alduin_Shout_Clear_Skies")
-    let g:alduin_Shout_Clear_Skies = 0
-endif
 
 if !exists( "g:alduin_Shout_Aura_Whisper")
     let g:alduin_Shout_Aura_Whisper = 0
@@ -101,29 +128,33 @@ if !exists( "g:alduin_Contract_Vampirism")
     let g:alduin_Contract_Vampirism = 0
 endif
 
-"===================================================================================================================
+
 " CONTRACT VAMPIRISM:
-"===================================================================================================================
 if g:alduin_Contract_Vampirism
     let alduin_Hour = strftime("%H")
-    "Alduin: 7am - 5pm
+
+    " 7am - 5pm
+    " alduin UI
     if 7 <= alduin_Hour && alduin_Hour < 17
         let g:alduin_Shout_Dragon_Aspect = 0
         let g:alduin_Shout_Become_Ethereal = 0
-    "Shout_Dragon_Aspect: 5pm - 12am
+
+    " 5pm - 12am
+    " alduin_Shout_Dragon_Aspect UI
     elseif 17 <= alduin_Hour && alduin_Hour < 24
         let g:alduin_Shout_Dragon_Aspect = 1
         let g:alduin_Shout_Become_Ethereal = 0
-    "Shout_Become_Ethereal: 12am - 7am
+
+    " 12am - 7am
+    " alduin_Shout_Become_Ethereal UI
     else
         let g:alduin_Shout_Dragon_Aspect = 0
         let g:alduin_Shout_Become_Ethereal = 1
     endif
 endif
 
-"===================================================================================================================
-" ALDUIN HIGHLIGHTING:
-"===================================================================================================================
+
+" COMMON ALDUIN HIGHLIGHTING:
 highlight! Number                 guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
 highlight! Character              guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
 highlight! Boolean                guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
@@ -166,23 +197,21 @@ highlight! Special                guifg=#af5f5f  guibg=NONE     gui=NONE       c
 highlight! Directory              guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131   ctermbg=NONE  cterm=NONE
 highlight! WarningMsg             guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131   ctermbg=NONE  cterm=NONE
 
-highlight! Comment                guifg=#87875f  guibg=NONE     gui=NONE       ctermfg=101   ctermbg=NONE cterm=NONE
-highlight! SpecialComment         guifg=#87875f  guibg=NONE     gui=reverse    ctermfg=101   ctermbg=NONE  cterm=reverse
-
 highlight! Error                  guifg=#af5f5f  guibg=#121212  gui=reverse    ctermfg=131   ctermbg=233   cterm=reverse
 highlight! ErrorMsg               guifg=#af5f5f  guibg=#121212  gui=reverse    ctermfg=131   ctermbg=233   cterm=reverse
 
-highlight! CursorLineNR           guifg=#5f8787  guibg=NONE     gui=reverse    ctermfg=66   ctermbg=NONE cterm=reverse
-
-highlight! IncSearch              guifg=#af5f5f  guibg=NONE     gui=reverse    ctermfg=131   ctermbg=NONE  cterm=reverse
-highlight! Todo                   guifg=#af5f00  guibg=NONE     gui=reverse    ctermfg=130   ctermbg=NONE  cterm=reverse
-highlight! Constant               guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138   ctermbg=NONE  cterm=NONE
-highlight! MatchParen             guifg=#dfdfaf  guibg=#875f5f  gui=NONE       ctermfg=187   ctermbg=95    cterm=NONE
+highlight! CursorLineNR           guifg=#5f8787  guibg=NONE     gui=reverse    ctermfg=66    ctermbg=NONE  cterm=reverse
 highlight! ModeMsg                guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
+highlight! Comment                guifg=#87875f  guibg=NONE     gui=NONE       ctermfg=101   ctermbg=NONE  cterm=NONE
+highlight! SpecialComment         guifg=#87875f  guibg=NONE     gui=reverse    ctermfg=101   ctermbg=NONE  cterm=reverse
+highlight! MatchParen             guifg=#dfdfaf  guibg=#875f5f  gui=NONE       ctermfg=187   ctermbg=95    cterm=NONE
+highlight! Todo                   guifg=#af5f00  guibg=NONE     gui=reverse    ctermfg=130   ctermbg=NONE  cterm=reverse
+highlight! IncSearch              guifg=#af5f5f  guibg=NONE     gui=reverse    ctermfg=131   ctermbg=NONE  cterm=reverse
+highlight! Underlined             guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131   ctermbg=NONE  cterm=NONE
 highlight! Type                   guifg=#af875f  guibg=NONE     gui=NONE       ctermfg=137   ctermbg=NONE  cterm=NONE
+highlight! Constant               guifg=#af8787  guibg=NONE     gui=NONE       ctermfg=138   ctermbg=NONE  cterm=NONE
 highlight! Identifier             guifg=#87afaf  guibg=NONE     gui=NONE       ctermfg=109   ctermbg=NONE  cterm=NONE
 highlight! VisualNOS              guifg=NONE     guibg=NONE     gui=underline  ctermfg=NONE  ctermbg=NONE  cterm=underline
-highlight! Underlined             guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131   ctermbg=NONE  cterm=NONE
 
 highlight! DiffAdd                guifg=#87af87  guibg=NONE     gui=reverse    ctermfg=108   ctermbg=NONE  cterm=reverse
 highlight! DiffChange             guifg=#5f5f87  guibg=NONE     gui=reverse    ctermfg=60    ctermbg=NONE  cterm=reverse
@@ -194,12 +223,11 @@ highlight! SpellLocal             guifg=#5f875f  guibg=NONE     gui=undercurl  c
 highlight! SpellCap               guifg=#87afff  guibg=NONE     gui=undercurl  ctermfg=111   ctermbg=NONE  cterm=undercurl
 highlight! SpellRare              guifg=#d75f00  guibg=NONE     gui=undercurl  ctermfg=166   ctermbg=NONE  cterm=undercurl
 
-"===================================================================================================================
-" ALDUIN UI:
-"===================================================================================================================
+
+" ALDUIN DEFAULT UI:
 if 1
     highlight! Normal             guifg=#dfdfaf  guibg=#1c1c1c  gui=NONE     ctermfg=187   ctermbg=234  cterm=NONE
-    highlight! TabLineSel         guifg=#1c1c1c  guibg=#87875f  gui=NONE     ctermfg=234   ctermbg=101   cterm=NONE
+    highlight! TabLineSel         guifg=#1c1c1c  guibg=#87875f  gui=NONE     ctermfg=234   ctermbg=101  cterm=NONE
 
     highlight! StatusLine         guifg=#87875f  guibg=#121212  gui=NONE     ctermfg=101   ctermbg=233  cterm=NONE
     highlight! Pmenu              guifg=#87875f  guibg=#121212  gui=NONE     ctermfg=101   ctermbg=233  cterm=NONE
@@ -227,12 +255,11 @@ if 1
     highlight! SpecialKey         guifg=#303030  guibg=NONE     gui=NONE     ctermfg=236   ctermbg=NONE cterm=NONE
 endif
 
-"===================================================================================================================
+
 " SHOUT_DRAGON_ASPECT UI:
-"===================================================================================================================
 if g:alduin_Shout_Dragon_Aspect
     highlight! Normal             guifg=#dfdfaf  guibg=#121212  gui=NONE     ctermfg=187   ctermbg=233  cterm=NONE
-    highlight! TabLineSel         guifg=#121212  guibg=#87875f  gui=NONE     ctermfg=233   ctermbg=101   cterm=NONE
+    highlight! TabLineSel         guifg=#121212  guibg=#87875f  gui=NONE     ctermfg=233   ctermbg=101  cterm=NONE
 
     highlight! StatusLine         guifg=#87875f  guibg=#080808  gui=NONE     ctermfg=101   ctermbg=232  cterm=NONE
     highlight! Pmenu              guifg=#87875f  guibg=#080808  gui=NONE     ctermfg=101   ctermbg=232  cterm=NONE
@@ -260,12 +287,11 @@ if g:alduin_Shout_Dragon_Aspect
     highlight! SpecialKey         guifg=#262626  guibg=NONE     gui=NONE     ctermfg=235   ctermbg=NONE cterm=NONE
 endif
 
-"===================================================================================================================
+
 " SHOUT_BECOME_ETHEREAL UI:
-"===================================================================================================================
 if g:alduin_Shout_Become_Ethereal
     highlight! Normal             guifg=#dfdfaf  guibg=#080808  gui=NONE     ctermfg=187   ctermbg=232  cterm=NONE
-    highlight! TabLineSel         guifg=#080808  guibg=#87875f  gui=NONE     ctermfg=232   ctermbg=101   cterm=NONE
+    highlight! TabLineSel         guifg=#080808  guibg=#87875f  gui=NONE     ctermfg=232   ctermbg=101  cterm=NONE
 
     highlight! StatusLine         guifg=#87875f  guibg=#1c1c1c  gui=NONE     ctermfg=101   ctermbg=234  cterm=NONE
     highlight! Pmenu              guifg=#87875f  guibg=#1c1c1c  gui=NONE     ctermfg=101   ctermbg=234  cterm=NONE
@@ -293,32 +319,44 @@ if g:alduin_Shout_Become_Ethereal
     highlight! SpecialKey         guifg=#1c1c1c  guibg=NONE     gui=NONE     ctermfg=234   ctermbg=NONE cterm=NONE
 endif
 
-"===================================================================================================================
-" SHOUT_CLEAR_SKIES:
-"===================================================================================================================
-if g:alduin_Shout_Clear_Skies
-    highlight! CursorLine         guifg=NONE  guibg=NONE  gui=NONE  ctermfg=NONE  ctermbg=NONE  cterm=NONE
-endif
 
-"===================================================================================================================
 " SHOUT_ANIMAL_ALLEGIANCE:
-"===================================================================================================================
 if g:alduin_Shout_Animal_Allegiance
     highlight! String             guifg=#ffdf87  guibg=NONE  ctermfg=222  ctermbg=NONE  cterm=NONE  gui=NONE
 endif
 
-"===================================================================================================================
+
 " SHOUT_AURA_WHISPER:
-"===================================================================================================================
 if g:alduin_Shout_Aura_Whisper
     highlight! MatchParen         guifg=#eeeeee  guibg=#1c1c1c gui=underline  ctermfg=255  ctermbg=234  cterm=underline
 endif
 
-"===================================================================================================================
+
 " SHOUT_FIRE_BREATH:
-"===================================================================================================================
 if g:alduin_Shout_Fire_Breath
     highlight! Search             guifg=#dfdfaf  guibg=#5f0000  gui=NONE  ctermfg=187  ctermbg=52    cterm=NONE
     highlight! Special            guifg=#af0000  guibg=NONE     gui=NONE  ctermfg=124  ctermbg=NONE  cterm=NONE
     highlight! Title              guifg=#af5f5f  guibg=NONE     gui=NONE  ctermfg=131  ctermbg=NONE  cterm=NONE
 endif
+
+
+" LICENSE:
+" Copyright (c) 2017 Alessandro Yorba
+"
+" Permission is hereby granted, free of charge, to any person obtaining a copy
+" of this software and associated documentation files (the "Software"), to deal
+" in the Software without restriction, including without limitation the rights
+" to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+" copies of the Software, and to permit persons to whom the Software is
+" furnished to do so, subject to the following conditions:
+"
+" The above copyright notice and this permission notice shall be included in
+" all copies or substantial portions of the Software.
+"
+" THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+" IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+" FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+" AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+" LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+" OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+" THE SOFTWARE.
