@@ -8,23 +8,19 @@
 
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Alduin
-" UPDATED: August 03, 2017
+" UPDATED:      August 03, 2017
 
 
-" CREDITS:
-" Maintainer             Alessandro Yorba        https://github.com/AlessandroYorba
-" Arch Linux Package     George Angelopoulos     https://github.com/lathan
-" Design Inspiration     Karolis Koncevičius     https://github.com/KKPMW
-" Design Inspiration     Romain Lafourcade       https://github.com/romainl
-" UI Contributions       jiyyti                  https://github.com/jiyyt
-" Airline Theme          Danilo Augusto          https://github.com/danilo-augusto
+" MAINTAINER:            Alessandro Yorba       https://github.com/AlessandroYorba
+" Arch Linux Package:    George Angelopoulos    https://github.com/lathan
+" Design Inspiration:    Karolis Koncevičius    https://github.com/KKPMW
+" Design Inspiration:    Romain Lafourcade      https://github.com/romainl
+" UI Contributions:      jiyyti                 https://github.com/jiyyt
+" Airline Theme:         Danilo Augusto         https://github.com/danilo-augusto
 
 
 " SUPPORTED ENVIRONMENTS:
-" Alduin is designed to be accurate across any of the following environments:
-"       256 color terminals
-"       Gui versions of vim
-"       Termguicolors versions of vim
+" 256 color terminals, Gui versions of vim, and Termguicolors versions of vim
 
 
 " INSTALL INSTRUCTIONS:
@@ -33,66 +29,66 @@
 
 
 " SETUP AND CUSTOMIZATION:
-" Inside Vim, Alduin can be enabled from the command line by :color alduin
-" To set Alduin as the default colorscheme add the following to your .vimrc:
-"       colorscheme alduin
+" To enable Alduin as your default colorscheme add the following  to your .vimrc:
+"   colorscheme alduin
 
-" In addition, Alduin comes with several optional settings that can be enabled
-" within your .vimrc. Here are some examples of how to enable them:
+" There are several settings for Alduin that you can enable from within your .vimrc
+" Here are some descriptions and examples to enable them:
 "
-"       "Darker Background
-"       let g:alduin_Shout_Dragon_Aspect = 1
-"       colorscheme alduin
+"   "Darker Background
+"   let g:alduin_Shout_Dragon_Aspect = 1
+"   colorscheme alduin
 
-"       "Black Background
-"       let g:alduin_Shout_Become_Ethereal = 1
-"       colorscheme alduin
+"   "Black Background
+"   let g:alduin_Shout_Become_Ethereal = 1
+"   colorscheme alduin
 
-"       "Automatically cycles thru modes depending on time of night
-"       let g:alduin_Contract_Vampirism = 1
-"       colorscheme alduin
+"   "Automatically cycles thru modes depending on time of night
+"   let g:alduin_Contract_Vampirism = 1
+"   colorscheme alduin
 
-"       "Dark Red Highlighting
-"       let g:alduin_Shout_Fire_Breath = 1
-"       colorscheme alduin
+"   "Dark Red Highlighting
+"   let g:alduin_Shout_Fire_Breath = 1
+"   colorscheme alduin
 
-"       "Remove background highlight from Strings
-"       let g:alduin_Shout_Animal_Allegiance = 1
-"       colorscheme alduin
+"   "Remove background highlight from Strings
+"   let g:alduin_Shout_Animal_Allegiance = 1
+"   colorscheme alduin
 
-"       "Removes block MatchParen adds underline
-"       let g:alduin_Shout_Aura_Whisper = 1
-"       colorscheme alduin
+"   "Removes block MatchParen adds underline
+"   let g:alduin_Shout_Aura_Whisper = 1
+"   colorscheme alduin
+
 
 " MATCHING TERMINAL:
-"---------------------------------------|-----------------------------------------
-"     BASIC        HEX                  |      BASIC         HEX                 |
-"---------------------------------------|-----------------------------------------
-"     Foreground   #dfdfaf              |      Selection     #af8787             |
-"     Background   #1c1c1c              |      Selected Text #dfdfaf             |
-"     Bold         #ffffff              |                                        |
-"     Links        #af0000              |                                        |
-"---------------------------------------|-----------------------------------------
+"-------------------------------------|-----------------------------------------
+"   BASIC        HEX                  |      BASIC         HEX                 |
+"-------------------------------------|-----------------------------------------
+"   Foreground   #dfdfaf              |      Selection     #af8787             |
+"   Background   #1c1c1c              |      Selected Text #dfdfaf             |
+"   Bold         #ffffff              |                                        |
+"   Links        #af0000              |                                        |
+"-------------------------------------|-----------------------------------------
 
-"---------------------------------------|-----------------------------------------
-"     CURSOR       HEX                                                           |
-"---------------------------------------|-----------------------------------------
-"     Cursor       #dfdfaf              |                                        |
-"     Cursor Text  #1c1c1c              |                                        |
-"---------------------------------------|-----------------------------------------
+"-------------------------------------|-----------------------------------------
+"   CURSOR       HEX                                                           |
+"-------------------------------------|-----------------------------------------
+"   Cursor       #dfdfaf              |                                        |
+"   Cursor Text  #1c1c1c              |                                        |
+"-------------------------------------|-----------------------------------------
 
-"---------------------------------------|-----------------------------------------
-"     NORMAL       HEX          XTERM   |      BRIGHT       HEX          XTERM   |
-"---------------------------------------|-----------------------------------------
-"     Black        #1c1c1c      0       |      brBlack      #878787      8       |
-"     Red          #af5f5f      1       |      brRed        #af5f5f      9       |
-"     Green        #87875f      2       |      brGreen      #87875f      10      |
-"     Yellow       #af875f      3       |      brYellow     #af875f      11      |
-"     Blue         #878787      4       |      brBlue       #878787      12      |
-"     Magenta      #af8787      5       |      brMagenta    #af8787      13      |
-"     Cyan         #87afaf      6       |      brCyan       #87afaf      14      |
-"     White        #dfdfaf      7       |      brWhite      #dfdfaf      15      |
-"---------------------------------------|-----------------------------------------
+"-------------------------------------|-----------------------------------------
+"   NORMAL       HEX          XTERM   |      BRIGHT       HEX          XTERM   |
+"-------------------------------------|-----------------------------------------
+"   Black        #1c1c1c      0       |      brBlack      #878787      8       |
+"   Red          #af5f5f      1       |      brRed        #af5f5f      9       |
+"   Green        #87875f      2       |      brGreen      #87875f      10      |
+"   Yellow       #af875f      3       |      brYellow     #af875f      11      |
+"   Blue         #878787      4       |      brBlue       #878787      12      |
+"   Magenta      #af8787      5       |      brMagenta    #af8787      13      |
+"   Cyan         #87afaf      6       |      brCyan       #87afaf      14      |
+"   White        #dfdfaf      7       |      brWhite      #dfdfaf      15      |
+"-------------------------------------|-----------------------------------------
 
 
 set background=dark
@@ -155,10 +151,12 @@ endif
 
 
 " COMMON ALDUIN HIGHLIGHTING:
-highlight! Number                 guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
-highlight! Character              guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
-highlight! Boolean                guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
-highlight! Float                  guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
+highlight! Function               guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
+highlight! StorageClass           guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
+highlight! Structure              guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
+highlight! Typedef                guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
+highlight! htmlArg                guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
+highlight! Question               guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
 
 highlight! Statement              guifg=#878787  guibg=NONE     gui=NONE       ctermfg=102   ctermbg=NONE  cterm=NONE
 highlight! htmlStatement          guifg=#878787  guibg=NONE     gui=NONE       ctermfg=102   ctermbg=NONE  cterm=NONE
@@ -169,6 +167,11 @@ highlight! Repeat                 guifg=#878787  guibg=NONE     gui=NONE       c
 highlight! Keyword                guifg=#878787  guibg=NONE     gui=NONE       ctermfg=102   ctermbg=NONE  cterm=NONE
 highlight! Exception              guifg=#878787  guibg=NONE     gui=NONE       ctermfg=102   ctermbg=NONE  cterm=NONE
 highlight! VimCommentTitle        guifg=#878787  guibg=NONE     gui=reverse    ctermfg=102   ctermbg=NONE  cterm=reverse
+
+highlight! Number                 guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
+highlight! Character              guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
+highlight! Boolean                guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
+highlight! Float                  guifg=#af5f00  guibg=NONE     gui=NONE       ctermfg=130   ctermbg=NONE  cterm=NONE
 
 highlight! PreProc                guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
 highlight! MoreMsg                guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
@@ -185,13 +188,6 @@ highlight! Search                 guifg=#dfdfaf  guibg=#875f5f  gui=NONE       c
 highlight! WildMenu               guifg=#dfdfaf  guibg=#875f5f  gui=NONE       ctermfg=187   ctermbg=95    cterm=NONE
 highlight! Visual                 guifg=#dfdfaf  guibg=#875f5f  gui=NONE       ctermfg=187   ctermbg=95    cterm=NONE
 highlight! PmenuSel               guifg=#dfdfaf  guibg=#875f5f  gui=NONE       ctermfg=187   ctermbg=95    cterm=NONE
-
-highlight! Function               guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
-highlight! StorageClass           guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
-highlight! Structure              guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
-highlight! Typedef                guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
-highlight! htmlArg                guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
-highlight! Question               guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=95    ctermbg=NONE  cterm=NONE
 
 highlight! Special                guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131   ctermbg=NONE  cterm=NONE
 highlight! Directory              guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131   ctermbg=NONE  cterm=NONE
@@ -226,97 +222,91 @@ highlight! SpellRare              guifg=#d75f00  guibg=NONE     gui=undercurl  c
 
 " ALDUIN DEFAULT UI:
 if 1
-    highlight! Normal             guifg=#dfdfaf  guibg=#1c1c1c  gui=NONE     ctermfg=187   ctermbg=234  cterm=NONE
-    highlight! TabLineSel         guifg=#1c1c1c  guibg=#87875f  gui=NONE     ctermfg=234   ctermbg=101  cterm=NONE
+    highlight! Normal             guifg=#dfdfaf  guibg=#1c1c1c  gui=NONE    ctermfg=187   ctermbg=234  cterm=NONE
+    highlight! StatusLine         guifg=#87875f  guibg=#121212  gui=NONE    ctermfg=101   ctermbg=233  cterm=NONE
+    highlight! Pmenu              guifg=#87875f  guibg=#121212  gui=NONE    ctermfg=101   ctermbg=233  cterm=NONE
+    highlight! StatusLineNC       guifg=#585858  guibg=#121212  gui=NONE    ctermfg=240   ctermbg=233  cterm=NONE
 
-    highlight! StatusLine         guifg=#87875f  guibg=#121212  gui=NONE     ctermfg=101   ctermbg=233  cterm=NONE
-    highlight! Pmenu              guifg=#87875f  guibg=#121212  gui=NONE     ctermfg=101   ctermbg=233  cterm=NONE
+    highlight! CursorLine         guifg=NONE     guibg=#262626  gui=NONE    ctermfg=NONE  ctermbg=235  cterm=NONE
+    highlight! ColorColumn        guifg=NONE     guibg=#262626  gui=NONE    ctermfg=NONE  ctermbg=235  cterm=NONE
 
-    highlight! StatusLineNC       guifg=#585858  guibg=#121212  gui=NONE     ctermfg=240   ctermbg=233  cterm=NONE
+    highlight! LineNr             guifg=#444444  guibg=#121212  gui=NONE    ctermfg=238   ctermbg=233  cterm=NONE
+    highlight! VertSplit          guifg=#444444  guibg=#121212  gui=NONE    ctermfg=238   ctermbg=233  cterm=NONE
+    highlight! Folded             guifg=#444444  guibg=#121212  gui=NONE    ctermfg=238   ctermbg=233  cterm=NONE
 
-    highlight! CursorLine         guifg=NONE     guibg=#262626  gui=NONE     ctermfg=NONE  ctermbg=235  cterm=NONE
-    highlight! ColorColumn        guifg=NONE     guibg=#262626  gui=NONE     ctermfg=NONE  ctermbg=235  cterm=NONE
+    highlight! FoldColumn         guifg=#87afaf  guibg=#1c1c1c  gui=NONE    ctermfg=109   ctermbg=234  cterm=NONE
+    highlight! String             guifg=#ffdf87  guibg=#262626  gui=NONE    ctermfg=222   ctermbg=235  cterm=NONE
 
-    highlight! LineNr             guifg=#444444  guibg=#121212  gui=NONE     ctermfg=238   ctermbg=233  cterm=NONE
-    highlight! VertSplit          guifg=#444444  guibg=#121212  gui=NONE     ctermfg=238   ctermbg=233  cterm=NONE
-    highlight! Folded             guifg=#444444  guibg=#121212  gui=NONE     ctermfg=238   ctermbg=233  cterm=NONE
+    highlight! SignColumn         guifg=#87875f  guibg=#080808  gui=NONE    ctermfg=101   ctermbg=233  cterm=NONE
+    highlight! TabLine            guifg=#87875f  guibg=#080808  gui=NONE    ctermfg=101   ctermbg=233  cterm=NONE
+    highlight! TabLineFill        guifg=#87875f  guibg=#080808  gui=NONE    ctermfg=101   ctermbg=233  cterm=NONE
+    highlight! TabLineSel         guifg=#1c1c1c  guibg=#87875f  gui=NONE    ctermfg=234   ctermbg=101  cterm=NONE
 
-    highlight! FoldColumn         guifg=#87afaf  guibg=#1c1c1c  gui=NONE     ctermfg=109   ctermbg=234  cterm=NONE
-    highlight! String             guifg=#ffdf87  guibg=#262626  gui=NONE     ctermfg=222   ctermbg=235  cterm=NONE
+    highlight! PmenuSbar          guifg=#121212  guibg=#121212  gui=NONE    ctermfg=233   ctermbg=233  cterm=NONE
+    highlight! PmenuThumb         guifg=#121212  guibg=#121212  gui=NONE    ctermfg=233   ctermbg=233  cterm=NONE
 
-    highlight! TabLine            guifg=#87875f  guibg=#080808  gui=NONE     ctermfg=101   ctermbg=233  cterm=NONE
-    highlight! SignColumn         guifg=#87875f  guibg=#080808  gui=NONE     ctermfg=101   ctermbg=233  cterm=NONE
-    highlight! TabLineFill        guifg=#87875f  guibg=#080808  gui=NONE     ctermfg=101   ctermbg=233  cterm=NONE
-
-    highlight! PmenuSbar          guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233  cterm=NONE
-    highlight! PmenuThumb         guifg=#121212  guibg=#121212  gui=NONE     ctermfg=233   ctermbg=233  cterm=NONE
-
-    highlight! NonText            guifg=#303030  guibg=NONE     gui=NONE     ctermfg=236   ctermbg=NONE cterm=NONE
-    highlight! SpecialKey         guifg=#303030  guibg=NONE     gui=NONE     ctermfg=236   ctermbg=NONE cterm=NONE
+    highlight! NonText            guifg=#303030  guibg=NONE     gui=NONE    ctermfg=236   ctermbg=NONE cterm=NONE
+    highlight! SpecialKey         guifg=#303030  guibg=NONE     gui=NONE    ctermfg=236   ctermbg=NONE cterm=NONE
 endif
 
 
 " SHOUT_DRAGON_ASPECT UI:
 if g:alduin_Shout_Dragon_Aspect
-    highlight! Normal             guifg=#dfdfaf  guibg=#121212  gui=NONE     ctermfg=187   ctermbg=233  cterm=NONE
-    highlight! TabLineSel         guifg=#121212  guibg=#87875f  gui=NONE     ctermfg=233   ctermbg=101  cterm=NONE
+    highlight! Normal             guifg=#dfdfaf  guibg=#121212  gui=NONE    ctermfg=187   ctermbg=233  cterm=NONE
+    highlight! StatusLine         guifg=#87875f  guibg=#080808  gui=NONE    ctermfg=101   ctermbg=232  cterm=NONE
+    highlight! Pmenu              guifg=#87875f  guibg=#080808  gui=NONE    ctermfg=101   ctermbg=232  cterm=NONE
+    highlight! StatusLineNC       guifg=#444444  guibg=#080808  gui=NONE    ctermfg=238   ctermbg=232  cterm=NONE
 
-    highlight! StatusLine         guifg=#87875f  guibg=#080808  gui=NONE     ctermfg=101   ctermbg=232  cterm=NONE
-    highlight! Pmenu              guifg=#87875f  guibg=#080808  gui=NONE     ctermfg=101   ctermbg=232  cterm=NONE
+    highlight! CursorLine         guifg=NONE     guibg=#1c1c1c  gui=NONE    ctermfg=NONE  ctermbg=234  cterm=NONE
+    highlight! ColorColumn        guifg=NONE     guibg=#1c1c1c  gui=NONE    ctermfg=NONE  ctermbg=234  cterm=NONE
 
-    highlight! StatusLineNC       guifg=#444444  guibg=#080808  gui=NONE     ctermfg=238   ctermbg=232  cterm=NONE
+    highlight! LineNr             guifg=#444444  guibg=#080808  gui=NONE    ctermfg=238   ctermbg=232  cterm=NONE
+    highlight! VertSplit          guifg=#444444  guibg=#080808  gui=NONE    ctermfg=238   ctermbg=232  cterm=NONE
+    highlight! Folded             guifg=#444444  guibg=#080808  gui=NONE    ctermfg=238   ctermbg=232  cterm=NONE
 
-    highlight! CursorLine         guifg=NONE     guibg=#1c1c1c  gui=NONE     ctermfg=NONE  ctermbg=234  cterm=NONE
-    highlight! ColorColumn        guifg=NONE     guibg=#1c1c1c  gui=NONE     ctermfg=NONE  ctermbg=234  cterm=NONE
+    highlight! FoldColumn         guifg=#87afaf  guibg=#121212  gui=NONE    ctermfg=109   ctermbg=233  cterm=NONE
+    highlight! String             guifg=#ffdf87  guibg=#1c1c1c  gui=NONE    ctermfg=222   ctermbg=234  cterm=NONE
 
-    highlight! LineNr             guifg=#444444  guibg=#080808  gui=NONE     ctermfg=238   ctermbg=232  cterm=NONE
-    highlight! VertSplit          guifg=#444444  guibg=#080808  gui=NONE     ctermfg=238   ctermbg=232  cterm=NONE
-    highlight! Folded             guifg=#444444  guibg=#080808  gui=NONE     ctermfg=238   ctermbg=232  cterm=NONE
+    highlight! SignColumn         guifg=#87875f  guibg=#080808  gui=NONE    ctermfg=101   ctermbg=232  cterm=NONE
+    highlight! TabLine            guifg=#87875f  guibg=#080808  gui=NONE    ctermfg=101   ctermbg=232  cterm=NONE
+    highlight! TabLineFill        guifg=#87875f  guibg=#080808  gui=NONE    ctermfg=101   ctermbg=232  cterm=NONE
+    highlight! TabLineSel         guifg=#121212  guibg=#87875f  gui=NONE    ctermfg=233   ctermbg=101  cterm=NONE
 
-    highlight! FoldColumn         guifg=#87afaf  guibg=#121212  gui=NONE     ctermfg=109   ctermbg=233  cterm=NONE
-    highlight! String             guifg=#ffdf87  guibg=#1c1c1c  gui=NONE     ctermfg=222   ctermbg=234  cterm=NONE
+    highlight! PmenuSbar          guifg=#080808  guibg=#080808  gui=NONE    ctermfg=232   ctermbg=232  cterm=NONE
+    highlight! PmenuThumb         guifg=#080808  guibg=#080808  gui=NONE    ctermfg=232   ctermbg=232  cterm=NONE
 
-    highlight! TabLine            guifg=#87875f  guibg=#080808  gui=NONE     ctermfg=101   ctermbg=232  cterm=NONE
-    highlight! SignColumn         guifg=#87875f  guibg=#080808  gui=NONE     ctermfg=101   ctermbg=232  cterm=NONE
-    highlight! TabLineFill        guifg=#87875f  guibg=#080808  gui=NONE     ctermfg=101   ctermbg=232  cterm=NONE
-
-    highlight! PmenuSbar          guifg=#080808  guibg=#080808  gui=NONE     ctermfg=232   ctermbg=232  cterm=NONE
-    highlight! PmenuThumb         guifg=#080808  guibg=#080808  gui=NONE     ctermfg=232   ctermbg=232  cterm=NONE
-
-    highlight! NonText            guifg=#262626  guibg=NONE     gui=NONE     ctermfg=235   ctermbg=NONE cterm=NONE
-    highlight! SpecialKey         guifg=#262626  guibg=NONE     gui=NONE     ctermfg=235   ctermbg=NONE cterm=NONE
+    highlight! NonText            guifg=#262626  guibg=NONE     gui=NONE    ctermfg=235   ctermbg=NONE cterm=NONE
+    highlight! SpecialKey         guifg=#262626  guibg=NONE     gui=NONE    ctermfg=235   ctermbg=NONE cterm=NONE
 endif
 
 
 " SHOUT_BECOME_ETHEREAL UI:
 if g:alduin_Shout_Become_Ethereal
-    highlight! Normal             guifg=#dfdfaf  guibg=#080808  gui=NONE     ctermfg=187   ctermbg=232  cterm=NONE
-    highlight! TabLineSel         guifg=#080808  guibg=#87875f  gui=NONE     ctermfg=232   ctermbg=101  cterm=NONE
+    highlight! Normal             guifg=#dfdfaf  guibg=#080808  gui=NONE    ctermfg=187   ctermbg=232  cterm=NONE
+    highlight! StatusLine         guifg=#87875f  guibg=#1c1c1c  gui=NONE    ctermfg=101   ctermbg=234  cterm=NONE
+    highlight! Pmenu              guifg=#87875f  guibg=#1c1c1c  gui=NONE    ctermfg=101   ctermbg=234  cterm=NONE
+    highlight! StatusLineNC       guifg=#444444  guibg=#1c1c1c  gui=NONE    ctermfg=238   ctermbg=234  cterm=NONE
 
-    highlight! StatusLine         guifg=#87875f  guibg=#1c1c1c  gui=NONE     ctermfg=101   ctermbg=234  cterm=NONE
-    highlight! Pmenu              guifg=#87875f  guibg=#1c1c1c  gui=NONE     ctermfg=101   ctermbg=234  cterm=NONE
+    highlight! CursorLine         guifg=NONE     guibg=#121212  gui=NONE    ctermfg=NONE  ctermbg=233  cterm=NONE
+    highlight! ColorColumn        guifg=NONE     guibg=#121212  gui=NONE    ctermfg=NONE  ctermbg=233  cterm=NONE
 
-    highlight! StatusLineNC       guifg=#444444  guibg=#1c1c1c  gui=NONE     ctermfg=238   ctermbg=234  cterm=NONE
-    highlight! CursorLine         guifg=NONE     guibg=#121212  gui=NONE     ctermfg=NONE  ctermbg=233  cterm=NONE
+    highlight! LineNr             guifg=#444444  guibg=#000000  gui=NONE    ctermfg=238   ctermbg=16   cterm=NONE
+    highlight! VertSplit          guifg=#444444  guibg=#000000  gui=NONE    ctermfg=238   ctermbg=16   cterm=NONE
+    highlight! Folded             guifg=#444444  guibg=#000000  gui=NONE    ctermfg=238   ctermbg=16   cterm=NONE
 
-    highlight! LineNr             guifg=#444444  guibg=#000000  gui=NONE     ctermfg=238   ctermbg=16   cterm=NONE
-    highlight! VertSplit          guifg=#444444  guibg=#000000  gui=NONE     ctermfg=238   ctermbg=16   cterm=NONE
-    highlight! Folded             guifg=#444444  guibg=#000000  gui=NONE     ctermfg=238   ctermbg=16   cterm=NONE
+    highlight! FoldColumn         guifg=#87afaf  guibg=#080808  gui=NONE    ctermfg=109   ctermbg=232  cterm=NONE
+    highlight! String             guifg=#ffdf87  guibg=#121212  gui=NONE    ctermfg=222   ctermbg=233  cterm=NONE
 
-    highlight! FoldColumn         guifg=#87afaf  guibg=#080808  gui=NONE     ctermfg=109   ctermbg=232  cterm=NONE
-    highlight! String             guifg=#ffdf87  guibg=#121212  gui=NONE     ctermfg=222   ctermbg=233  cterm=NONE
+    highlight! SignColumn         guifg=#87875f  guibg=#000000  gui=NONE    ctermfg=101   ctermbg=16   cterm=NONE
+    highlight! TabLine            guifg=#87875f  guibg=#000000  gui=NONE    ctermfg=101   ctermbg=16   cterm=NONE
+    highlight! TabLineFill        guifg=#87875f  guibg=#000000  gui=NONE    ctermfg=101   ctermbg=16   cterm=NONE
+    highlight! TabLineSel         guifg=#080808  guibg=#87875f  gui=NONE    ctermfg=232   ctermbg=101  cterm=NONE
 
-    highlight! TabLine            guifg=#87875f  guibg=#000000  gui=NONE     ctermfg=101   ctermbg=16   cterm=NONE
-    highlight! SignColumn         guifg=#87875f  guibg=#000000  gui=NONE     ctermfg=101   ctermbg=16   cterm=NONE
-    highlight! TabLineFill        guifg=#87875f  guibg=#000000  gui=NONE     ctermfg=101   ctermbg=16   cterm=NONE
+    highlight! PmenuSbar          guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE    ctermfg=234   ctermbg=234  cterm=NONE
+    highlight! PmenuThumb         guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE    ctermfg=234   ctermbg=234  cterm=NONE
 
-    highlight! ColorColumn        guifg=NONE     guibg=#121212  gui=NONE     ctermfg=NONE  ctermbg=233  cterm=NONE
-
-    highlight! PmenuSbar          guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE     ctermfg=234   ctermbg=234  cterm=NONE
-    highlight! PmenuThumb         guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE     ctermfg=234   ctermbg=234  cterm=NONE
-
-    highlight! NonText            guifg=#1c1c1c  guibg=NONE     gui=NONE     ctermfg=234   ctermbg=NONE cterm=NONE
-    highlight! SpecialKey         guifg=#1c1c1c  guibg=NONE     gui=NONE     ctermfg=234   ctermbg=NONE cterm=NONE
+    highlight! NonText            guifg=#1c1c1c  guibg=NONE     gui=NONE    ctermfg=234   ctermbg=NONE cterm=NONE
+    highlight! SpecialKey         guifg=#1c1c1c  guibg=NONE     gui=NONE    ctermfg=234   ctermbg=NONE cterm=NONE
 endif
 
 
