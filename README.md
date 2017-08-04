@@ -32,9 +32,9 @@ let g:alduin_Shout_Fire_Breath = 1
 colorscheme alduin
 ```
 
-:crescent_moon: Nightly Build
+:crescent_moon: Dev Build
 ----------------------------
-pre-release version [here](https://github.com/AlessandroYorba/Alduin/tree/nightly)
+development version [here](https://github.com/AlessandroYorba/Alduin/tree/nightly)
 
 :octocat: Special Thanks
 -----------------
@@ -51,4 +51,3 @@ pre-release version [here](https://github.com/AlessandroYorba/Alduin/tree/nightl
 [Sidonia](https://github.com/AlessandroYorba/Sidonia)<br>
 [Monrovia](https://github.com/AlessandroYorba/Monrovia)<br>
 [Arcadia](https://github.com/AlessandroYorba/Arcadia)<br>
-[Absolute](https://github.com/AlessandroYorba/Absolute)
