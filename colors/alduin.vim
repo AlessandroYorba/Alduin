@@ -10,7 +10,7 @@
 " SCRIPT URL:   https://github.com/AlessandroYorba/Alduin
 
 " UPDATED:      Nov 6th, 2017
-" CHANGES MADE: VertSplits HL
+" CHANGES MADE: Removed Vampirism
 
 
 " MAINTAINER:            Alessandro Yorba       https://github.com/AlessandroYorba
@@ -43,10 +43,6 @@
 
 "   "Black Background
 "   let g:alduin_Shout_Become_Ethereal = 1
-"   colorscheme alduin
-
-"   "Automatically cycles thru modes depending on time of night
-"   let g:alduin_Contract_Vampirism = 1
 "   colorscheme alduin
 
 "   "Dark Red Highlighting
@@ -120,35 +116,6 @@ endif
 
 if !exists( "g:alduin_Shout_Become_Ethereal" )
     let g:alduin_Shout_Become_Ethereal = 0
-endif
-
-if !exists( "g:alduin_Contract_Vampirism")
-    let g:alduin_Contract_Vampirism = 0
-endif
-
-
-" CONTRACT VAMPIRISM:
-if g:alduin_Contract_Vampirism
-    let alduin_Hour = strftime("%H")
-
-    " 7am - 5pm
-    " alduin UI
-    if 7 <= alduin_Hour && alduin_Hour < 17
-        let g:alduin_Shout_Dragon_Aspect = 0
-        let g:alduin_Shout_Become_Ethereal = 0
-
-    " 5pm - 12am
-    " alduin_Shout_Dragon_Aspect UI
-    elseif 17 <= alduin_Hour && alduin_Hour < 24
-        let g:alduin_Shout_Dragon_Aspect = 1
-        let g:alduin_Shout_Become_Ethereal = 0
-
-    " 12am - 7am
-    " alduin_Shout_Become_Ethereal UI
-    else
-        let g:alduin_Shout_Dragon_Aspect = 0
-        let g:alduin_Shout_Become_Ethereal = 1
-    endif
 endif
 
 

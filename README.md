@@ -20,12 +20,6 @@ let g:alduin_Shout_Become_Ethereal = 1
 colorscheme alduin 
 ```
 
-######  Sanguinare Vampiris - Automatically cycles thru modes depending on time of night
-```VimL
-let g:alduin_Contract_Vampirism = 1
-colorscheme alduin 
-```
-
 ###### Dark Red - Special Highlighting
 ```VimL
 let g:alduin_Shout_Fire_Breath = 1
