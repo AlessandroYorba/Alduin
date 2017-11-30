@@ -1,7 +1,3 @@
-![Screenshot](https://user-images.githubusercontent.com/11221489/31866459-937e8796-b734-11e7-8b65-4e8dcb370c13.png)
-
-![Screenshot](https://user-images.githubusercontent.com/11221489/31866462-9c79199c-b734-11e7-9297-cf94dd159a23.png)
-
 :space_invader: Set Up
 ------
 
@@ -17,12 +13,6 @@ colorscheme alduin
 ###### Become Ethereal - Black Background
 ```VimL
 let g:alduin_Shout_Become_Ethereal = 1
-colorscheme alduin 
-```
-
-######  Sanguinare Vampiris - Automatically cycles thru modes depending on time of night
-```VimL
-let g:alduin_Contract_Vampirism = 1
 colorscheme alduin 
 ```
 
@@ -49,3 +39,4 @@ development version [here](https://github.com/AlessandroYorba/Alduin/tree/nightl
 [Despacio](https://github.com/AlessandroYorba/Despacio)<br>
 [Sierra](https://github.com/AlessandroYorba/Sierra)<br>
 [Arcadia](https://github.com/AlessandroYorba/Arcadia)<br>
+[Libertine](https://github.com/AlessandroYorba/Libertine)<br>
