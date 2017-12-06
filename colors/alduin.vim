@@ -9,8 +9,8 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Alduin
 
-" UPDATED:      Dec 2, 2017
-" LATEST CHANGES: Code Cleanup
+" UPDATED:      Dec 6, 2017
+" LATEST CHANGES: New Pmenu Tablines Statuslines and CursorLines
 
 
 " MAINTAINER:            Alessandro Yorba       https://github.com/AlessandroYorba
@@ -149,8 +149,8 @@ highlight Comment          guifg=#87875f  guibg=NONE     gui=NONE       ctermfg=
 
 "WINDOW UI
 highlight MoreMsg          guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
-highlight SpecialComment   guifg=#87875f  guibg=NONE     gui=reverse    ctermfg=101   ctermbg=NONE  cterm=reverse
-highlight VimCommentTitle  guifg=#878787  guibg=NONE     gui=reverse    ctermfg=102   ctermbg=NONE  cterm=reverse
+highlight VimCommentTitle      guifg=#6c6c6c  guibg=NONE     gui=reverse    ctermfg=242   ctermbg=NONE  cterm=reverse
+highlight SpecialComment       guifg=#6c6c6c  guibg=NONE     gui=reverse    ctermfg=242   ctermbg=NONE  cterm=reverse
 highlight Underlined       guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131   ctermbg=NONE  cterm=NONE
 highlight Todo             guifg=#af5f00  guibg=NONE     gui=reverse    ctermfg=130   ctermbg=NONE  cterm=reverse
 highlight Visual           guifg=#dfdfaf  guibg=#875f5f  gui=NONE       ctermfg=187   ctermbg=95    cterm=NONE
@@ -167,7 +167,6 @@ highlight WildMenu         guifg=#dfdfaf  guibg=#875f5f  gui=NONE       ctermfg=
 highlight ModeMsg          guifg=#5f8787  guibg=NONE     gui=NONE       ctermfg=66    ctermbg=NONE  cterm=NONE
 highlight Macro            guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
 highlight PreCondit        guifg=#dfaf87  guibg=NONE     gui=NONE       ctermfg=180   ctermbg=NONE  cterm=NONE
-highlight PmenuSel         guifg=#dfdfaf  guibg=#875f5f  gui=NONE       ctermfg=187   ctermbg=95    cterm=NONE
 highlight IncSearch        guifg=#af5f5f  guibg=NONE     gui=reverse    ctermfg=131   ctermbg=NONE  cterm=reverse
 highlight VisualNOS        guifg=NONE     guibg=NONE     gui=underline  ctermfg=NONE  ctermbg=NONE  cterm=underline
 
@@ -190,15 +189,17 @@ if 1
     highlight String          guifg=#ffdf87  guibg=#262626  gui=NONE    ctermfg=222   ctermbg=235  cterm=NONE
 
     "WINDOW UI
-    highlight StatusLine      guifg=#87875f  guibg=#121212  gui=NONE    ctermfg=101   ctermbg=233  cterm=NONE
-    highlight StatusLineNC    guifg=#585858  guibg=#121212  gui=NONE    ctermfg=240   ctermbg=233  cterm=NONE
-    highlight Pmenu           guifg=#87875f  guibg=#121212  gui=NONE    ctermfg=101   ctermbg=233  cterm=NONE
-    highlight PmenuSbar       guifg=#121212  guibg=#121212  gui=NONE    ctermfg=233   ctermbg=233  cterm=NONE
-    highlight PmenuThumb      guifg=#121212  guibg=#121212  gui=NONE    ctermfg=233   ctermbg=233  cterm=NONE
-    highlight TabLine         guifg=#87875f  guibg=#080808  gui=NONE    ctermfg=101   ctermbg=233  cterm=NONE
-    highlight TabLineSel      guifg=#1c1c1c  guibg=#87875f  gui=NONE    ctermfg=234   ctermbg=101  cterm=NONE
-    highlight TabLineFill     guifg=#87875f  guibg=#080808  gui=NONE    ctermfg=101   ctermbg=233  cterm=NONE
-    highlight CursorLine      guifg=NONE     guibg=#262626  gui=NONE    ctermfg=NONE  ctermbg=235  cterm=NONE
+    highlight StatusLine      guifg=#9e9e9e  guibg=#262626  gui=NONE    ctermfg=247   ctermbg=235  cterm=NONE
+    highlight StatusLineNC    guifg=#6c6c6c  guibg=#262626  gui=NONE    ctermfg=242   ctermbg=235  cterm=NONE
+    highlight Pmenu           guifg=#626262  guibg=#262626  gui=NONE    ctermfg=241   ctermbg=235  cterm=NONE
+    highlight PmenuSel        guifg=#dfdfaf  guibg=#875f5f  gui=NONE    ctermfg=187   ctermbg=95   cterm=NONE
+    highlight PmenuSbar       guifg=#262626  guibg=#262626  gui=NONE    ctermfg=235   ctermbg=235  cterm=NONE
+    highlight PmenuThumb      guifg=#262626  guibg=#262626  gui=NONE    ctermfg=235   ctermbg=235  cterm=NONE
+
+    highlight TabLine         guifg=#6c6c6c  guibg=#262626  gui=NONE    ctermfg=242   ctermbg=235  cterm=NONE
+    highlight TabLineSel      guifg=#9e9e9e  guibg=#262626  gui=NONE    ctermfg=247   ctermbg=235  cterm=NONE
+    highlight TabLineFill     guifg=#6c6c6c  guibg=#262626  gui=NONE    ctermfg=242   ctermbg=235  cterm=NONE
+    highlight CursorLine      guifg=NONE     guibg=#121212  gui=NONE    ctermfg=NONE  ctermbg=233  cterm=NONE
     highlight ColorColumn     guifg=NONE     guibg=#262626  gui=NONE    ctermfg=NONE  ctermbg=235  cterm=NONE
     highlight Folded          guifg=#444444  guibg=#121212  gui=NONE    ctermfg=238   ctermbg=233  cterm=NONE
     highlight VertSplit       guifg=#444444  guibg=#1c1c1c  gui=NONE    ctermfg=238   ctermbg=234  cterm=NONE
@@ -216,15 +217,19 @@ if g:alduin_Shout_Dragon_Aspect
     highlight String          guifg=#ffdf87  guibg=#1c1c1c  gui=NONE    ctermfg=222   ctermbg=234  cterm=NONE
 
     "WINDOW UI
-    highlight StatusLine      guifg=#87875f  guibg=#080808  gui=NONE    ctermfg=101   ctermbg=232  cterm=NONE
-    highlight StatusLineNC    guifg=#444444  guibg=#080808  gui=NONE    ctermfg=238   ctermbg=232  cterm=NONE
-    highlight Pmenu           guifg=#87875f  guibg=#080808  gui=NONE    ctermfg=101   ctermbg=232  cterm=NONE
-    highlight PmenuSbar       guifg=#080808  guibg=#080808  gui=NONE    ctermfg=232   ctermbg=232  cterm=NONE
-    highlight PmenuThumb      guifg=#080808  guibg=#080808  gui=NONE    ctermfg=232   ctermbg=232  cterm=NONE
-    highlight TabLine         guifg=#87875f  guibg=#080808  gui=NONE    ctermfg=101   ctermbg=232  cterm=NONE
-    highlight TabLineSel      guifg=#121212  guibg=#87875f  gui=NONE    ctermfg=233   ctermbg=101  cterm=NONE
-    highlight TabLineFill     guifg=#87875f  guibg=#080808  gui=NONE    ctermfg=101   ctermbg=232  cterm=NONE
-    highlight CursorLine      guifg=NONE     guibg=#1c1c1c  gui=NONE    ctermfg=NONE  ctermbg=234  cterm=NONE
+    highlight StatusLine      guifg=#949494  guibg=#1c1c1c  gui=NONE    ctermfg=246   ctermbg=234  cterm=NONE
+    highlight StatusLineNC    guifg=#626262  guibg=#1c1c1c  gui=NONE    ctermfg=241   ctermbg=234  cterm=NONE
+
+    "TEST
+    highlight Pmenu           guifg=#626262  guibg=#1c1c1c  gui=NONE    ctermfg=241   ctermbg=234  cterm=NONE
+    highlight PmenuSel        guifg=#dfdfaf  guibg=#875f5f  gui=NONE    ctermfg=187   ctermbg=95   cterm=NONE
+    highlight PmenuSbar       guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE    ctermfg=234   ctermbg=234  cterm=NONE
+    highlight PmenuThumb      guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE    ctermfg=234   ctermbg=234  cterm=NONE
+
+    highlight TabLine         guifg=#626262  guibg=#1c1c1c  gui=NONE    ctermfg=241   ctermbg=234  cterm=NONE
+    highlight TabLineSel      guifg=#949494  guibg=#1c1c1c  gui=NONE    ctermfg=246   ctermbg=234  cterm=NONE
+    highlight TabLineFill     guifg=#262626  guibg=#1c1c1c  gui=NONE    ctermfg=241   ctermbg=234  cterm=NONE
+    highlight CursorLine      guifg=NONE     guibg=#080808  gui=NONE    ctermfg=NONE  ctermbg=232  cterm=NONE
     highlight ColorColumn     guifg=NONE     guibg=#1c1c1c  gui=NONE    ctermfg=NONE  ctermbg=234  cterm=NONE
     highlight Folded          guifg=#444444  guibg=#080808  gui=NONE    ctermfg=238   ctermbg=232  cterm=NONE
     highlight VertSplit       guifg=#444444  guibg=#121212  gui=NONE    ctermfg=238   ctermbg=233  cterm=NONE
@@ -242,15 +247,16 @@ if g:alduin_Shout_Become_Ethereal
     highlight String          guifg=#ffdf87  guibg=#121212  gui=NONE    ctermfg=222   ctermbg=233  cterm=NONE
 
     "WINDOW UI
-    highlight StatusLine      guifg=#87875f  guibg=#1c1c1c  gui=NONE    ctermfg=101   ctermbg=234  cterm=NONE
-    highlight StatusLineNC    guifg=#444444  guibg=#1c1c1c  gui=NONE    ctermfg=238   ctermbg=234  cterm=NONE
-    highlight Pmenu           guifg=#87875f  guibg=#1c1c1c  gui=NONE    ctermfg=101   ctermbg=234  cterm=NONE
-    highlight PmenuSbar       guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE    ctermfg=234   ctermbg=234  cterm=NONE
-    highlight PmenuThumb      guifg=#1c1c1c  guibg=#1c1c1c  gui=NONE    ctermfg=234   ctermbg=234  cterm=NONE
-    highlight TabLine         guifg=#87875f  guibg=#000000  gui=NONE    ctermfg=101   ctermbg=16   cterm=NONE
-    highlight TabLineFill     guifg=#87875f  guibg=#000000  gui=NONE    ctermfg=101   ctermbg=16   cterm=NONE
-    highlight TabLineSel      guifg=#080808  guibg=#87875f  gui=NONE    ctermfg=232   ctermbg=101  cterm=NONE
-    highlight CursorLine      guifg=NONE     guibg=#121212  gui=NONE    ctermfg=NONE  ctermbg=233  cterm=NONE
+    highlight StatusLine      guifg=#8a8a8a  guibg=#121212  gui=NONE    ctermfg=245   ctermbg=233  cterm=NONE
+    highlight StatusLineNC    guifg=#585858  guibg=#121212  gui=NONE    ctermfg=240   ctermbg=233  cterm=NONE
+    highlight Pmenu           guifg=#585858  guibg=#121212  gui=NONE    ctermfg=240   ctermbg=233  cterm=NONE
+    highlight PmenuSel        guifg=#dfdfaf  guibg=#875f5f  gui=NONE    ctermfg=187   ctermbg=95    cterm=NONE
+    highlight PmenuSbar       guifg=#121212  guibg=#121212  gui=NONE    ctermfg=233   ctermbg=233  cterm=NONE
+    highlight PmenuThumb      guifg=#121212  guibg=#121212  gui=NONE    ctermfg=233   ctermbg=233  cterm=NONE
+    highlight TabLine         guifg=#585858  guibg=#121212  gui=NONE    ctermfg=240   ctermbg=233   cterm=NONE
+    highlight TabLineFill     guifg=#585858  guibg=#121212  gui=NONE    ctermfg=240   ctermbg=233   cterm=NONE
+    highlight TabLineSel      guifg=#8a8a8a  guibg=#121212  gui=NONE    ctermfg=245   ctermbg=233  cterm=NONE
+    highlight CursorLine      guifg=NONE     guibg=#000000  gui=NONE    ctermfg=NONE  ctermbg=16  cterm=NONE
     highlight ColorColumn     guifg=NONE     guibg=#121212  gui=NONE    ctermfg=NONE  ctermbg=233  cterm=NONE
     highlight Folded          guifg=#444444  guibg=#000000  gui=NONE    ctermfg=238   ctermbg=16   cterm=NONE
     highlight VertSplit       guifg=#444444  guibg=#080808  gui=NONE    ctermfg=238   ctermbg=232   cterm=NONE
