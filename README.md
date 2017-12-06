@@ -1,5 +1,7 @@
 ![screenshot](https://user-images.githubusercontent.com/11221489/33523788-18b91dfe-d7c4-11e7-93b2-52c40f5f00c9.png)
 
+![screenshot](https://user-images.githubusercontent.com/11221489/33584653-4197e852-d915-11e7-86bc-9ea8c6190307.png)
+
 :space_invader: Set Up
 ------
 The default UI for Alduin is dark grey. However, depending on certain lighting conditions, time of day or personal preference you might want to try some of the darker versions that are available. [screenshots of all modes](https://github.com/AlessandroYorba/Alduin/issues/5)
