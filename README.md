@@ -1,4 +1,4 @@
-![screenshot](https://user-images.githubusercontent.com/11221489/33690602-18152758-da99-11e7-83c0-ce929de2d6cc.png)
+![Dark Grey](https://user-images.githubusercontent.com/11221489/33703680-040b8230-dade-11e7-80aa-c7bd37e2cdc1.png)
 
 ![screenshot](https://user-images.githubusercontent.com/11221489/33690723-c0543904-da99-11e7-8209-2b24ccb0d063.png)
 
@@ -6,24 +6,24 @@
 ------
 The default UI for Alduin is dark grey. However, depending on certain lighting conditions, time of day or personal preference you might want to try some of the darker versions that are available. [screenshots of all modes](https://github.com/AlessandroYorba/Alduin/issues/5)
 
-###### [Dark Grey](https://user-images.githubusercontent.com/11221489/33690602-18152758-da99-11e7-83c0-ce929de2d6cc.png)
+###### [Dark Grey](https://user-images.githubusercontent.com/11221489/33703680-040b8230-dade-11e7-80aa-c7bd37e2cdc1.png)
 ```
 colorscheme alduin
 ```
 
-###### [Almost Black](https://user-images.githubusercontent.com/11221489/33690628-3b1c9092-da99-11e7-8736-63dbd156e520.png)
+###### [Almost Black](https://user-images.githubusercontent.com/11221489/33703720-3109e966-dade-11e7-88ed-0699e0b3c6b5.png)
 ```
 let g:alduin_Shout_Dragon_Aspect = 1
 colorscheme alduin 
 ```
 
-###### [Black](https://user-images.githubusercontent.com/11221489/33690690-9c6fcf9e-da99-11e7-910a-b8e98c1d682d.png)
+###### [Black](https://user-images.githubusercontent.com/11221489/33703746-4d9d4802-dade-11e7-87bd-13cd7eebf2c1.png)
 ```
 let g:alduin_Shout_Become_Ethereal = 1
 colorscheme alduin 
 ```
 
-###### [Dark Red SpecialHL](https://user-images.githubusercontent.com/11221489/33690723-c0543904-da99-11e7-8209-2b24ccb0d063.png)
+###### [Dark Red SpecialHL](https://user-images.githubusercontent.com/11221489/33703778-6fb8eb6c-dade-11e7-90ea-538719c16698.png)
 ```
 let g:alduin_Shout_Fire_Breath = 1
 colorscheme alduin
