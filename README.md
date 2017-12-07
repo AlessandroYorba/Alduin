@@ -1,6 +1,6 @@
 ![Dark Grey](https://user-images.githubusercontent.com/11221489/33703680-040b8230-dade-11e7-80aa-c7bd37e2cdc1.png)
 
-![screenshot](https://user-images.githubusercontent.com/11221489/33690723-c0543904-da99-11e7-8209-2b24ccb0d063.png)
+![screenshot](https://user-images.githubusercontent.com/11221489/33703778-6fb8eb6c-dade-11e7-90ea-538719c16698.png)
 
 :space_invader: Set Up
 ------
