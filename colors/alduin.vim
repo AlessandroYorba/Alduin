@@ -9,8 +9,8 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Alduin
 
-" UPDATED:      Dec 9, 2017
-" LATEST CHANGES: ModeMsg, CursorLineNR, MatchParen
+" UPDATED:      Dec 30, 2017
+" LATEST CHANGES: Diffs ErrorMsg Licensed Year
 
 
 " MAINTAINER:            Alessandro Yorba       https://github.com/AlessandroYorba
@@ -158,7 +158,7 @@ highlight Question         guifg=#875f5f  guibg=NONE     gui=NONE       ctermfg=
 highlight Search           guifg=#af5f00  guibg=NONE     gui=reverse    ctermfg=130   ctermbg=NONE  cterm=reverse
 highlight MatchParen       guifg=#878787  guibg=NONE     gui=reverse    ctermfg=102   ctermbg=NONE  cterm=reverse
 highlight Error            guifg=#af5f5f  guibg=#121212  gui=reverse    ctermfg=131   ctermbg=233   cterm=reverse
-highlight ErrorMsg         guifg=#af5f5f  guibg=#121212  gui=reverse    ctermfg=131   ctermbg=233   cterm=reverse
+highlight ErrorMsg         guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131   ctermbg=NONE  cterm=NONE
 highlight WarningMsg       guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131   ctermbg=NONE  cterm=NONE
 highlight Directory        guifg=#af5f5f  guibg=NONE     gui=NONE       ctermfg=131   ctermbg=NONE  cterm=NONE
 highlight Cursor           guifg=#000000  guibg=#dfdfaf  gui=NONE       ctermfg=16    ctermbg=187   cterm=NONE
@@ -171,9 +171,9 @@ highlight IncSearch        guifg=#af5f5f  guibg=NONE     gui=reverse    ctermfg=
 highlight VisualNOS        guifg=NONE     guibg=NONE     gui=underline  ctermfg=NONE  ctermbg=NONE  cterm=underline
 
 "DIFF
-highlight DiffAdd          guifg=#87af87  guibg=NONE     gui=reverse    ctermfg=108   ctermbg=NONE  cterm=reverse
-highlight DiffChange       guifg=#5f5f87  guibg=NONE     gui=reverse    ctermfg=60    ctermbg=NONE  cterm=reverse
-highlight DiffText         guifg=#8787af  guibg=NONE     gui=reverse    ctermfg=103   ctermbg=NONE  cterm=reverse
+highlight DiffAdd          guifg=#008787  guibg=NONE     gui=reverse    ctermfg=30   ctermbg=NONE  cterm=reverse
+highlight DiffText         guifg=#008787  guibg=NONE     gui=reverse    ctermfg=30   ctermbg=NONE  cterm=reverse
+highlight DiffChange       guifg=#005f5f  guibg=NONE     gui=reverse    ctermfg=23   ctermbg=NONE  cterm=reverse
 highlight DiffDelete       guifg=#af5f5f  guibg=NONE     gui=reverse    ctermfg=131   ctermbg=NONE  cterm=reverse
 
 "SPELLING
@@ -285,7 +285,7 @@ if g:alduin_Shout_Fire_Breath
 endif
 
 " LICENSE:
-" Copyright (c) 2017 Alessandro Yorba
+" Copyright (c) 2018 Alessandro Yorba
 "
 " Permission is hereby granted, free of charge, to any person obtaining a copy
 " of this software and associated documentation files (the "Software"), to deal

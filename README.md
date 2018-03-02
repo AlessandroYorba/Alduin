@@ -46,4 +46,3 @@ development version [here](https://github.com/AlessandroYorba/Alduin/tree/nightl
 [Despacio](https://github.com/AlessandroYorba/Despacio)<br>
 [Sierra](https://github.com/AlessandroYorba/Sierra)<br>
 [Arcadia](https://github.com/AlessandroYorba/Arcadia)<br>
-[Libertine](https://github.com/AlessandroYorba/Libertine)<br>
