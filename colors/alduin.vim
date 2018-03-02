@@ -9,8 +9,8 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Alduin
 
-" UPDATED:      Dec 30, 2017
-" LATEST CHANGES: Diffs ErrorMsg Licensed Year
+" UPDATED:      Mar 2, 2018
+" LATEST CHANGES: Removed Airline
 
 
 " MAINTAINER:            Alessandro Yorba       https://github.com/AlessandroYorba
@@ -18,7 +18,6 @@
 " Design Inspiration:    Karolis Koncevičius    https://github.com/KKPMW
 " Design Inspiration:    Romain Lafourcade      https://github.com/romainl
 " UI Contributions:      jiyyti                 https://github.com/jiyyt
-" Airline Theme:         Danilo Augusto         https://github.com/danilo-augusto
 "
 " SUPPORTED ENVIRONMENTS:
 " 256 color terminals, Gui versions of vim, and Termguicolors versions of vim
