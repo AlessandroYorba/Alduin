@@ -9,8 +9,8 @@
 " AUTHOR:       Alessandro Yorba
 " SCRIPT URL:   https://github.com/AlessandroYorba/Alduin
 
-" UPDATED:      Mar 2, 2018
-" LATEST CHANGES: Removed Airline
+" UPDATED:      July 1, 2018
+" LATEST CHANGES: Added CursorColumn 
 
 
 " MAINTAINER:            Alessandro Yorba       https://github.com/AlessandroYorba
@@ -198,6 +198,7 @@ if 1
     highlight TabLineSel      guifg=#9e9e9e  guibg=#262626  gui=NONE    ctermfg=247   ctermbg=235  cterm=NONE
     highlight TabLineFill     guifg=#6c6c6c  guibg=#262626  gui=NONE    ctermfg=242   ctermbg=235  cterm=NONE
     highlight CursorLine      guifg=NONE     guibg=#121212  gui=NONE    ctermfg=NONE  ctermbg=233  cterm=NONE
+    highlight CursorColumn    guifg=NONE     guibg=#121212  gui=NONE    ctermfg=NONE  ctermbg=233  cterm=NONE
     highlight ColorColumn     guifg=NONE     guibg=#262626  gui=NONE    ctermfg=NONE  ctermbg=235  cterm=NONE
     highlight Folded          guifg=#444444  guibg=#121212  gui=NONE    ctermfg=238   ctermbg=233  cterm=NONE
     highlight VertSplit       guifg=#444444  guibg=#1c1c1c  gui=NONE    ctermfg=238   ctermbg=234  cterm=NONE
@@ -225,6 +226,7 @@ if g:alduin_Shout_Dragon_Aspect
     highlight TabLineSel      guifg=#949494  guibg=#1c1c1c  gui=NONE    ctermfg=246   ctermbg=234  cterm=NONE
     highlight TabLineFill     guifg=#262626  guibg=#1c1c1c  gui=NONE    ctermfg=241   ctermbg=234  cterm=NONE
     highlight CursorLine      guifg=NONE     guibg=#080808  gui=NONE    ctermfg=NONE  ctermbg=232  cterm=NONE
+    highlight CursorColumn    guifg=NONE     guibg=#080808  gui=NONE    ctermfg=NONE  ctermbg=232  cterm=NONE
     highlight ColorColumn     guifg=NONE     guibg=#1c1c1c  gui=NONE    ctermfg=NONE  ctermbg=234  cterm=NONE
     highlight Folded          guifg=#444444  guibg=#080808  gui=NONE    ctermfg=238   ctermbg=232  cterm=NONE
     highlight VertSplit       guifg=#444444  guibg=#121212  gui=NONE    ctermfg=238   ctermbg=233  cterm=NONE
@@ -252,6 +254,7 @@ if g:alduin_Shout_Become_Ethereal
     highlight TabLineFill     guifg=#585858  guibg=#121212  gui=NONE    ctermfg=240   ctermbg=233  cterm=NONE
     highlight TabLineSel      guifg=#8a8a8a  guibg=#121212  gui=NONE    ctermfg=245   ctermbg=233  cterm=NONE
     highlight CursorLine      guifg=NONE     guibg=#000000  gui=NONE    ctermfg=NONE  ctermbg=16   cterm=NONE
+    highlight CursorColumn    guifg=NONE     guibg=#000000  gui=NONE    ctermfg=NONE  ctermbg=16   cterm=NONE
     highlight ColorColumn     guifg=NONE     guibg=#121212  gui=NONE    ctermfg=NONE  ctermbg=233  cterm=NONE
     highlight Folded          guifg=#444444  guibg=#000000  gui=NONE    ctermfg=238   ctermbg=16   cterm=NONE
     highlight VertSplit       guifg=#444444  guibg=#080808  gui=NONE    ctermfg=238   ctermbg=232  cterm=NONE
