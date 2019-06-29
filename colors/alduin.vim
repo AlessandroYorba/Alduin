@@ -128,6 +128,18 @@ highlight DiffAdd guifg=#008787 guibg=NONE gui=reverse ctermfg=30 ctermbg=NONE c
 highlight DiffText guifg=#008787 guibg=NONE gui=reverse ctermfg=30 ctermbg=NONE cterm=reverse
 highlight DiffChange guifg=#005f5f guibg=NONE gui=reverse ctermfg=23 ctermbg=NONE cterm=reverse
 highlight DiffDelete guifg=#af5f5f guibg=NONE gui=reverse ctermfg=131 ctermbg=NONE cterm=reverse
+hi! link diffAdded DiffAdd
+hi! link diffBDiffer WarningMsg
+hi! link diffChanged DiffChange
+hi! link diffCommon WarningMsg
+hi! link diffDiffer WarningMsg
+hi! link diffFile Directory
+hi! link diffIdentical WarningMsg
+hi! link diffIndexLine Number
+hi! link diffIsA WarningMsg
+hi! link diffNoEOL WarningMsg
+hi! link diffOnly WarningMsg
+hi! link diffRemoved DiffDelete
 
 "SPELLING
 highlight SpellBad guifg=#ff0000 guibg=NONE gui=undercurl ctermfg=196 ctermbg=NONE cterm=undercurl
