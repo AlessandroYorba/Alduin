@@ -1,13 +1,14 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Alduin
 
-"UPDATED: Oct 3, 2018
+"UPDATED: June 29th, 2019
 "CHANGES: Reorganized Code
 
 "Arch Linux Package: George Angelopoulos https://github.com/lathan
 "Design Inspiration: Karolis Koncevičius https://github.com/KKPMW
 "Design Inspiration: Romain Lafourcade https://github.com/romainl
 "UI Contributions: jiyyti https://github.com/jiyyt
+"UI Contributions: Aramis Razzaghipour arzg https://github.com/arzg
 "
 "SUPPORT:
 "256 color terminals, Gui versions of vim, and Termguicolors versions of vim
@@ -265,7 +266,7 @@ if g:alduin_Shout_Fire_Breath
 endif
 
 "LICENSE
-"Copyright (c) 2018 Alessandro Yorba
+"Copyright (c) 2019 Alessandro Yorba
 "
 "Permission is hereby granted, free of charge, to any person obtaining a copy
 "of this software and associated documentation files (the "Software"), to deal
