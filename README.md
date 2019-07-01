@@ -42,6 +42,7 @@ development version [here](https://github.com/AlessandroYorba/Alduin/tree/nightl
 [KKPMW for Design Inspiration](https://github.com/KKPMW/moonshine-vim)<br>
 [Romain Lafourcade for Design Inspiration](https://github.com/romainl/Apprentice)<br>
 [jiyyt for UI contribution](https://github.com/jiyyt)
+[Aramis Razzaghipour for UI contribution](https://github.com/arzg)
 
 :octopus: Moar Colorschemes
 -------
