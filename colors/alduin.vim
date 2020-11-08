@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Alduin
 
-"UPDATED: November 26th, 2019
-"CHANGES: Reverted back to original LineNr for all modes
+"UPDATED: Nov 7th, 2020
+"CHANGES: Search, Terminal
 
 "Arch Linux Package: George Angelopoulos https://github.com/lathan
 "Design Inspiration: Karolis Koncevičius https://github.com/KKPMW
@@ -116,7 +116,7 @@ highlight Underlined guifg=#af5f5f guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE 
 highlight Todo guifg=#af5f00 guibg=NONE gui=reverse ctermfg=130 ctermbg=NONE cterm=reverse
 highlight Visual guifg=#dfdfaf guibg=#875f5f gui=NONE ctermfg=187 ctermbg=95 cterm=NONE
 highlight Question guifg=#875f5f guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
-highlight Search guifg=#dfdfaf guibg=#878787 gui=NONE ctermfg=187 ctermbg=102 cterm=NONE
+highlight Search guifg=#dfdfaf guibg=#5f8787 gui=NONE ctermfg=187 ctermbg=66 cterm=NONE
 highlight PmenuSel guifg=#dfdfaf guibg=#875f5f gui=NONE ctermfg=187 ctermbg=95 cterm=NONE
 highlight MatchParen guifg=#dfdfaf guibg=#875f5f gui=NONE ctermfg=187 ctermbg=95 cterm=NONE
 
@@ -157,6 +157,25 @@ highlight SpellLocal guifg=#5f875f guibg=NONE gui=undercurl ctermfg=65 ctermbg=N
 highlight SpellCap guifg=#87afff guibg=NONE gui=undercurl ctermfg=111 ctermbg=NONE cterm=undercurl
 highlight SpellRare guifg=#d75f00 guibg=NONE gui=undercurl ctermfg=166 ctermbg=NONE cterm=undercurl
 
+let g:terminal_ansi_colors = [
+	\ '#5f5f87',
+	\ '#af5f5f',
+	\ '#87875f',
+	\ '#af875f',
+	\ '#878787',
+	\ '#af8787',
+	\ '#87afaf',
+	\ '#dfdfaf',
+	\ '#878787',
+	\ '#af0000',
+	\ '#875f5f',
+	\ '#8787af',
+	\ '#5f8787',
+	\ '#5f5f87',
+	\ '#5f875f',
+	\ '#5f8787']
+
+
 "DEFAULT
 if 1
 	"COLORS
@@ -188,6 +207,7 @@ if 1
 	highlight SignColumn guifg=#87875f guibg=#080808 gui=NONE ctermfg=101 ctermbg=233 cterm=NONE
 	highlight NonText guifg=#444444 guibg=NONE gui=NONE ctermfg=238 ctermbg=NONE cterm=NONE
 	highlight SpecialKey guifg=#303030 guibg=NONE gui=NONE ctermfg=236 ctermbg=NONE cterm=NONE
+	highlight Terminal guifg=#dfdfaf guibg=#1c1c1c gui=NONE ctermfg=187 ctermbg=234 cterm=NONE
 endif
 
 "DARKEST GRAY
@@ -220,6 +240,7 @@ if g:alduin_Shout_Dragon_Aspect
 	highlight SignColumn guifg=#87875f guibg=#080808 gui=NONE ctermfg=101 ctermbg=232 cterm=NONE
 	highlight NonText guifg=#3a3a3a guibg=NONE gui=NONE ctermfg=237 ctermbg=NONE cterm=NONE
 	highlight SpecialKey guifg=#262626 guibg=NONE gui=NONE ctermfg=235 ctermbg=NONE cterm=NONE
+	highlight Terminal guifg=#dfdfaf guibg=#121212 gui=NONE ctermfg=187 ctermbg=233 cterm=NONE
 endif
 
 "BLACK
@@ -252,6 +273,7 @@ if g:alduin_Shout_Become_Ethereal
 	highlight SignColumn guifg=#87875f guibg=#000000 gui=NONE ctermfg=101 ctermbg=16 cterm=NONE
 	highlight NonText guifg=#303030 guibg=NONE gui=NONE ctermfg=236 ctermbg=NONE cterm=NONE
 	highlight SpecialKey guifg=#1c1c1c guibg=NONE gui=NONE ctermfg=234 ctermbg=NONE cterm=NONE
+	highlight Terminal guifg=#dfdfaf guibg=#080808 gui=NONE ctermfg=187 ctermbg=232 cterm=NONE
 endif
 
 "REMOVE BACKGROUND FROM STRINGS
@@ -276,7 +298,7 @@ if g:alduin_Shout_Fire_Breath
 endif
 
 "LICENSE
-"Copyright (c) 2019 Alessandro Yorba
+"Copyright (c) 2020 Alessandro Yorba
 "
 "Permission is hereby granted, free of charge, to any person obtaining a copy
 "of this software and associated documentation files (the "Software"), to deal
