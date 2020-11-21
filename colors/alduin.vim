@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Alduin
 
-"UPDATED: Nov 14th 2020
-"CHANGES:
+"UPDATED: Nov 21, 2020
+"CHANGES: Revised ANSI Colors
 
 "Arch Linux Package: George Angelopoulos https://github.com/lathan
 "Design Inspiration: Karolis Koncevičius https://github.com/KKPMW
@@ -44,52 +44,51 @@ if !exists("g:alduin_Shout_Animal_Allegiance")
 	let g:alduin_Shout_Animal_Allegiance = 0
 endif
 
-"DARKER GRAY BACKGROUND COLOR
+"ALMOST BLACK BACKGROUND
 if !exists("g:alduin_Shout_Dragon_Aspect" )
 	let g:alduin_Shout_Dragon_Aspect = 0
 endif
 
-"BLACK BACKGROUND COLOR
+"BLACK BACKGROUND
 if !exists( "g:alduin_Shout_Become_Ethereal" )
 	let g:alduin_Shout_Become_Ethereal = 0
 endif
 
 "TERMINAL COLORS
 let g:terminal_ansi_colors = [
-	\ '#5f5f87',
+	\ '#1c1c1c',
 	\ '#af5f5f',
 	\ '#87875f',
-	\ '#af875f',
+	\ '#dfaf87',
 	\ '#878787',
-	\ '#af8787',
+	\ '#875f5f',
 	\ '#87afaf',
 	\ '#dfdfaf',
 	\ '#878787',
-	\ '#af0000',
+	\ '#af5f5f',
+	\ '#87875f',
+	\ '#dfaf87',
+	\ '#878787',
 	\ '#875f5f',
-	\ '#8787af',
-	\ '#5f8787',
-	\ '#5f5f87',
-	\ '#5f875f',
-	\ '#5f8787']
-
+	\ '#87afaf',
+	\ '#dfdfaf',]
 
 "COLORS
 highlight! Orange guifg=#af875f guibg=NONE gui=NONE ctermfg=137 ctermbg=NONE cterm=NONE
 highlight! Soft_Orange guifg=#dfaf87 guibg=NONE gui=NONE ctermfg=180 ctermbg=NONE cterm=NONE
 highlight! Dark_Orange guifg=#af5f00 guibg=NONE gui=NONE ctermfg=130 ctermbg=NONE cterm=NONE
-highlight! Dark_Orange_Highlight guifg=#af5f00 guibg=NONE gui=reverse ctermfg=130 ctermbg=NONE cterm=reverse
+highlight! Dark_Orange_Reverse guifg=#af5f00 guibg=NONE gui=reverse ctermfg=130 ctermbg=NONE cterm=reverse
 highlight! Soft_Red guifg=#af8787 guibg=NONE gui=NONE ctermfg=138 ctermbg=NONE cterm=NONE
 highlight! Red guifg=#af5f5f guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
 highlight! Dark_Red guifg=#875f5f guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
-highlight! Red_Highlight guifg=#af5f5f guibg=#121212 gui=reverse ctermfg=131 ctermbg=233 cterm=reverse
-highlight! Dark_Red_Highlight guifg=#dfdfaf guibg=#875f5f gui=NONE ctermfg=187 ctermbg=95 cterm=NONE
+highlight! Red_Reverse guifg=#af5f5f guibg=#121212 gui=reverse ctermfg=131 ctermbg=233 cterm=reverse
+highlight! Dark_Red_Reverse guifg=#dfdfaf guibg=#875f5f gui=NONE ctermfg=187 ctermbg=95 cterm=NONE
 highlight! Cyan guifg=#87afaf guibg=NONE gui=NONE ctermfg=109 ctermbg=NONE cterm=NONE
-highlight! Dark_Cyan_Highlighted guifg=#005f5f guibg=NONE gui=reverse ctermfg=23 ctermbg=NONE cterm=reverse
+highlight! Dark_Cyan_Reverse guifg=#005f5f guibg=NONE gui=reverse ctermfg=23 ctermbg=NONE cterm=reverse
 highlight! Grey guifg=#878787 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
 highlight! Green guifg=#87875f guibg=NONE gui=NONE ctermfg=101 ctermbg=NONE cterm=NONE
-highlight! Green_Highlight guifg=#87875f guibg=NONE gui=reverse ctermfg=101 ctermbg=NONE cterm=reverse
-highlight! Dark_Green_Highlight guifg=#008787 guibg=NONE gui=reverse ctermfg=30 ctermbg=NONE cterm=reverse
+highlight! Green_Reverse guifg=#87875f guibg=NONE gui=reverse ctermfg=101 ctermbg=NONE cterm=reverse
+highlight! Dark_Green_Reverse guifg=#008787 guibg=NONE gui=reverse ctermfg=30 ctermbg=NONE cterm=reverse
 highlight! Soft_Yellow guifg=#dfdfaf guibg=NONE gui=NONE ctermfg=187 ctermbg=NONE cterm=NONE
 
 highlight! link Type Orange
@@ -138,22 +137,22 @@ highlight! link Structure Dark_Red
 highlight! link Typedef Dark_Red
 highlight! link Question Dark_Red
 
-highlight! link Error Red_Highlight
-highlight! link IncSearch Red_Highlight
-highlight! link DiffDelete Red_Highlight
-highlight! link diffRemoved Red_Highlight
+highlight! link Error Red_Reverse
+highlight! link IncSearch Red_Reverse
+highlight! link DiffDelete Red_Reverse
+highlight! link diffRemoved Red_Reverse
 
-highlight! link Visual Dark_Red_Highlight
-highlight! link Search Dark_Red_Highlight
-highlight! link PmenuSel Dark_Red_Highlight
-highlight! link MatchParen Dark_Red_Highlight
-highlight! link WildMenu Dark_Red_Highlight
+highlight! link Visual Dark_Red_Reverse
+highlight! link Search Dark_Red_Reverse
+highlight! link PmenuSel Dark_Red_Reverse
+highlight! link MatchParen Dark_Red_Reverse
+highlight! link WildMenu Dark_Red_Reverse
 
 highlight! link Identifier Cyan
 highlight! link vimAutoEventList Cyan
 
-highlight! link DiffChange Dark_Cyan_Highlighted
-highlight! link diffChanged Dark_Cyan_Highlighted
+highlight! link DiffChange Dark_Cyan_Reverse
+highlight! link diffChanged Dark_Cyan_Reverse
 
 highlight! link Statement Grey
 highlight! link Label Grey
@@ -163,16 +162,17 @@ highlight! link htmlStatement Grey
 highlight! link Repeat Grey
 highlight! link Keyword Grey
 highlight! link Exception Grey
+highlight! link netrwExe Grey
 
 highlight! link Comment Green
 
-highlight! link SpecialComment Green_Highlight
-highlight! link vimCommentTitle Green_Highlight
+highlight! link SpecialComment Green_Reverse
+highlight! link vimCommentTitle Green_Reverse
 
-highlight! link DiffAdd Dark_Green_Highlight
-highlight! link diffAdded Dark_Green_Highlight
-highlight! link DiffText Dark_Green_Highlight
-highlight! link Todo Dark_Orange_Highlight
+highlight! link DiffAdd Dark_Green_Reverse
+highlight! link diffAdded Dark_Green_Reverse
+highlight! link DiffText Dark_Green_Reverse
+highlight! link Todo Dark_Orange_Reverse
 
 highlight! link ModeMsg Soft_Yellow
 
@@ -216,7 +216,7 @@ if 1
 	highlight Cursor guifg=#000000 guibg=#dfdfaf gui=NONE ctermfg=16 ctermbg=187 cterm=NONE
 endif
 
-"DARKEST GRAY
+"ALMOST BLACK BACKGROUND
 if g:alduin_Shout_Dragon_Aspect
 	highlight Normal guifg=#dfdfaf guibg=#121212 gui=NONE ctermfg=187 ctermbg=233 cterm=NONE
 	highlight String guifg=#ffdf87 guibg=#1c1c1c gui=NONE ctermfg=222 ctermbg=234 cterm=NONE
