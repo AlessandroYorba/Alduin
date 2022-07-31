@@ -11,7 +11,7 @@
 "UI Contributions: Aramis Razzaghipour arzg https://github.com/arzg
 "
 "SUPPORT:
-"256 color terminals, Gui versions of vim, and Termguicolors versions of vim
+"256 color terminals, Gui versions of vim, and Termguicolors
 "
 "INSTALL LOCATION:
 "Unix users, place alduin.vim in ~/.vim/colors
