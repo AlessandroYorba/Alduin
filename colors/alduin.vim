@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Alduin
 
-"UPDATED: Nov 21, 2020
-"CHANGES: Revised ANSI Colors
+"UPDATED: Aug 31, 2022
+"CHANGES: Code Organization
 
 "Arch Linux Package: George Angelopoulos https://github.com/lathan
 "Design Inspiration: Karolis Koncevičius https://github.com/KKPMW
@@ -11,7 +11,7 @@
 "UI Contributions: Aramis Razzaghipour arzg https://github.com/arzg
 "
 "SUPPORT:
-"256 color terminals, Gui versions of vim, and Termguicolors
+"256 color terminals, Gui versions of vim, and Termguicolors versions of vim
 "
 "INSTALL LOCATION:
 "Unix users, place alduin.vim in ~/.vim/colors
@@ -29,6 +29,7 @@ endif
 
 let g:colors_name="alduin"
 
+"TODO: Depricated 
 "REMOVES BLOCK MATCHPARENS ADDS UNDERLINE
 if !exists( "g:alduin_Shout_Aura_Whisper")
 	let g:alduin_Shout_Aura_Whisper = 0
@@ -73,27 +74,13 @@ let g:terminal_ansi_colors = [
 	\ '#87afaf',
 	\ '#dfdfaf',]
 
-"COLORS
+"Orange:
 highlight! Orange guifg=#af875f guibg=NONE gui=NONE ctermfg=137 ctermbg=NONE cterm=NONE
-highlight! Soft_Orange guifg=#dfaf87 guibg=NONE gui=NONE ctermfg=180 ctermbg=NONE cterm=NONE
-highlight! Dark_Orange guifg=#af5f00 guibg=NONE gui=NONE ctermfg=130 ctermbg=NONE cterm=NONE
-highlight! Dark_Orange_Reverse guifg=#af5f00 guibg=NONE gui=reverse ctermfg=130 ctermbg=NONE cterm=reverse
-highlight! Soft_Red guifg=#af8787 guibg=NONE gui=NONE ctermfg=138 ctermbg=NONE cterm=NONE
-highlight! Red guifg=#af5f5f guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
-highlight! Dark_Red guifg=#875f5f guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
-highlight! Red_Reverse guifg=#af5f5f guibg=#121212 gui=reverse ctermfg=131 ctermbg=233 cterm=reverse
-highlight! Dark_Red_Reverse guifg=#dfdfaf guibg=#875f5f gui=NONE ctermfg=187 ctermbg=95 cterm=NONE
-highlight! Cyan guifg=#87afaf guibg=NONE gui=NONE ctermfg=109 ctermbg=NONE cterm=NONE
-highlight! Dark_Cyan_Reverse guifg=#005f5f guibg=NONE gui=reverse ctermfg=23 ctermbg=NONE cterm=reverse
-highlight! Grey guifg=#878787 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
-highlight! Green guifg=#87875f guibg=NONE gui=NONE ctermfg=101 ctermbg=NONE cterm=NONE
-highlight! Green_Reverse guifg=#87875f guibg=NONE gui=reverse ctermfg=101 ctermbg=NONE cterm=reverse
-highlight! Dark_Green_Reverse guifg=#008787 guibg=NONE gui=reverse ctermfg=30 ctermbg=NONE cterm=reverse
-highlight! Soft_Yellow guifg=#dfdfaf guibg=NONE gui=NONE ctermfg=187 ctermbg=NONE cterm=NONE
-
 highlight! link Type Orange
 highlight! link vimAutoCmdSfxList Orange
 
+"Soft_Orange:
+highlight! Soft_Orange guifg=#dfaf87 guibg=NONE gui=NONE ctermfg=180 ctermbg=NONE cterm=NONE
 highlight! link MoreMsg Soft_Orange
 highlight! link Macro Soft_Orange
 highlight! link PreCondit Soft_Orange
@@ -105,12 +92,16 @@ highlight! link cssClassName Soft_Orange
 highlight! link Include Soft_Orange
 highlight! link Define Soft_Orange
 
+"Dark_Orange:
+highlight! Dark_Orange guifg=#af5f00 guibg=NONE gui=NONE ctermfg=130 ctermbg=NONE cterm=NONE
 highlight! link Number Dark_Orange
 highlight! link diffIndexLine Dark_Orange
 highlight! link Character Dark_Orange
 highlight! link Boolean Dark_Orange
 highlight! link Float Dark_Orange
 
+"Red:
+highlight! Red guifg=#af5f5f guibg=NONE gui=NONE ctermfg=131 ctermbg=NONE cterm=NONE
 highlight! link Special Red
 highlight! link vimCmdSep Red
 highlight! link Underlined Red
@@ -126,8 +117,12 @@ highlight! link diffIdentical Red
 highlight! link diffNoEOL Red
 highlight! link diffOnly Red
 
+"Soft_Red:
+highlight! Soft_Red guifg=#af8787 guibg=NONE gui=NONE ctermfg=138 ctermbg=NONE cterm=NONE
 highlight! link Constant Soft_Red
 
+"Dark_Red:
+highlight! Dark_Red guifg=#875f5f guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
 highlight! link  Function Dark_Red
 highlight! link vimFunction Dark_Red
 highlight! link vimUserFunc Dark_Red
@@ -137,23 +132,33 @@ highlight! link Structure Dark_Red
 highlight! link Typedef Dark_Red
 highlight! link Question Dark_Red
 
+"Red_Reverse:
+highlight! Red_Reverse guifg=#af5f5f guibg=#121212 gui=reverse ctermfg=131 ctermbg=233 cterm=reverse
 highlight! link Error Red_Reverse
 highlight! link IncSearch Red_Reverse
 highlight! link DiffDelete Red_Reverse
 highlight! link diffRemoved Red_Reverse
 
+"Dark_Red_Reverse:
+highlight! Dark_Red_Reverse guifg=#dfdfaf guibg=#875f5f gui=NONE ctermfg=187 ctermbg=95 cterm=NONE
 highlight! link Visual Dark_Red_Reverse
 highlight! link Search Dark_Red_Reverse
 highlight! link PmenuSel Dark_Red_Reverse
 highlight! link MatchParen Dark_Red_Reverse
 highlight! link WildMenu Dark_Red_Reverse
 
+"Cyan:
+highlight! Cyan guifg=#87afaf guibg=NONE gui=NONE ctermfg=109 ctermbg=NONE cterm=NONE
 highlight! link Identifier Cyan
 highlight! link vimAutoEventList Cyan
 
+"Dark_Cyan_Reverse:
+highlight! Dark_Cyan_Reverse guifg=#005f5f guibg=NONE gui=reverse ctermfg=23 ctermbg=NONE cterm=reverse
 highlight! link DiffChange Dark_Cyan_Reverse
 highlight! link diffChanged Dark_Cyan_Reverse
 
+"Grey:
+highlight! Grey guifg=#878787 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
 highlight! link Statement Grey
 highlight! link Label Grey
 highlight! link Operator Grey
@@ -164,16 +169,27 @@ highlight! link Keyword Grey
 highlight! link Exception Grey
 highlight! link netrwExe Grey
 
+"Green:
+highlight! Green guifg=#87875f guibg=NONE gui=NONE ctermfg=101 ctermbg=NONE cterm=NONE
 highlight! link Comment Green
 
+"Green_Reverse:
+highlight! Green_Reverse guifg=#87875f guibg=NONE gui=reverse ctermfg=101 ctermbg=NONE cterm=reverse
 highlight! link SpecialComment Green_Reverse
 highlight! link vimCommentTitle Green_Reverse
 
+"Dark_Green_Reverse:
+highlight! Dark_Green_Reverse guifg=#008787 guibg=NONE gui=reverse ctermfg=30 ctermbg=NONE cterm=reverse
 highlight! link DiffAdd Dark_Green_Reverse
 highlight! link diffAdded Dark_Green_Reverse
 highlight! link DiffText Dark_Green_Reverse
+
+"Dark_Orange_Reverse:
+highlight! Dark_Orange_Reverse guifg=#af5f00 guibg=NONE gui=reverse ctermfg=130 ctermbg=NONE cterm=reverse
 highlight! link Todo Dark_Orange_Reverse
 
+"Soft_Yellow:
+highlight! Soft_Yellow guifg=#dfdfaf guibg=NONE gui=NONE ctermfg=187 ctermbg=NONE cterm=NONE
 highlight! link ModeMsg Soft_Yellow
 
 "DEFAULT
@@ -312,7 +328,7 @@ if g:alduin_Shout_Fire_Breath
 endif
 
 "LICENSE
-"Copyright (c) 2020 Alessandro Yorba
+"Copyright (c) 2022 Alessandro Yorba
 "
 "Permission is hereby granted, free of charge, to any person obtaining a copy
 "of this software and associated documentation files (the "Software"), to deal
@@ -331,3 +347,4 @@ endif
 "LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 "OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 "THE SOFTWARE.
+
